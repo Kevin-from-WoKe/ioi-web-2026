@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /401
+Disallow: /404
+Disallow: /*/401
+Disallow: /*/404
+Disallow: /*/detail_
+
+Sitemap: https://www.ioioleo.com/sitemap.xml

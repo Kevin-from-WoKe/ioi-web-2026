@@ -1,0 +1,1 @@
+(function(){try{var p=new URLSearchParams(window.location.search);if((p.get("application-tag")||"").trim())document.documentElement.classList.add("ioi-pf-awaiting-tag");}catch(e){}})();

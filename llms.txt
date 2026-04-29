@@ -1,0 +1,55 @@
+# IOI Oleochemical
+
+> IOI Oleochemical Industries Berhad is a leading manufacturer of oleochemical products derived from sustainable palm oil, serving diverse industrial and consumer applications globally.
+
+The site is available in English (/en/) and Simplified Chinese (/cn/). Canonical URLs use /en/ or /cn/ prefixes.
+
+## About
+
+- [About Us](https://www.ioioleo.com/en/about-us)
+- [Sustainability](https://www.ioioleo.com/en/sustainability)
+- [CSR](https://www.ioioleo.com/en/csr)
+
+## Products
+
+- [Product Finder](https://www.ioioleo.com/en/product-finder)
+- [Product Applications](https://www.ioioleo.com/en/product-application)
+
+Individual product pages use the pattern:
+`https://www.ioioleo.com/en/detail_product.html?slug={product-slug}`
+
+## Sustainability
+
+- [Policies and Statements](https://www.ioioleo.com/en/sustainability/policies-and-statement)
+- [Responsible Sourcing and Traceability](https://www.ioioleo.com/en/sustainability/responsible-sourcing-traceability)
+- [Environmental and Climate Management](https://www.ioioleo.com/en/sustainability/environmental-climate-management)
+- [Employee Welfare](https://www.ioioleo.com/en/sustainability/employee-welfare)
+- [Awards](https://www.ioioleo.com/en/sustainability/awards)
+- [Digital Sustainability](https://www.ioioleo.com/en/sustainability/digital-sustainability)
+
+## Downloads
+
+- [Product Certificates](https://www.ioioleo.com/en/downloads/product-certificates)
+- [Company Certificates](https://www.ioioleo.com/en/downloads/company-certificates)
+- [General Terms](https://www.ioioleo.com/en/downloads/general-terms)
+
+## Contact
+
+- [Enquiry](https://www.ioioleo.com/en/enquiry)
+
+## Legal
+
+- [PDPA](https://www.ioioleo.com/en/pdpa)
+- [Disclaimer](https://www.ioioleo.com/en/disclaimer)
+
+## Chinese (Simplified)
+
+- [Home](https://www.ioioleo.com/cn)
+- [About Us](https://www.ioioleo.com/cn/about-us)
+- [Products](https://www.ioioleo.com/cn/product-finder)
+- [Sustainability](https://www.ioioleo.com/cn/sustainability)
+
+## Machine-readable index
+
+- [Sitemap](https://www.ioioleo.com/sitemap.xml)
+- [Robots](https://www.ioioleo.com/robots.txt)
