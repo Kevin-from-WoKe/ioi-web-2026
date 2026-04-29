@@ -313,10 +313,14 @@
       .forEach(function (el) {
         el.classList.remove("is-hidden");
       });
-    // Reset opacity on descendants carrying Webflow animation start state (opacity:0)
+    // Reset opacity on descendants carrying Webflow animation start state (opacity:0).
+    // Exclude form inputs/selects — their opacity:0 is intentional (hides the native
+    // control while a custom-styled replacement is shown above it).
     Array.prototype.slice
       .call(clone.querySelectorAll("[style*='opacity']"))
       .forEach(function (el) {
+        var tag = el.tagName;
+        if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA") return;
         el.style.opacity = "";
       });
   }
