@@ -401,6 +401,16 @@
       var str = String(value);
       var hasPrefix = node.hasAttribute("data-cms-href-prefix");
       var prefix = hasPrefix ? node.getAttribute("data-cms-href-prefix") : "/";
+      // When the prefix ends with "=" the value is a query-param — encode it
+      // the same way URLSearchParams does (spaces → "+", "&" → "%26") so it
+      // round-trips correctly through Finsweet's filter URL reader.
+      if (prefix.charAt(prefix.length - 1) === "=") {
+        try {
+          str = new URLSearchParams([["v", str]]).toString().slice(2);
+        } catch (e) {
+          str = encodeURIComponent(str).replace(/%20/g, "+");
+        }
+      }
       // Absolute URLs (http://, https://, //, mailto:, tel:, /) pass through as-is.
       var isAbsolute = /^(?:[a-z][a-z0-9+.-]*:|\/\/|\/)/i.test(str);
       var rawHref = isAbsolute ? str : prefix + str;
