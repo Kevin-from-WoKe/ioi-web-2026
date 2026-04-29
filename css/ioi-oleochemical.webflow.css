@@ -9391,3 +9391,5 @@ figcaption {
 }
 
 
+
+.grecaptcha-badge { visibility: hidden; }
