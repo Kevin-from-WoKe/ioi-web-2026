@@ -733,16 +733,17 @@
     );
   }
 
-  // Finsweet CMSFilter v1 initializes on DOMContentLoaded, which fires before
-  // our async Contentful fetches finish, so it captures an empty list. Tear
-  // down any existing instance and re-inject the script so it re-registers
-  // and re-scans the now-hydrated DOM via the Webflow ready queue.
+  // Finsweet scripts are NOT included in the HTML — they are injected here,
+  // after CMS hydration, so Finsweet initialises exactly once against the
+  // fully-populated DOM. This eliminates the double-init / duplicate-tag race
+  // that occurred when the async script in the HTML could fire before or
+  // concurrently with our hydration fetch.
   function reinitFinsweet() {
     try {
       window.__ioiApplicationTagPreselectDone = false;
     } catch (e) {}
-    /* Re-hide the list while Finsweet re-binds; otherwise the full list flashes
-       after Contentful hydration and before the second ?application-tag= preselect. */
+    /* Re-hide the list while Finsweet binds; otherwise the full list flashes
+       before the ?application-tag= preselect runs. */
     try {
       var at = new URLSearchParams(window.location.search).get("application-tag");
       if (at && String(at).trim()) {
@@ -750,31 +751,6 @@
         document.documentElement.classList.add("ioi-pf-awaiting-tag");
       }
     } catch (e) {}
-    try {
-      if (window.fsAttributes && typeof window.fsAttributes.destroy === "function") {
-        window.fsAttributes.destroy();
-      }
-    } catch (e) {}
-    try {
-      if (window.fsAttributes && window.fsAttributes.cmsfilter) {
-        delete window.fsAttributes.cmsfilter;
-      }
-    } catch (e) {}
-    try {
-      if (window.fsAttributes && window.fsAttributes.cmsselect) {
-        delete window.fsAttributes.cmsselect;
-      }
-    } catch (e) {}
-
-    Array.prototype.slice
-      .call(
-        document.querySelectorAll(
-          'script[src*="@finsweet/attributes-cmsfilter"], script[src*="@finsweet/attributes-cmsselect"]'
-        )
-      )
-      .forEach(function (s) {
-        if (s.parentNode) s.parentNode.removeChild(s);
-      });
 
     // Re-inject cmsselect so it rescans the now-hydrated job list
     if (document.querySelector('[fs-cmsselect-element]')) {
