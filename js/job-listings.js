@@ -192,6 +192,25 @@ $(function(){
                      
           
 		  
+	$(document).on("click", ".job_toggle", function () {
+		var $toggle = $(this);
+		var $details = $toggle.next(".job_details");
+		var $icon = $toggle.find(".career4_icon-wrapper");
+		var isOpen = $toggle.hasClass("is-open");
+
+		if (isOpen) {
+			$details.css({ height: "0px", overflow: "hidden" });
+			$toggle.removeClass("is-open");
+			$icon.text("↓");
+			$toggle.find(".text-block").contents().filter(function () { return this.nodeType === 3; }).first().replaceWith("Show job details ");
+		} else {
+			$details.css({ height: "auto", overflow: "visible" });
+			$toggle.addClass("is-open");
+			$icon.text("↑");
+			$toggle.find(".text-block").contents().filter(function () { return this.nodeType === 3; }).first().replaceWith("Hide job details ");
+		}
+	});
+
 	document.addEventListener("click", function (e) {
 
 		const button = e.target.closest(".jobApplyAction");

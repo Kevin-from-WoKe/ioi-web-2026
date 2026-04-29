@@ -5327,6 +5327,7 @@ figcaption {
   flex-wrap: wrap;
   align-items: center;
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .job_toggle.is-right {
