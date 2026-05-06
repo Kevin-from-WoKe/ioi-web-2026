@@ -728,6 +728,18 @@
             });
           }
 
+          // Homepage product cards: enforce fixed display order
+          if (contentType === "product" && wrapper.closest(".layout394_grid-list")) {
+            var cardOrder = ["palmsurf", "palmac", "palmsabun"];
+            items = items.slice().sort(function (a, b) {
+              var ai = cardOrder.indexOf(a.fields && a.fields.slug);
+              var bi = cardOrder.indexOf(b.fields && b.fields.slug);
+              if (ai === -1) return 1;
+              if (bi === -1) return -1;
+              return ai - bi;
+            });
+          }
+
           var limitSpec = wrapper.getAttribute("data-cms-list-limit");
           if (limitSpec != null && limitSpec !== "") {
             var lim = parseInt(limitSpec, 10);
