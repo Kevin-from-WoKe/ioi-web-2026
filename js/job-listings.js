@@ -400,7 +400,7 @@ function submitToAPI(e) {
 			dataType: "json",
 			/*crossDomain: "true",*/
 			contentType: "application/json; charset=utf-8",
-			async: false,
+			async: true,
 			cache: false,
 			data: JSON.stringify(data),
 			success: function (returnedData, textStatus, jqXHR) {
