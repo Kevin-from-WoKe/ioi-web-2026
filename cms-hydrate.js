@@ -313,10 +313,14 @@
       .forEach(function (el) {
         el.classList.remove("is-hidden");
       });
-    // Reset opacity on descendants carrying Webflow animation start state (opacity:0)
+    // Reset opacity on descendants carrying Webflow animation start state (opacity:0).
+    // Exclude form inputs/selects — their opacity:0 is intentional (hides the native
+    // control while a custom-styled replacement is shown above it).
     Array.prototype.slice
       .call(clone.querySelectorAll("[style*='opacity']"))
       .forEach(function (el) {
+        var tag = el.tagName;
+        if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA") return;
         el.style.opacity = "";
       });
   }
@@ -401,6 +405,16 @@
       var str = String(value);
       var hasPrefix = node.hasAttribute("data-cms-href-prefix");
       var prefix = hasPrefix ? node.getAttribute("data-cms-href-prefix") : "/";
+      // When the prefix ends with "=" the value is a query-param — encode it
+      // the same way URLSearchParams does (spaces → "+", "&" → "%26") so it
+      // round-trips correctly through Finsweet's filter URL reader.
+      if (prefix.charAt(prefix.length - 1) === "=") {
+        try {
+          str = new URLSearchParams([["v", str]]).toString().slice(2);
+        } catch (e) {
+          str = encodeURIComponent(str).replace(/%20/g, "+");
+        }
+      }
       // Absolute URLs (http://, https://, //, mailto:, tel:, /) pass through as-is.
       var isAbsolute = /^(?:[a-z][a-z0-9+.-]*:|\/\/|\/)/i.test(str);
       var rawHref = isAbsolute ? str : prefix + str;
@@ -733,16 +747,17 @@
     );
   }
 
-  // Finsweet CMSFilter v1 initializes on DOMContentLoaded, which fires before
-  // our async Contentful fetches finish, so it captures an empty list. Tear
-  // down any existing instance and re-inject the script so it re-registers
-  // and re-scans the now-hydrated DOM via the Webflow ready queue.
+  // Finsweet scripts are NOT included in the HTML — they are injected here,
+  // after CMS hydration, so Finsweet initialises exactly once against the
+  // fully-populated DOM. This eliminates the double-init / duplicate-tag race
+  // that occurred when the async script in the HTML could fire before or
+  // concurrently with our hydration fetch.
   function reinitFinsweet() {
     try {
       window.__ioiApplicationTagPreselectDone = false;
     } catch (e) {}
-    /* Re-hide the list while Finsweet re-binds; otherwise the full list flashes
-       after Contentful hydration and before the second ?application-tag= preselect. */
+    /* Re-hide the list while Finsweet binds; otherwise the full list flashes
+       before the ?application-tag= preselect runs. */
     try {
       var at = new URLSearchParams(window.location.search).get("application-tag");
       if (at && String(at).trim()) {
@@ -750,31 +765,6 @@
         document.documentElement.classList.add("ioi-pf-awaiting-tag");
       }
     } catch (e) {}
-    try {
-      if (window.fsAttributes && typeof window.fsAttributes.destroy === "function") {
-        window.fsAttributes.destroy();
-      }
-    } catch (e) {}
-    try {
-      if (window.fsAttributes && window.fsAttributes.cmsfilter) {
-        delete window.fsAttributes.cmsfilter;
-      }
-    } catch (e) {}
-    try {
-      if (window.fsAttributes && window.fsAttributes.cmsselect) {
-        delete window.fsAttributes.cmsselect;
-      }
-    } catch (e) {}
-
-    Array.prototype.slice
-      .call(
-        document.querySelectorAll(
-          'script[src*="@finsweet/attributes-cmsfilter"], script[src*="@finsweet/attributes-cmsselect"]'
-        )
-      )
-      .forEach(function (s) {
-        if (s.parentNode) s.parentNode.removeChild(s);
-      });
 
     // Re-inject cmsselect so it rescans the now-hydrated job list
     if (document.querySelector('[fs-cmsselect-element]')) {
