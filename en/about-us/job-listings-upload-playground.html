@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>[PLAYGROUND] Job Application Form — Resume Upload Test</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="../../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../../css/ioi-oleochemical.webflow.css" rel="stylesheet" type="text/css">
+  <link href="../../images/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+  <!-- Google reCaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LeD3HMsAAAAAHCDu9iGC-YSptGeh_HuPjIx_CZS"></script>
+
+  <!-- Playground banner -->
+  <style>
+    .playground-banner {
+      background: #ff6b00;
+      color: #fff;
+      text-align: center;
+      padding: 0.6rem 1rem;
+      font-size: 0.85rem;
+      font-family: monospace;
+      letter-spacing: 0.05em;
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+    }
+    .playground-banner strong { font-weight: 700; }
+  </style>
+</head>
+
+<body>
+
+  <!-- ⚠️ Playground indicator -->
+  <div class="playground-banner">
+    ⚠️ <strong>PLAYGROUND</strong> — Resume Upload Testing Only — Not for production
+  </div>
+
+  <main role="main">
+    <section id="job-application" class="section_contact6 color-scheme-1">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="padding-section-large">
+            <div class="contact6_component">
+              <div class="w-layout-grid contact6_content">
+
+                <!-- Left heading -->
+                <div class="contact6_content-left">
+                  <div class="margin-bottom margin-medium">
+                    <div class="contact6_heading-wrapper">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">Upload test</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">Job Application Form</h2>
+                      </div>
+                      <p>Playground for testing resume upload integration.<br>Fill in the form and attach a PDF/DOC/DOCX (max 5 MB).</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Form -->
+                <div class="contact6_form-block w-form">
+                  <form
+                    id="wf-form-Job-Application-Form"
+                    name="wf-form-Job-Application-Form"
+                    data-name="Job Application Form"
+                    action="http://ioioleo.com/form-webmailContacts.asp"
+                    method="post"
+                    class="contact6_form"
+                  >
+                    <!-- Name row -->
+                    <div class="form_field-2col">
+                      <div class="form_field-wrapper">
+                        <label for="Applicant-First-Name" class="form_field-label">First name</label>
+                        <input class="form_input w-input" maxlength="256" name="Applicant-First-Name" data-name="Applicant First Name" placeholder="" type="text" id="Applicant-First-Name" required="">
+                      </div>
+                      <div class="form_field-wrapper">
+                        <label for="Applicant-Last-Name" class="form_field-label">Last name</label>
+                        <input class="form_input w-input" maxlength="256" name="Applicant-Last-Name" data-name="Applicant Last Name" placeholder="" type="text" id="Applicant-Last-Name" required="">
+                      </div>
+                    </div>
+
+                    <!-- Email + Phone row -->
+                    <div class="form_field-2col is-mobile-1col">
+                      <div class="form_field-wrapper">
+                        <label for="Applicant-Email" class="form_field-label">Email</label>
+                        <input class="form_input w-input" maxlength="256" name="Applicant-Email" data-name="Applicant Email" placeholder="" type="email" id="Applicant-Email" required="">
+                      </div>
+                      <div class="form_field-wrapper">
+                        <label for="Applicant-Phone" class="form_field-label">Phone number</label>
+                        <input class="form_input w-input" maxlength="256" name="Applicant-Phone" data-name="Applicant Phone" placeholder="" type="tel" id="Applicant-Phone" required="">
+                      </div>
+                    </div>
+
+                    <!-- Position -->
+                    <div class="form_field-wrapper">
+                      <label for="Job-position" class="form_field-label">Which position interests you?</label>
+                      <div class="select1_component">
+                        <select id="Job-position" name="Job-position" data-name="Job position" required="" class="form_input is-select w-select">
+                          <option value="">Select a position...</option>
+                          <option value="Test Position A">Test Position A</option>
+                          <option value="Test Position B">Test Position B</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <!-- Company (auto-filled in production via CMSSelect; hardcoded for playground) -->
+                    <div class="form_field-wrapper">
+                      <label for="Job-company" class="form_field-label">Company</label>
+                      <input class="form_input w-input" type="text" id="Job-company" name="Job-company" data-name="Job company" value="IOI Acidchem Sdn. Bhd." readonly="">
+                    </div>
+
+                    <!-- Message -->
+                    <div class="margin-bottom margin-small">
+                      <div class="form_field-wrapper">
+                        <label for="Applicant-Message" class="form_field-label">Message</label>
+                        <textarea id="Applicant-Message" name="Applicant-Message" maxlength="5000" data-name="Applicant Message" placeholder="" class="form_input is-text-area w-input"></textarea>
+                      </div>
+                    </div>
+
+                    <!-- ═══════════════════════════════════════════════
+                         RESUME UPLOAD — test area below
+                         ═══════════════════════════════════════════════ -->
+
+                    <!-- TODO: Add upload widget / file input here -->
+
+                    <!-- ═══════════════════════════════════════════════ -->
+
+                    <input type="submit" data-wait="Please wait..." id="cta-job-submit" class="button w-button" value="Submit Application">
+
+                    <!-- reCAPTCHA hidden token -->
+                    <div class="w-embed">
+                      <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+                    </div>
+
+                    <!-- reCAPTCHA disclaimer -->
+                    <p style="font-size:0.72rem;color:#999;margin-top:0.75rem;">
+                      This site is protected by reCAPTCHA and the Google
+                      <a href="https://policies.google.com/privacy" target="_blank" style="color:#999;">Privacy Policy</a> and
+                      <a href="https://policies.google.com/terms" target="_blank" style="color:#999;">Terms of Service</a> apply.
+                    </p>
+                  </form>
+
+                  <div class="form_message-success-wrapper w-form-done">
+                    <div class="form_message-success">
+                      <div class="success-text">We received your application and will be in touch</div>
+                    </div>
+                  </div>
+                  <div class="form_message-error-wrapper w-form-fail">
+                    <div class="form_message-error">
+                      <div class="error-text">Something went wrong. Please try again or email us directly</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- jQuery -->
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=696c49e15cab3396438e3aac" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <!-- Job listings JS (contains submitToAPI + reCAPTCHA binding) -->
+  <script src="../../js/job-listings.js?lastUpdDT=20250814"></script>
+
+</body>
+</html>
