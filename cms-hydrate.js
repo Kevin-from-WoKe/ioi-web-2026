@@ -855,3 +855,79 @@
     init();
   }
 })();
+
+
+/**
+ * Sdn Bhd line-wrap prevention
+ *
+ * Replaces plain spaces inside "<word> Sdn[.] Bhd[.]" with non-breaking spaces
+ * so the suffix stays glued to the preceding word at line breaks.
+ * Content-gated: only does work on text nodes that contain "Sdn".
+ *
+ *   "IOI Acidchem Sdn. Bhd."  →  "IOI Acidchem Sdn. Bhd." (Acidchem-Sdn-Bhd locked together)
+ *
+ * Runs on DOMContentLoaded for static text and uses a MutationObserver to
+ * catch text injected later by hydrateList / Webflow CMS / Finsweet.
+ *
+ * Implementation note: the regex matches [ \t]+ (NOT \s+) so NBSP is never
+ * matched again after replacement — preventing an infinite mutation loop
+ * triggered by the observer reacting to its own characterData edits.
+ */
+(function () {
+  "use strict";
+
+  var NBSP = " ";
+  var SDN_BHD = /(Sdn\.?)[ \t]+(Bhd\.?)/g;
+  var SKIP_TAGS = { SCRIPT: 1, STYLE: 1, NOSCRIPT: 1, TEXTAREA: 1, INPUT: 1 };
+
+  function processTextNode(node) {
+    if (!node || node.nodeType !== 3) return;     // 3 = TEXT_NODE
+    var v = node.nodeValue;
+    if (!v || v.indexOf("Sdn") === -1) return;     // cheap early-out
+    var p = node.parentNode;
+    if (!p || SKIP_TAGS[p.nodeName]) return;
+    var replaced = v.replace(SDN_BHD, function (_m, a, b) {
+      return a + NBSP + b;
+    });
+    if (replaced !== v) node.nodeValue = replaced;
+  }
+
+  function walk(root) {
+    if (!root || !root.nodeType) return;
+    if (root.nodeType === 3) { processTextNode(root); return; }
+    if (root.nodeType !== 1) return;               // 1 = ELEMENT_NODE
+    if (SKIP_TAGS[root.nodeName]) return;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    var nodes = [];
+    var n;
+    while ((n = walker.nextNode())) nodes.push(n);
+    for (var i = 0; i < nodes.length; i++) processTextNode(nodes[i]);
+  }
+
+  function initSdnBhdNoWrap() {
+    walk(document.body);
+
+    if (typeof MutationObserver === "undefined") return;
+    var obs = new MutationObserver(function (mutations) {
+      for (var i = 0; i < mutations.length; i++) {
+        var m = mutations[i];
+        if (m.type === "childList") {
+          for (var j = 0; j < m.addedNodes.length; j++) walk(m.addedNodes[j]);
+        } else if (m.type === "characterData") {
+          processTextNode(m.target);
+        }
+      }
+    });
+    obs.observe(document.body, {
+      childList: true,
+      subtree: true,
+      characterData: true,
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initSdnBhdNoWrap);
+  } else {
+    initSdnBhdNoWrap();
+  }
+})();
