@@ -9,7 +9,7 @@
       "type": "title",
       "context": "head > title",
       "en": "IOI Oleochemical | Leading palm-based Oleochemical Manufacturer",
-      "cn": "IOI Oleochemical | 领先的棕榈基油脂化学制造商"
+      "cn": "IOI Oleochemical|全球领先的棕榈基油脂化学制造商"
     },
     {
       "id": "t2",
@@ -23,7 +23,7 @@
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "IOI Oleochemical | Leading palm-based Oleochemical Manufacturer",
-      "cn": "IOI Oleochemical | 领先的棕榈基油脂化学制造商"
+      "cn": "IOI Oleochemical|全球领先的棕榈基油脂化学制造商"
     },
     {
       "id": "t4",
@@ -191,7 +191,7 @@
       "type": "text",
       "context": "div.max-width-xlarge > div.margin-bottom > h1.heading-style-h1",
       "en": "Leading palm-based",
-      "cn": "领先的棕榈基"
+      "cn": "全球领先的棕榈基"
     },
     {
       "id": "t28",
