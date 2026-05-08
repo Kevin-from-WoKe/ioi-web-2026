@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "| IOI Oleochemical Applications",
-      "cn": ""
+      "cn": "| IOI Oleochemical 应用领域"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Discover IOI Oleochemical's  product applications.",
-      "cn": ""
+      "cn": "了解 IOI Oleochemical 的  产品应用领域。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Product Applications | IOI Oleochemical Applications",
-      "cn": ""
+      "cn": "产品应用 | IOI Oleochemical 应用领域"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Discover IOI Oleochemical's product applications for diverse industries.",
-      "cn": ""
+      "cn": "了解 IOI Oleochemical 适用于多元行业的产品应用领域。"
     }
   ]
 }

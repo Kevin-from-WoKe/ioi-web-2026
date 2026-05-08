@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "| IOI Oleochemical CSR",
-      "cn": ""
+      "cn": "| IOI Oleochemical 企业社会责任"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Browse IOI Oleochemical's CSR activities related to . Discover how we give back to communities and support sustainable development.",
-      "cn": ""
+      "cn": "浏览 IOI Oleochemical 与  相关的企业社会责任活动。了解我们如何回馈社区与支持发展。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "CSR Tags | IOI Oleochemical CSR",
-      "cn": ""
+      "cn": "企业社会责任标签 | IOI Oleochemical 企业社会责任"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Browse IOI Oleochemical's CSR activities. Discover how we give back to communities and support sustainable development.",
-      "cn": ""
+      "cn": "浏览 IOI Oleochemical 的企业社会责任活动。了解我们如何回馈社区与支持发展。"
     }
   ]
 }

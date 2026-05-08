@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "| IOI Oleochemical Certificates",
-      "cn": ""
+      "cn": "| IOI Oleochemical 认证"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Download and verify IOI Oleochemical's  certification — a testament to our quality standards and regulatory compliance.",
-      "cn": ""
+      "cn": "下载并验证 IOI Oleochemical 的  认证 — 是我们品质标准的最佳证明。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Company Certificate | IOI Oleochemical Certificates",
-      "cn": ""
+      "cn": "公司认证 | IOI Oleochemical 认证"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Download and verify IOI Oleochemical's certification — a testament to our quality standards and regulatory compliance.",
-      "cn": ""
+      "cn": "下载并验证 IOI Oleochemical 的认证 — 是我们品质标准的最佳证明。"
     }
   ]
 }

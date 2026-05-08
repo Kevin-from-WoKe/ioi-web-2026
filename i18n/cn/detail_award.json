@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "| IOI Oleochemical Awards",
-      "cn": ""
+      "cn": "| IOI Oleochemical 奖项"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "IOI Oleochemical received the  — a recognition of our commitment to excellence and sustainable oleochemical innovation.",
-      "cn": ""
+      "cn": "IOI Oleochemical 荣获  — 是对我们追求卓越和可持续油脂化学创新的认可。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Awards | IOI Oleochemical Awards",
-      "cn": ""
+      "cn": "奖项 | IOI Oleochemical 奖项"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "IOI Oleochemical received recognition — a recognition of our commitment to excellence and sustainable oleochemical innovation.",
-      "cn": ""
+      "cn": "IOI Oleochemical 荣获认可 — 是对我们追求卓越和可持续油脂化学创新的认可。"
     }
   ]
 }

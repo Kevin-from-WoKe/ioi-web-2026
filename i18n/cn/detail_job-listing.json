@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "| Careers at IOI Oleochemical",
-      "cn": ""
+      "cn": "| IOI Oleochemical 招聘"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Join IOI Oleochemical as a . Explore this career opportunity and become part of a world-class global oleochemical team.",
-      "cn": ""
+      "cn": "加入 IOI Oleochemical，担任 。把握职业发展机会，成为世界级团队的一员。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Job Listings | Careers at IOI Oleochemical",
-      "cn": ""
+      "cn": "招聘信息 | IOI Oleochemical 招聘"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Join IOI Oleochemical as a professional. Explore this career opportunity and become part of a world-class global oleochemical team.",
-      "cn": ""
+      "cn": "加入 IOI Oleochemical 担任专业人员。把握职业发展机会，成为世界级团队的一员。"
     }
   ]
 }

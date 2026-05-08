@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "Halal Certificate | IOI Oleochemical",
-      "cn": ""
+      "cn": "清真认证 | IOI Oleochemical"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "IOI Oleochemical's  holds Halal certification, ensuring compliance with Islamic dietary standards for global markets.",
-      "cn": ""
+      "cn": "IOI Oleochemical 的  持有清真认证，确保符合伊斯兰饮食规范。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Halal Certificate | IOI Oleochemical",
-      "cn": ""
+      "cn": "清真认证 | IOI Oleochemical"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "IOI Oleochemical holds Halal certification, ensuring compliance with Islamic dietary standards for global markets.",
-      "cn": ""
+      "cn": "IOI Oleochemical 持有清真认证，确保符合伊斯兰饮食规范。"
     }
   ]
 }

@@ -230,6 +230,10 @@ async function buildFile(absPath) {
   }
 
   const jsonPayload = JSON.parse(await readFile(jsonPath, "utf8"));
+  const hasAnyTranslations = (jsonPayload.strings || []).some(s => s.cn && s.cn.trim());
+  if (!hasAnyTranslations) {
+    return { rel, status: "skipped", reason: "no translations filled in yet", outPath };
+  }
   const lookup = makeLookup(jsonPayload);
   const html = await readFile(absPath, "utf8");
   const $ = cheerio.load(html, { decodeEntities: false });

@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "| IOI Oleochemical Products",
-      "cn": ""
+      "cn": "| IOI Oleochemical 产品"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Explore IOI Oleochemical's  — a premium oleochemical product variant designed for diverse industrial and consumer applications.",
-      "cn": ""
+      "cn": "探索 IOI Oleochemical 的  — 为多元行业打造的优质油脂化学产品。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Product Variants | IOI Oleochemical Products",
-      "cn": ""
+      "cn": "产品规格 | IOI Oleochemical 产品"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Explore IOI Oleochemical's premium oleochemical product variant designed for diverse industrial and consumer applications.",
-      "cn": ""
+      "cn": "探索 IOI Oleochemical 为多元行业打造的优质油脂化学产品。"
     }
   ]
 }

@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "| IOI Oleochemical Policy",
-      "cn": ""
+      "cn": "| IOI Oleochemical 政策"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Read IOI Oleochemical's  — part of our commitment to transparency, responsible governance, and sustainable business conduct.",
-      "cn": ""
+      "cn": "阅读 IOI Oleochemical 的  — 体现我们对透明度、负责任治理与道德经营的坚守。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Policy and Statement | IOI Oleochemical Policy",
-      "cn": ""
+      "cn": "政策与声明 | IOI Oleochemical 政策"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Read IOI Oleochemical's policy — part of our commitment to transparency, responsible governance, and sustainable business conduct.",
-      "cn": ""
+      "cn": "阅读 IOI Oleochemical 的政策 — 体现我们对透明度、负责任治理与道德经营的坚守。"
     }
   ]
 }

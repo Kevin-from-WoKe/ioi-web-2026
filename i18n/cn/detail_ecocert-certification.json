@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "ECOCERT Certificate | IOI Oleochemical",
-      "cn": ""
+      "cn": "ECOCERT 认证 | IOI Oleochemical"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "IOI Oleochemical's  is ECOCERT certified, meeting rigorous standards for organic and natural cosmetic ingredients.",
-      "cn": ""
+      "cn": "IOI Oleochemical 的  通过 ECOCERT 认证，符合有机和天然产品的严格标准。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "ECOCERT Certificate | IOI Oleochemical",
-      "cn": ""
+      "cn": "ECOCERT 认证 | IOI Oleochemical"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "IOI Oleochemical is ECOCERT certified, meeting rigorous standards for organic and natural cosmetic ingredients.",
-      "cn": ""
+      "cn": "IOI Oleochemical 通过 ECOCERT 认证，符合有机和天然产品的严格标准。"
     }
   ]
 }

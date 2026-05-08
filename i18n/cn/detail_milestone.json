@@ -9,28 +9,28 @@
       "type": "title",
       "context": "head > title",
       "en": "| IOI Oleochemical Milestones",
-      "cn": ""
+      "cn": "| IOI Oleochemical 发展历程"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Explore a key milestone in IOI Oleochemical's history:  — a pivotal moment in our journey as a global oleochemical leader.",
-      "cn": ""
+      "cn": "了解 IOI Oleochemical 发展历程中的重要时刻：  — 是我们发展旅程中的关键节点。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Milestones | IOI Oleochemical Milestones",
-      "cn": ""
+      "cn": "发展历程 | IOI Oleochemical 发展历程"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Explore a key milestone in IOI Oleochemical's history — a pivotal moment in our journey as a global oleochemical leader.",
-      "cn": ""
+      "cn": "了解 IOI Oleochemical 发展历程中的重要时刻 — 是我们发展旅程中的关键节点。"
     }
   ]
 }
