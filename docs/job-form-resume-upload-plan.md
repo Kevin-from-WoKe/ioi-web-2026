@@ -1,7 +1,7 @@
-# Job Application Form — Resume Upload: Execution Plan
+# Job Application Form — Resume Upload: S3 Pre-signed URL Execution Plan
 
 **Date:** 2026-05-07  
-**Branch:** kev-0505  
+**Branch:** form-uploader  
 **Author:** Kevin Wong  
 
 ---
@@ -68,23 +68,91 @@ POST https://uudwr4nux0.execute-api.ap-southeast-1.amazonaws.com/APIStage/contac
 
 ---
 
-## Option 1: AWS S3 Pre-signed URL Upload
+## Recommended Approach: AWS S3 Pre-signed URL Upload
 
 ### Overview
 A second Lambda function generates a temporary pre-signed S3 upload URL. The frontend uploads the file directly to S3 using that URL, then passes the resulting S3 object URL to `submitToAPI()` as an additional field. The existing Lambda email function includes the resume URL in the email body.
 
-### Architecture Diagram
+This keeps the heavy file upload out of the existing `/contactus` Lambda. The existing Lambda continues to receive normal form data, plus a resume link. S3 handles the file binary.
+
+## Full Pipeline Visual
+
+### End-to-End Flow
+```mermaid
+flowchart TD
+  Candidate["Candidate selects resume and fills form"]
+  Browser["Browser / Static site"]
+  UploadLambda["New Lambda: /getUploadUrl"]
+  S3["Private S3 bucket"]
+  Recaptcha["Google reCAPTCHA v3"]
+  ContactLambda["Existing Lambda: /contactus"]
+  Email["Email service"]
+  HR["HR / email recipient"]
+
+  Candidate -->|"1. Selects file and completes fields"| Browser
+  Browser -->|"2. Sends fileName, fileType, fileSize"| UploadLambda
+  UploadLambda -->|"3. Returns pre-signed PUT URL and resumeUrl"| Browser
+  Browser -->|"4. Uploads file binary directly"| S3
+  Browser -->|"5. Requests anti-spam token"| Recaptcha
+  Recaptcha -->|"6. Returns token"| Browser
+  Browser -->|"7. Posts form JSON with resumeUrl and token"| ContactLambda
+  ContactLambda -->|"8. Sends application email with resume link"| Email
+  Email -->|"9. Delivers email"| HR
+  HR -->|"10. Opens resume link"| S3
 ```
-[Browser]
-  │
-  ├─1─► POST /getUploadUrl (new Lambda)
-  │        └─► Returns { uploadUrl, fileUrl }
-  │
-  ├─2─► PUT {uploadUrl} ← file binary (direct to S3, no Lambda)
-  │
-  └─3─► POST /contactus (existing Lambda)
-           └─► Email includes fileUrl as clickable link
+
+### Two Separate Lanes
+
+```mermaid
+flowchart LR
+  subgraph FileLane["Resume file lane"]
+    A["Browser"] -->|"PUT file binary using pre-signed URL"| B["Private S3 bucket"]
+  end
+
+  subgraph FormLane["Application form lane"]
+    C["Browser"] -->|"POST JSON form data plus resumeUrl and reCAPTCHA token"| D["Existing /contactus Lambda"]
+    D -->|"Sends email"| E["HR recipient"]
+  end
+
+  B -.->|"resumeUrl inserted into form JSON"| C
+  E -.->|"clicks resume link"| B
 ```
+
+### Parties Involved
+
+| Party | Role | Owns / Controls |
+|---|---|---|
+| **Candidate** | Fills in job application form and attaches resume | Browser, selected resume file |
+| **Static website** | Hosts `job-listings.html` and `job-listings.js` | HTML form, upload UI, client-side validation |
+| **Google reCAPTCHA v3** | Provides bot/spam risk token before final form submission | reCAPTCHA token generation |
+| **New Lambda: `/getUploadUrl`** | Issues temporary S3 upload URL after validating file metadata | File type/size validation, S3 key naming, pre-signed URL |
+| **Amazon S3 bucket** | Stores uploaded resume files privately | Resume file objects under `resumes/` prefix |
+| **Existing Lambda: `/contactus`** | Receives form payload and sends email | Existing recipient routing, email body, reCAPTCHA verification |
+| **Email recipient / HR** | Receives application email and resume link | Final review workflow |
+| **AWS IAM** | Allows new Lambda to create pre-signed S3 PUT URLs | Permission boundary for S3 upload path |
+| **API Gateway** | Exposes `/getUploadUrl` and existing `/contactus` over HTTPS | Public API routes + CORS |
+
+### Responsibility Split
+
+| Area | Frontend | AWS / Backend |
+|---|---|---|
+| File picker UI | Yes | No |
+| 5 MB client-side validation | Yes | Also revalidated in Lambda |
+| File type client-side validation | Yes | Also revalidated in Lambda |
+| Actual file upload | Browser performs direct PUT | S3 receives file |
+| File storage | No | S3 |
+| Resume link in form payload | Yes | Existing Lambda receives it |
+| Email delivery | No | Existing Lambda |
+| reCAPTCHA token generation | Browser | Existing Lambda verifies |
+
+### Why This Pipeline Is Safer Than Sending the File to `/contactus`
+
+- The existing Lambda receives only JSON form data and a resume URL, not a 5 MB binary attachment.
+- API Gateway/Lambda payload limits are avoided.
+- S3 is purpose-built for file upload/storage.
+- The S3 bucket can stay private; candidates only receive a short-lived upload URL.
+- The new Lambda has a narrow IAM policy: it can only write to `resumes/*`.
+- Resume retention can be controlled with an S3 lifecycle rule.
 
 ---
 
@@ -356,7 +424,7 @@ var emailContent = 'First Name : ' + externalFirstName + '<br /><br />' +
 
 ---
 
-### Option 1 — Pros & Cons
+## Pros & Cons
 
 | | |
 |---|---|
@@ -367,173 +435,9 @@ var emailContent = 'First Name : ' + externalFirstName + '<br /><br />' +
 | ❌ Pre-signed URL has 5-min TTL (user must upload quickly) | |
 
 ---
----
-
-## Option 3: Third-Party Upload Service (Filestack / Uploadcare)
-
-### Overview
-Embed a third-party file upload widget directly in the form. The widget handles S3/CDN upload internally and returns a public CDN URL. That URL is injected into the form submission payload. No new Lambda or S3 bucket required.
-
-**Recommended service: [Filestack](https://www.filestack.com)**
-- Free tier: 100 uploads/month, 1 GB storage
-- Paid: from ~$49/month
-- Simple JS SDK, no backend changes required
-
-**Alternative: [Uploadcare](https://uploadcare.com)**
-- Free tier: 3,000 uploads/month, 3 GB storage
-- Slightly more generous free tier
-
----
-
-### Phase A — Service Account Setup (Filestack example)
-
-1. Register at [filestack.com](https://www.filestack.com)
-2. Create an application → copy the **API Key** (e.g. `Axxxxxxxxxxxxxxxxxxx`)
-3. In Security settings:
-   - Add allowed domains: `ioioleochemical.com`, `www.ioioleochemical.com`
-   - Set max file size: `5242880` (5 MB)
-   - Allowed MIME types: `application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document`
-
----
-
-### Phase B — Frontend Integration
-
-#### B1. Add Filestack SDK to `en/about-us/job-listings.html`
-Add in `<head>` or just before `</body>`:
-```html
-<script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
-```
-
-#### B2. Add Upload Widget to Form
-Replace the standard file input with a button-triggered Filestack picker:
-```html
-<!-- Resume Upload (Filestack) -->
-<div class="form_field-wrapper">
-  <label class="form_label">
-    Resume / CV <span style="font-weight:400;color:#888;">(PDF, DOC, DOCX — max 5MB)</span>
-  </label>
-  <button type="button" id="resumePickerBtn" class="button is-secondary" style="margin-top:0.5rem;">
-    📎 Attach Resume
-  </button>
-  <div id="resume-upload-status" style="font-size:0.8rem;margin-top:0.5rem;color:#555;"></div>
-  <!-- Hidden field to carry the CDN URL into submitToAPI -->
-  <input type="hidden" id="Applicant-Resume-Url" name="Applicant-Resume-Url" value="" />
-</div>
-```
-
-#### B3. Add to `js/job-listings.js`
-
-**Add Filestack initialisation inside `$(function(){...})`:**
-```javascript
-var FILESTACK_API_KEY = 'YOUR_FILESTACK_API_KEY';
-var filestackClient = null;
-var resumeCdnUrl = '';
-
-if (typeof filestack !== 'undefined') {
-  filestackClient = filestack.init(FILESTACK_API_KEY);
-
-  document.getElementById('resumePickerBtn').addEventListener('click', function() {
-    filestackClient.picker({
-      accept: ['application/pdf', 'application/msword',
-        'application/vnd.openxmlformats-officedocument.wordprocessingml.document'],
-      maxSize: 5 * 1024 * 1024,
-      maxFiles: 1,
-      onUploadDone: function(result) {
-        if (result.filesUploaded && result.filesUploaded.length > 0) {
-          var f = result.filesUploaded[0];
-          resumeCdnUrl = f.url;
-          document.getElementById('Applicant-Resume-Url').value = resumeCdnUrl;
-          var statusEl = document.getElementById('resume-upload-status');
-          if (statusEl) statusEl.textContent = '✓ Attached: ' + f.filename;
-        }
-      },
-      onFileUploadFailed: function(file, err) {
-        alert('Upload failed: ' + err.message);
-      }
-    }).open();
-  });
-}
-```
-
-**Update `submitToAPI()` to read CDN URL:**
-```javascript
-var externalResumeUrl = $('#Applicant-Resume-Url').val() || '';
-data.resumeUrl = externalResumeUrl;
-
-// In emailContent:
-var emailContent = /* ... existing fields ... */ +
-  (externalResumeUrl ? 'Resume : <a href="' + externalResumeUrl + '">' + externalResumeUrl + '</a><br /><br />' : '');
-```
-
-**Update existing Lambda (`/contactus`)** — same as Option 1 Phase A5:
-```javascript
-if (data.resumeUrl) {
-  htmlContent += `Resume: <a href="${data.resumeUrl}">${data.resumeUrl}</a><br/><br/>`;
-}
-```
-
----
-
-### Option 3 Variants — Uploadcare
-
-If Uploadcare is preferred over Filestack:
-
-```html
-<!-- In <head> -->
-<script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" charset="utf-8"></script>
-```
-
-```html
-<!-- In form -->
-<input type="hidden" role="uploadcare-uploader"
-  id="Applicant-Resume-UC"
-  data-public-key="YOUR_UPLOADCARE_PUBLIC_KEY"
-  data-tabs="file"
-  data-max-size="5242880"
-  data-images-only="false"
-/>
-```
-
-```javascript
-// In js/job-listings.js
-var widget = uploadcare.Widget('#Applicant-Resume-UC');
-widget.onUploadComplete(function(fileInfo) {
-  document.getElementById('Applicant-Resume-Url').value = fileInfo.cdnUrl;
-  document.getElementById('resume-upload-status').textContent = '✓ Attached: ' + fileInfo.name;
-});
-```
-
----
-
-### Option 3 — Pros & Cons
-
-| | |
-|---|---|
-| ✅ No AWS setup required | ✅ Free tier sufficient for low-volume hiring |
-| ✅ Widget handles UX (progress, retry, cancel) | ✅ No new Lambda or S3 bucket |
-| ✅ Fast to implement (1–2 hours) | ❌ Third-party dependency (vendor lock-in) |
-| ❌ Files stored on Filestack/Uploadcare CDN (not in-house) | ❌ Free tier limits (100 uploads/month Filestack) |
-| ❌ Additional paid subscription if volume grows | ❌ CDN URLs are public (anyone with URL can access) |
-
----
-
-## Comparison Summary
-
-| | Option 1 (S3 Pre-signed URL) | Option 3 (Filestack/Uploadcare) |
-|---|---|---|
-| **Setup complexity** | High (Lambda + S3 + IAM + CORS) | Low (API key + script tag) |
-| **Time to implement** | ~2–3 days | ~2–4 hours |
-| **AWS cost** | ~$0.023/GB S3 storage (negligible) | $0 (free tier) or $49+/mo |
-| **File privacy** | Private (pre-signed URL access only) | Semi-public CDN URL |
-| **Data residency** | AWS ap-southeast-1 (in-region) | Filestack US/EU CDN |
-| **Maintenance** | Self-managed | Vendor-managed |
-| **Recommended for** | Long-term, privacy-conscious | Fast MVP or low-budget |
-
----
 
 ## Recommended Implementation Order
 
-### If proceeding with Option 1 (S3):
 1. Provision S3 bucket + CORS (30 min)
 2. Create IAM role + policy (15 min)
 3. Deploy `getJobResumeUploadUrl` Lambda + API Gateway route (45 min)
@@ -542,28 +446,133 @@ widget.onUploadComplete(function(fileInfo) {
 6. Update `job-listings.js` with `uploadResume()` + modified submit handler (1 hr)
 7. Test end-to-end (30 min)
 
-### If proceeding with Option 3 (Filestack):
-1. Register Filestack account + configure domain/size restrictions (15 min)
-2. Add Filestack SDK `<script>` to `job-listings.html` (5 min)
-3. Add picker button + hidden URL field to form HTML (15 min)
-4. Add Filestack init + picker handler to `job-listings.js` (30 min)
-5. Update `submitToAPI()` to include `resumeUrl` (15 min)
-6. Update `/contactus` Lambda to render `resumeUrl` in email body (15 min)
-7. Test end-to-end (30 min)
+Total estimate: **3–4 hours of focused implementation**, excluding AWS access handoff / approval delays.
 
 ---
 
-## Files to Modify (Either Option)
+## Action Plan by Party
+
+This plan assumes the safest practical collaboration model for an MNC:
+
+- The **client/backend team keeps ownership of AWS**.
+- We do **not** require shared AWS admin access.
+- We provide the implementation package and frontend integration.
+- Client deploys the AWS pieces first in **staging**.
+- Client shares only the required staging endpoint and expected response contract.
+- After joint sign-off, the client promotes the backend changes to production and shares the production endpoint.
+
+### Your Side — Frontend Website / Implementation Partner
+
+| Step | Action | Output | Realistic Effort |
+|---|---|---|---|
+| 1 | Prepare backend implementation package for client | S3 CORS config, IAM policy, Lambda source, API Gateway route spec, expected JSON response | 2–3 hrs |
+| 2 | Add resume field to the playground job application form | A visible file field supporting PDF, DOC, DOCX, max 5 MB | 0.5–1 hr |
+| 3 | Add frontend validation | Prevent invalid file type / file size before any upload attempt | 0.5–1 hr |
+| 4 | Wait for client staging handoff | Need staging `/getUploadUrl` endpoint and response shape confirmation | No build time; dependent on client |
+| 5 | Wire upload logic in `js/job-listings.js` against staging | Frontend requests upload URL, uploads file to S3, stores returned `resumeUrl` | 2–3 hrs |
+| 6 | Submit existing application payload with `resumeUrl` | Existing `/contactus` form submission includes the resume link | 1–1.5 hrs |
+| 7 | Add user feedback | Uploading / uploaded / failed states shown near the file field | 1–1.5 hrs |
+| 8 | Browser/device testing in staging | Validate Chrome/Safari/mobile behavior and failed upload states | 1.5–2.5 hrs |
+| 9 | Production endpoint swap after client sign-off | Replace staging endpoint with production endpoint | 0.25–0.5 hr |
+
+**Frontend / implementation partner subtotal:** approximately **8.75–14 hours**.
+
+### Client Side — AWS / Backend
+
+| Step | Action | Output | Realistic Effort |
+|---|---|---|---|
+| A | Review and approve implementation package | Internal security/devops confirms S3, IAM, Lambda, CORS approach | 1–3 hrs |
+| B | Create private staging S3 bucket | Private staging storage location for resume files | 0.5–1 hr |
+| C | Configure staging S3 CORS | Browser can upload directly to S3 using pre-signed URL | 0.5–1.5 hrs |
+| D | Create least-privilege IAM role / policy | New Lambda can write only to the `resumes/*` path | 1–2 hrs |
+| E | Create staging `getJobResumeUploadUrl` Lambda | Validates file metadata and returns temporary upload URL + final resume URL | 2–4 hrs |
+| F | Add staging API Gateway route | Public HTTPS staging endpoint: `/getUploadUrl` | 1–2 hrs |
+| G | Share staging endpoint with frontend | Frontend can complete staging integration | 0.25 hr |
+| H | Update existing staging `/contactus` Lambda | Email body includes `resumeUrl` as a clickable resume link | 1–2 hrs |
+| I | Provide CloudWatch/API Gateway diagnostics during integration | Resolve CORS, IAM, timeout, or response-shape issues | 2–4 hrs |
+| J | Promote approved setup to production | Production S3/Lambda/API Gateway/contactus changes deployed internally | 2–4 hrs |
+| K | Share production endpoint with frontend | Final production `/getUploadUrl` endpoint available | 0.25 hr |
+
+**Client/backend subtotal:** approximately **11.5–24 hours**.
+
+### Joint QA
+
+| Test | Expected Result | Realistic Effort |
+|---|---|---|
+| Staging upload test: valid PDF under 5 MB | Upload succeeds, form submits, email contains resume link | 0.5 hr |
+| Staging upload test: DOC/DOCX under 5 MB | Upload succeeds, form submits, email contains resume link | 0.5–1 hr |
+| Staging rejection test: file over 5 MB | Frontend blocks upload before calling AWS | 0.25–0.5 hr |
+| Staging rejection test: unsupported type | Frontend blocks upload before calling AWS | 0.25–0.5 hr |
+| Staging no-resume test | Form still submits normally | 0.25 hr |
+| Staging resume-link test | Resume opens/downloads from S3 from received email | 0.25–0.5 hr |
+| Regression check existing job form behavior | Existing no-upload form fields, reCAPTCHA, and recipient routing still work | 1–2 hrs |
+| Production smoke test | One final production submission confirms upload, email, and resume link | 0.5–1 hr |
+
+**Joint QA subtotal:** approximately **3.5–6.25 hours**.
+
+### Realistic Total Effort
+
+| Area | Estimate |
+|---|---|
+| Frontend / implementation partner | 8.75–14 hrs |
+| Client/backend AWS implementation | 11.5–24 hrs |
+| Joint QA and troubleshooting | 3.5–6.25 hrs |
+| **Total combined effort** | **23.75–44.25 hrs** |
+
+For planning, budget **3–6 working days end-to-end**, depending mostly on client security review, AWS deployment turnaround, CORS/IAM debugging, and how quickly the existing `/contactus` Lambda can be updated in staging and production.
+
+### Access Model
+
+Preferred for an MNC:
+
+- Client does **not** share AWS root/admin access.
+- Client backend/devops team deploys all AWS resources internally.
+- If direct debugging access is needed, use a **time-boxed, least-privilege IAM role** with:
+  - read access to relevant CloudWatch logs,
+  - limited access only to the new upload Lambda/API Gateway/S3 bucket,
+  - MFA where possible,
+  - CloudTrail auditability,
+  - automatic removal after implementation.
+
+### Handoff Summary
+
+| From | To | Handoff |
+|---|---|---|
+| Frontend | Client/backend | Required file rules: PDF/DOC/DOCX, max 5 MB |
+| Frontend | Client/backend | Backend implementation package: S3 CORS, IAM policy, Lambda code, API Gateway route spec |
+| Client/backend | Frontend | Staging `/getUploadUrl` endpoint URL |
+| Client/backend | Frontend | Expected response shape: `{ uploadUrl, fileUrl }` |
+| Frontend | Client/backend | Confirmed final payload includes `resumeUrl` |
+| Client/backend | Frontend | Production `/getUploadUrl` endpoint URL after staging sign-off |
+| Both | Client / HR reviewer | Confirm received production email includes working resume link |
+
+Related diagram: `docs/job-resume-upload-pipeline.excalidraw`
+
+---
+
+## Files and Systems to Modify
 
 | File | Change |
 |---|---|
 | `en/about-us/job-listings.html` | Add file input / upload widget to form |
 | `js/job-listings.js` | Add upload logic, update `submitToAPI()` |
 | AWS Lambda `/contactus` | Add `resumeUrl` to email HTML output |
-| *(Option 1 only)* New Lambda `getJobResumeUploadUrl` | Create new function |
-| *(Option 1 only)* S3 bucket | Create with CORS |
-| *(Option 3 only)* Filestack/Uploadcare account | Register and configure |
+| New Lambda `getJobResumeUploadUrl` | Create new function to return pre-signed S3 upload URL |
+| S3 bucket | Create private bucket with CORS + optional lifecycle retention |
+| IAM role / policy | Grant new Lambda permission to write only to `resumes/*` |
+| API Gateway | Add `/getUploadUrl` route and CORS |
 
 ---
 
-*End of plan. No changes have been made to the codebase. This document is for planning purposes only.*
+## Final Mental Model
+
+Think of the resume upload as a two-lane road:
+
+1. **Resume file lane:** Browser uploads the file directly to S3 using a short-lived one-time URL.
+2. **Application form lane:** Browser sends normal form details to the existing `/contactus` Lambda, plus the S3 resume link.
+
+The two lanes meet only inside the final email. This is the core design choice: **files go to S3, form data goes to Lambda**.
+
+---
+
+*End of plan. No implementation changes have been made here. This document is for planning and execution alignment only.*
