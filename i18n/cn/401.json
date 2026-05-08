@@ -1,0 +1,50 @@
+{
+  "file": "en/401.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.238Z",
+  "total": 6,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Protected page",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Protected page",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "context": "div.utility_form-block > form#email-form > h3",
+      "en": "Protected Page",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "attr:placeholder",
+      "context": "div.utility_form-block > form#email-form > input#pass",
+      "en": "Enter your password",
+      "cn": ""
+    },
+    {
+      "id": "t5",
+      "type": "attr:data-wait",
+      "context": "div.utility_form-block > form#email-form > input.button",
+      "en": "Please wait...",
+      "cn": ""
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.form_message-error-wrapper > div.form_message-error > div",
+      "en": "Incorrect password. Please try again.",
+      "cn": ""
+    }
+  ]
+}

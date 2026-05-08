@@ -1,0 +1,36 @@
+{
+  "file": "en/detail_product-variant.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.299Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "| IOI Oleochemical Products",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Explore IOI Oleochemical's  — a premium oleochemical product variant designed for diverse industrial and consumer applications.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Product Variants | IOI Oleochemical Products",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Explore IOI Oleochemical's premium oleochemical product variant designed for diverse industrial and consumer applications.",
+      "cn": ""
+    }
+  ]
+}

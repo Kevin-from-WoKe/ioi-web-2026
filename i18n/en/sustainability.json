@@ -1,0 +1,793 @@
+{
+  "file": "en/sustainability.html",
+  "extracted_at": "2026-05-08T00:32:04.403Z",
+  "total": 131,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Sustainability | IOI Oleochemical's Commitment"
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Discover IOI Oleochemical's sustainability commitments — responsible sourcing, environmental stewardship, community engagement, and climate action."
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Sustainability | IOI Oleochemical's Commitment"
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Discover IOI Oleochemical's sustainability commitments — responsible sourcing, environmental stewardship, community engagement, and climate action."
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text."
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products"
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->"
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us"
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices"
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards"
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us"
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability"
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate"
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability"
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability"
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare"
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events"
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates"
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中"
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire"
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > h1.heading-style-h1",
+      "en": "Creating Value the Right Way — Our Path to Responsible Oleochemicals"
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.layout6_content-left > div.margin-bottom > h2.heading-style-h3",
+      "en": "What is Oleochemicals"
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "context": "div.layout6_content-left > div.margin-bottom > p.text-size-medium",
+      "en": "Oleochemicals, derived from natural oils and fats including palm, coconut and animal sources, provide an alternative to petroleum-based products."
+    },
+    {
+      "id": "t30",
+      "type": "text",
+      "context": "div.layout6_content-left > div.margin-bottom > p.text-size-medium",
+      "en": "These compounds serve as key ingredients in soaps, detergents, cosmetics, pharmaceuticals and various industrial applications. Responsibly sourced oleochemicals represent a sustainable substitute for conventional petrochemicals."
+    },
+    {
+      "id": "t31",
+      "type": "text",
+      "context": "div.layout6_text-wrapper > div.margin-bottom > h3.heading-style-h6",
+      "en": "How we source"
+    },
+    {
+      "id": "t32",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout6_text-wrapper > p",
+      "en": "We select feedstocks with care and accountability."
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "context": "div.layout6_text-wrapper > div.margin-bottom > h3.heading-style-h6",
+      "en": "How we operate"
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout6_text-wrapper > p",
+      "en": "We measure results and answers for them daily."
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.layout353_content-left > div.margin-bottom > h2.heading-style-h2",
+      "en": "Pillars of Sustainability"
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout353_content-left > p.text-size-medium",
+      "en": "Aligning with IOI Group's Sustainability Policy, the IOI Oleochemical Division commits to sustainable operations across all sites through initiatives aligned with the United Nations Sustainable Development Goals."
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.button-group > a.button > div.text-size-medium",
+      "en": "More at www.ioigroup.com ->"
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.button-group > a.button > div.text-size-medium",
+      "en": "Reach us at sustainability@ioioleo.com ->"
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.layout353_content-item > div.margin-bottom > h3.heading-style-h5",
+      "en": "Natural Resources"
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div#w-node-_92c54fed-5da1-0a54-c3b8-a3910d9e9702-6a894c88 > div.layout353_content-item > p",
+      "en": "Optimize natural resource utilization and reduce environmental impact through the implementation of sustainable processes and the development of environmentally responsible products."
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.layout353_content-item > div.margin-bottom > h3.heading-style-h5",
+      "en": "RSPO Certified"
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div#w-node-_92c54fed-5da1-0a54-c3b8-a3910d9e9702-6a894c88 > div.layout353_content-item > p",
+      "en": "Demonstrate commitment to responsible sourcing and advance RSPO standards by manufacturing and marketing RSPO-certified palm-based oleochemicals and their derivatives."
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.layout353_content-item > div.margin-bottom > h3.heading-style-h5",
+      "en": "Equal Opportunities"
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "context": "div#w-node-_92c54fed-5da1-0a54-c3b8-a3910d9e9702-6a894c88 > div.layout353_content-item > p",
+      "en": "Ensure equal employment opportunities and fair treatment for all employees at every organisational level, regardless of nationality, race, religion or gender."
+    },
+    {
+      "id": "t45",
+      "type": "text",
+      "context": "div.layout353_content-item > div.margin-bottom > h3.heading-style-h5",
+      "en": "Positive Environment"
+    },
+    {
+      "id": "t46",
+      "type": "text",
+      "context": "div#w-node-_92c54fed-5da1-0a54-c3b8-a3910d9e9702-6a894c88 > div.layout353_content-item > p",
+      "en": "Maintain a safe and healthy working environment for all employees."
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_content-left > h2.heading-style-h2",
+      "en": "Our journey of sustainablity"
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI Pan-Century Oleochemicals Sdn Bhd, IOI Pan-Century Edible Oils Sdn Bhd, first"
+    },
+    {
+      "id": "t49",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "RSPO"
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "certification."
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI Acidchem Sdn Bhd certified with"
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "RSPO SCCS"
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "Acidchem, Derichem and Pan-Century Oleochemicals achieved"
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "RSPO SCCS"
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "certification (expanded supply chain recognition)."
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "Multiple awards and"
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "responsible-care recognitions"
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "for environmental and safety performance."
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "Introduction of"
+    },
+    {
+      "id": "t60",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "solar photovoltaic (PV)"
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "energy harvesting under a “Go Green” initiative."
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "Continued awards recognising innovation and environmental stewardship."
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI Esterchem(M) Sdn Bhd certified with"
+    },
+    {
+      "id": "t64",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "RSPO SCCS"
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "ISO & food-safety certifications"
+    },
+    {
+      "id": "t66",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "enhanced production quality and traceability"
+    },
+    {
+      "id": "t67",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI Oleo GmbH certified with"
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "RSPO SCCS"
+    },
+    {
+      "id": "t69",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "Multiple"
+    },
+    {
+      "id": "t70",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "ISO certifications"
+    },
+    {
+      "id": "t71",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "(ISO 50001 energy management; ISO 14001 environmental) achieved by Acidchem and Esterchem, indicating sustained EMS and environmental performance improvements."
+    },
+    {
+      "id": "t72",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI Acidchem won a"
+    },
+    {
+      "id": "t73",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "Gold Award"
+    },
+    {
+      "id": "t74",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "for an energy-efficient vapour absorption chiller project, demonstrating investment in energy-saving technologies."
+    },
+    {
+      "id": "t75",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI has achieved another important milestone in its sustainability performance by making good progress in the Carbon Disclosure Programme (\""
+    },
+    {
+      "id": "t76",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "CDP"
+    },
+    {
+      "id": "t77",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "\") 2018 survey, organised by CDP, a not-for-profit organisation that promotes corporate transparency and the measurement of environmental action."
+    },
+    {
+      "id": "t78",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "Two of IOI Oleo operation upgrades Occupational Health & Safety (\"OHS\") Management System to"
+    },
+    {
+      "id": "t79",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "ISO 45001:2018"
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI Oleo conducted a"
+    },
+    {
+      "id": "t81",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "Sustainability Steering Committee Meeting"
+    },
+    {
+      "id": "t82",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "to discuss on matters such as sustainability performance against targets and goals, policies, resources, major projects, etc."
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI released its revised"
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "SPOP"
+    },
+    {
+      "id": "t85",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": ". The latest revision was based on industry's best practices and inputs from engagements with relevant stakeholders. The policy has been further expanded to strengthen our commitments on women empowerment, biodiversity and NDPE, etc."
+    },
+    {
+      "id": "t86",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI's Responsible Sourcing Guidelines (\""
+    },
+    {
+      "id": "t87",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "RSG"
+    },
+    {
+      "id": "t88",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "\") was also introduced to give further clarity on IOI's roles and commitments in the supply chain."
+    },
+    {
+      "id": "t89",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI publicly committed to the"
+    },
+    {
+      "id": "t90",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "Science Based Targets initiative (SBTi)"
+    },
+    {
+      "id": "t91",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "FLAG targets — linking sustainable production to science-based GHG reduction commitments and no deforestation in FLAG commodities."
+    },
+    {
+      "id": "t92",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI Oleochemical manufacturing sites has prepared GHG reports for FY2024 and completed verification process for Scope 1, 2 and 3 in-line with"
+    },
+    {
+      "id": "t93",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "ISO14064-1:2018"
+    },
+    {
+      "id": "t94",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "standard."
+    },
+    {
+      "id": "t95",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "GHG emissions of oleochemical operations are verified under ISO14064-1:2018"
+    },
+    {
+      "id": "t96",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "The near-term GHG emissions reduction targets have been"
+    },
+    {
+      "id": "t97",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "successfully validated"
+    },
+    {
+      "id": "t98",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "by the Science Based Targets initiative (SBTi)."
+    },
+    {
+      "id": "t99",
+      "type": "text",
+      "context": "div.layout364_component > div.margin-bottom > h2.heading-style-h3",
+      "en": "Sustainability in Action"
+    },
+    {
+      "id": "t100",
+      "type": "text",
+      "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
+      "en": "Explore ->"
+    },
+    {
+      "id": "t101",
+      "type": "text",
+      "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Policies and statement"
+    },
+    {
+      "id": "t102",
+      "type": "text",
+      "context": "div.layout364_card-content > div.layout364_card-content-top > p",
+      "en": "Our commitments guide every decision we make."
+    },
+    {
+      "id": "t103",
+      "type": "text",
+      "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
+      "en": "Explore ->"
+    },
+    {
+      "id": "t104",
+      "type": "text",
+      "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Environmental management"
+    },
+    {
+      "id": "t105",
+      "type": "text",
+      "context": "div.layout364_card-content > div.layout364_card-content-top > p",
+      "en": "Continuous improvement in environmental and social practices."
+    },
+    {
+      "id": "t106",
+      "type": "text",
+      "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
+      "en": "Explore ->"
+    },
+    {
+      "id": "t107",
+      "type": "text",
+      "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Responsible sourcing & traceability"
+    },
+    {
+      "id": "t108",
+      "type": "text",
+      "context": "div.layout364_card-content > div.layout364_card-content-top > p",
+      "en": "Transparent supply chains built on accountability."
+    },
+    {
+      "id": "t109",
+      "type": "text",
+      "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
+      "en": "Explore ->"
+    },
+    {
+      "id": "t110",
+      "type": "text",
+      "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Digital sustainability"
+    },
+    {
+      "id": "t111",
+      "type": "text",
+      "context": "div.layout364_card-content > div.layout364_card-content-top > p",
+      "en": "Technology enabling safer, smarter operations."
+    },
+    {
+      "id": "t112",
+      "type": "text",
+      "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
+      "en": "Explore ->"
+    },
+    {
+      "id": "t113",
+      "type": "text",
+      "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "People & employee welfare"
+    },
+    {
+      "id": "t114",
+      "type": "text",
+      "context": "div.layout364_card-content > div.layout364_card-content-top > p",
+      "en": "Safe workplaces where people thrive."
+    },
+    {
+      "id": "t115",
+      "type": "text",
+      "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
+      "en": "Explore ->"
+    },
+    {
+      "id": "t116",
+      "type": "text",
+      "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Awards & recognition"
+    },
+    {
+      "id": "t117",
+      "type": "text",
+      "context": "div.layout364_card-content > div.layout364_card-content-top > p",
+      "en": "Industry acknowledgment of our efforts."
+    },
+    {
+      "id": "t118",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies"
+    },
+    {
+      "id": "t119",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly."
+    },
+    {
+      "id": "t120",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us"
+    },
+    {
+      "id": "t121",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications"
+    },
+    {
+      "id": "t122",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product"
+    },
+    {
+      "id": "t123",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us"
+    },
+    {
+      "id": "t124",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t125",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t126",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t127",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t128",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA"
+    },
+    {
+      "id": "t129",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer"
+    },
+    {
+      "id": "t130",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©"
+    },
+    {
+      "id": "t131",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved"
+    }
+  ]
+}

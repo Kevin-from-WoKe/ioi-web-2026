@@ -1,0 +1,36 @@
+{
+  "file": "en/detail_csr-tag.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.286Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "| IOI Oleochemical CSR",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Browse IOI Oleochemical's CSR activities related to . Discover how we give back to communities and support sustainable development.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "CSR Tags | IOI Oleochemical CSR",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Browse IOI Oleochemical's CSR activities. Discover how we give back to communities and support sustainable development.",
+      "cn": ""
+    }
+  ]
+}

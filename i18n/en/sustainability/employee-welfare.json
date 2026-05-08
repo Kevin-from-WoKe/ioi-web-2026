@@ -1,0 +1,409 @@
+{
+  "file": "en/sustainability/employee-welfare.html",
+  "extracted_at": "2026-05-08T00:32:04.373Z",
+  "total": 67,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Employee Welfare | IOI Oleochemical"
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "IOI Oleochemical prioritises employee wellbeing through fair wages, safe workplaces, skills development, and a culture of inclusivity and respect."
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Employee Welfare | IOI Oleochemical People First"
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "IOI Oleochemical prioritises employee wellbeing through fair wages, safe workplaces, skills development, and a culture of inclusivity and respect."
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text."
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products"
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->"
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us"
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices"
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards"
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us"
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability"
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate"
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability"
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability"
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare"
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events"
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates"
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中"
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire"
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
+      "en": "Employee welfare"
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
+      "en": "Safe workplaces, healthy lives and fair treatment define how we operate."
+    },
+    {
+      "id": "t29",
+      "type": "attr:alt",
+      "context": "div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0ea9e-d1539c8a > div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0ea9f-d1539c8a > img#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa0-d1539c8a",
+      "en": "Two people in business attire shaking hands in a professional setting."
+    },
+    {
+      "id": "t30",
+      "type": "attr:alt",
+      "context": "div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0ea9e-d1539c8a > div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa1-d1539c8a > img#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa2-d1539c8a",
+      "en": "Two workers in blue uniforms and yellow helmets repairing a large industrial metal drum outdoors."
+    },
+    {
+      "id": "t31",
+      "type": "attr:alt",
+      "context": "div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0ea9e-d1539c8a > div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa7-d1539c8a > img#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa4-d1539c8a",
+      "en": "Collage of indoor sports activities including badminton, table tennis, Zumba, yoga, and Tai Chi classes with participants engaged in each activity."
+    },
+    {
+      "id": "t32",
+      "type": "attr:alt",
+      "context": "div#w-node-_60499b4c-5703-610e-6545-f45145e7b63d-d1539c8a > div#w-node-_60499b4c-5703-610e-6545-f45145e7b63e-d1539c8a > img#w-node-_60499b4c-5703-610e-6545-f45145e7b63f-d1539c8a",
+      "en": "Two people in business attire shaking hands in a professional setting."
+    },
+    {
+      "id": "t33",
+      "type": "attr:alt",
+      "context": "div#w-node-_60499b4c-5703-610e-6545-f45145e7b63d-d1539c8a > div#w-node-_60499b4c-5703-610e-6545-f45145e7b640-d1539c8a > img#w-node-_60499b4c-5703-610e-6545-f45145e7b641-d1539c8a",
+      "en": "Two workers in blue uniforms and yellow helmets repairing a large industrial metal drum outdoors."
+    },
+    {
+      "id": "t34",
+      "type": "attr:alt",
+      "context": "div#w-node-_60499b4c-5703-610e-6545-f45145e7b63d-d1539c8a > div#w-node-_60499b4c-5703-610e-6545-f45145e7b646-d1539c8a > img#w-node-_60499b4c-5703-610e-6545-f45145e7b647-d1539c8a",
+      "en": "Collage of indoor sports activities including badminton, table tennis, Zumba, yoga, and Tai Chi classes with participants engaged in each activity."
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
+      "en": "Safe Workplace"
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
+      "en": "Ethical workspace"
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout231_item > p",
+      "en": "We partner with SMETA to ensure ethical, legally compliant operations that eliminate slavery and child labour while maintaining safe working environments. We're committed to zero safety incidents through comprehensive equipment, training and monitoring of safety indicators. Details are available on our corporate website."
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
+      "en": "Safe Workplace"
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
+      "en": "Vision zero 3E+3S"
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout231_item > p",
+      "en": "We are committed to fostering a robust safety culture through its 3E framework—Engagement, Empowerment and Enforcement—which aligns with the 3S theme (Sihat, Selamat, Semangat) under Vision Zero Malaysia. This strategic initiative seeks to minimize occupational accidents and workplace illness by cultivating organisational commitment to accident prevention."
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
+      "en": "Safe Workplace"
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
+      "en": "Safety trainings"
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout231_item > p",
+      "en": "We deliver comprehensive safety training programmes for new hires and refresher courses for existing personnel. Our Safe Handling of Chemicals and Spillage Management curriculum includes hands-on spill simulations where employees practice response procedures in full protective equipment, strengthening preparedness for chemical incidents."
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
+      "en": "Healthy Lifestyle"
+    },
+    {
+      "id": "t45",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
+      "en": "Preventive care and occupational health support"
+    },
+    {
+      "id": "t46",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout231_item > p",
+      "en": "Promoting a healthy lifestyle requires nutrition and wellness awareness. We partner with local healthcare authorities to organise health programmes and blood donation campaigns for employees."
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
+      "en": "Sport facilities/Activities"
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
+      "en": "Sports facilities that strengthen workplace bonds"
+    },
+    {
+      "id": "t49",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout231_item > p",
+      "en": "We established an in-house sports complex with badminton and squash courts, table tennis and a gymnasium to promote employee wellness and productivity. Our initiatives include an annual badminton tournament, inter-company football matches and team-building events through the IOI Sport & Recreational Club."
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a.button",
+      "en": "More information at IOI Group: Publications ->"
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h3",
+      "en": "Work with us"
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.cta45_card > div.max-width-large > p.text-size-medium",
+      "en": "Explore career opportunities in our growing organisation"
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.cta45_card > div.button-group > a.button",
+      "en": "See Jobs"
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies"
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly."
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us"
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications"
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product"
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us"
+    },
+    {
+      "id": "t60",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t64",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA"
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer"
+    },
+    {
+      "id": "t66",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©"
+    },
+    {
+      "id": "t67",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved"
+    }
+  ]
+}

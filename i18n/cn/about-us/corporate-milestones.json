@@ -1,0 +1,309 @@
+{
+  "file": "en/about-us/corporate-milestones.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.256Z",
+  "total": 43,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Corporate Milestones | IOI Oleochemical's Journey",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Trace IOI Oleochemical's growth journey through key corporate milestones that mark our evolution as a global leader in oleochemical manufacturing.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Corporate Milestones | IOI Oleochemical's Journey",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Trace IOI Oleochemical's growth journey through key corporate milestones that mark our evolution as a global leader in oleochemical manufacturing.",
+      "cn": ""
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
+      "cn": ""
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products",
+      "cn": ""
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->",
+      "cn": ""
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->",
+      "cn": ""
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us",
+      "cn": ""
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones",
+      "cn": ""
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices",
+      "cn": ""
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards",
+      "cn": ""
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us",
+      "cn": ""
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate",
+      "cn": ""
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability",
+      "cn": ""
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare",
+      "cn": ""
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events",
+      "cn": ""
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中",
+      "cn": ""
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire",
+      "cn": ""
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.timeline1_content-left > div.margin-bottom > div.text-style-tagline",
+      "en": "Corporate Milestone",
+      "cn": ""
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.timeline1_content-left > div.margin-bottom > h2.heading-style-h2",
+      "en": "Five decades of growth",
+      "cn": ""
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "context": "div.w-layout-grid > div.timeline1_content-left > p.text-size-medium",
+      "en": "We started small in 1970. We grew by doing the work right, then doing it again.",
+      "cn": ""
+    },
+    {
+      "id": "t30",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies",
+      "cn": ""
+    },
+    {
+      "id": "t31",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
+      "cn": ""
+    },
+    {
+      "id": "t32",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us",
+      "cn": ""
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications",
+      "cn": ""
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product",
+      "cn": ""
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us",
+      "cn": ""
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA",
+      "cn": ""
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer",
+      "cn": ""
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©",
+      "cn": ""
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
+      "cn": ""
+    }
+  ]
+}

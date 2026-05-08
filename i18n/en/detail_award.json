@@ -1,0 +1,31 @@
+{
+  "file": "en/detail_award.html",
+  "extracted_at": "2026-05-08T00:32:04.283Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "| IOI Oleochemical Awards"
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "IOI Oleochemical received the  — a recognition of our commitment to excellence and sustainable oleochemical innovation."
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Awards | IOI Oleochemical Awards"
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "IOI Oleochemical received recognition — a recognition of our commitment to excellence and sustainable oleochemical innovation."
+    }
+  ]
+}

@@ -1,0 +1,848 @@
+{
+  "file": "en/sustainability/environmental-climate-management.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.379Z",
+  "total": 120,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Environmental & Climate Management | IOI Oleochemical",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "IOI Oleochemical's approach to environmental and climate management — reducing emissions, conserving natural resources, and building a low-carbon future.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Environmental & Climate Management | IOI Oleochemical",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "IOI Oleochemical's approach to environmental and climate management — reducing emissions, conserving natural resources, and building a low-carbon future.",
+      "cn": ""
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
+      "cn": ""
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products",
+      "cn": ""
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->",
+      "cn": ""
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->",
+      "cn": ""
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us",
+      "cn": ""
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones",
+      "cn": ""
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices",
+      "cn": ""
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards",
+      "cn": ""
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us",
+      "cn": ""
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate",
+      "cn": ""
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability",
+      "cn": ""
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare",
+      "cn": ""
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events",
+      "cn": ""
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中",
+      "cn": ""
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire",
+      "cn": ""
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
+      "en": "Environmental & Climate Management",
+      "cn": ""
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
+      "en": "Beyond complying with OSHA and EQA regulations, we use environmentally friendly and energy-efficient processes to conserve natural resources and minimize our operational and product environmental impact.",
+      "cn": ""
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "context": "div.layout558_content > div.margin-bottom > h2.heading-style-h2",
+      "en": "Energy and water systems cutting operational emissions",
+      "cn": ""
+    },
+    {
+      "id": "t30",
+      "type": "text",
+      "context": "div.layout558_content > div.margin-bottom > p.text-size-medium",
+      "en": "Our facilities run on integrated renewable and efficient systems. Solar generation, thermal heating, cogeneration and water recovery work in concern to reduce emissions and resource consumption across all plants.",
+      "cn": ""
+    },
+    {
+      "id": "t31",
+      "type": "text",
+      "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
+      "en": "Solar generation",
+      "cn": ""
+    },
+    {
+      "id": "t32",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout558_item > p",
+      "en": "3,600,000 kWh electricity generated from solar panel",
+      "cn": ""
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
+      "en": "Thermal collectors",
+      "cn": ""
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout558_item > p",
+      "en": "75 sets supply heating for boiler feed water with IoT monitoring.",
+      "cn": ""
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
+      "en": "Rainwater harvesting",
+      "cn": ""
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout558_item > p",
+      "en": "Captured water feeds distillation steam generators, reducing freshwater demand.",
+      "cn": ""
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
+      "en": "3 Cogeneration plants",
+      "cn": ""
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout558_item > p",
+      "en": "Three facilities generate combined heat and power, cutting fuel dependency significantly.",
+      "cn": ""
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
+      "en": "Reactive distillation",
+      "cn": ""
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout558_item > p",
+      "en": "Continuous process combines reaction and separation, reducing energy and chemical use.",
+      "cn": ""
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
+      "en": "Spray cooling",
+      "cn": ""
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout558_item > p",
+      "en": "Open loop system at beading plant operates more efficiently than closed loop alternatives.",
+      "cn": ""
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.layout16_content-left > div.margin-bottom > h2.heading-style-h2",
+      "en": "Chemical-free technology",
+      "cn": ""
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "context": "div.layout16_content-left > div.margin-bottom > p.text-size-medium",
+      "en": "We adopt chemical-free technologies and eco-friendly manufacturing processes that minimize chemical use while improving product quality and reducing environmental impact.",
+      "cn": ""
+    },
+    {
+      "id": "t45",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e32097d-8313eb1b > div.layout16_item-text-wrapper > p",
+      "en": "We use ultrafiltration to purify some of our products, avoiding chemical treatments and residue.",
+      "cn": ""
+    },
+    {
+      "id": "t46",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320983-8313eb1b > div.layout16_item-text-wrapper > p",
+      "en": "We now use crystallisation, a chemical-free process that produces a cleaner, higher-quality, safer product.",
+      "cn": ""
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320989-8313eb1b > div.layout16_item-text-wrapper > p",
+      "en": "We use continuous reactive distillation in our esterification process, to achieve better efficiency, lower energy use and reduced chemical requirements compared to conventional processes.",
+      "cn": ""
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "context": "div#w-node-_405463f8-2f73-ac0e-7aa8-7b4cf1d67a2d-8313eb1b > div.layout16_item-text-wrapper > p",
+      "en": "Our reverse osmosis (RO) system treats waste water using membrane filtration which minimizes chemical usage while effectively removing impurities.",
+      "cn": ""
+    },
+    {
+      "id": "t49",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320999-8313eb1b > div.margin-bottom > h2.heading-style-h2",
+      "en": "6 Principles for responsible operations",
+      "cn": ""
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320999-8313eb1b > div.margin-bottom > p.text-size-medium",
+      "en": "In 1994, we adopted the Chemical Industries Council of Malaysia's Guiding Principles of Responsible Care and six Codes of Practice. We're committed to minimizing environmental impact while protecting employee, public health and safety. For more information, visit CICM's website.",
+      "cn": ""
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320999-8313eb1b > div.margin-bottom > p.text-size-medium",
+      "en": "In 2010, Acidchem International received Platinum Award, under Responsible Care for Pollution Prevention code from the Chemical Industries Council of Malaysia. The award is typically presented to companies that have achieved a Gold Award for three consecutive years.",
+      "cn": ""
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
+      "en": "Distribution",
+      "cn": ""
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
+      "en": "Community awareness and emergency response (CAER)",
+      "cn": ""
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
+      "en": "Pollution prevention",
+      "cn": ""
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
+      "en": "Employee health and safety",
+      "cn": ""
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
+      "en": "Process safety",
+      "cn": ""
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
+      "en": "Product stewardship",
+      "cn": ""
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
+      "en": "International Benchmarking",
+      "cn": ""
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > p.text-size-medium",
+      "en": "We work with clients and international organisations to tackle climate change and reduce supply chain emissions. Our SBTi-validated emissions reduction targets align with global climate science.",
+      "cn": ""
+    },
+    {
+      "id": "t60",
+      "type": "text",
+      "context": "div.max-width-large > div.button-group > a.button",
+      "en": "More about IOI Group:IOI's Science-Based Targets Validated By SBTi ->",
+      "cn": ""
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "context": "div.w-embed > svg > title",
+      "en": "Home",
+      "cn": ""
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "context": "div.w-layout-grid > div.contact19_item > p",
+      "en": "We disclose greenhouse gas emissions and climate action plans annually through the Carbon Disclosure Project.",
+      "cn": ""
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "context": "div.contact19_item > div.margin-top > a",
+      "en": "Go to CDP ->",
+      "cn": ""
+    },
+    {
+      "id": "t64",
+      "type": "text",
+      "context": "div.w-layout-grid > div.contact19_item > p",
+      "en": "Independent assessors evaluate our environmental and social performance across the entire supply chain.",
+      "cn": ""
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "context": "div.contact19_item > div.margin-top > a",
+      "en": "Go to EcoVadis ->",
+      "cn": ""
+    },
+    {
+      "id": "t66",
+      "type": "text",
+      "context": "div.w-layout-grid > div.contact19_item > p",
+      "en": "Our emissions reduction targets align with scientific consensus on climate action requirements.",
+      "cn": ""
+    },
+    {
+      "id": "t67",
+      "type": "text",
+      "context": "div.contact19_item > div.margin-top > a",
+      "en": "Go to SBTi ->",
+      "cn": ""
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "context": "div.w-layout-grid > div.cta15_content-left > h2.heading-style-h2",
+      "en": "Pathway to Net Zero by 2040",
+      "cn": ""
+    },
+    {
+      "id": "t69",
+      "type": "text",
+      "context": "div.w-layout-grid > div.cta15_content-right > p.text-size-medium",
+      "en": "IOI Oleochemical supports IOI Group's climate action through a structured GHG reduction roadmap that integrates operational improvements with Group-wide objectives. The roadmap addresses absolute and intensity-based emissions reductions through energy efficiency, renewable energy adoption, methane capture, and process optimization, while strengthening emissions data quality and governance.",
+      "cn": ""
+    },
+    {
+      "id": "t70",
+      "type": "text",
+      "context": "div.w-layout-grid > div.cta15_content-right > p.text-size-medium",
+      "en": "Detailed targets and commitments are outlined in the IOI Group Climate Change Action Initiative (CCAi) framework.",
+      "cn": ""
+    },
+    {
+      "id": "t71",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a.button",
+      "en": "IOI Group: Climate Change Action Initiative (CCAi) ->",
+      "cn": ""
+    },
+    {
+      "id": "t72",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
+      "en": "Sustainability Projects",
+      "cn": ""
+    },
+    {
+      "id": "t73",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
+      "en": "Reducing greenhouse gas emissions is central to our sustainability strategy. We're implementing targeted projects through energy optimization, heat recovery and efficient technologies to lower consumption and reduce fossil fuel reliance.",
+      "cn": ""
+    },
+    {
+      "id": "t74",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
+      "en": "Cogeneration",
+      "cn": ""
+    },
+    {
+      "id": "t75",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
+      "en": "Solar energy",
+      "cn": ""
+    },
+    {
+      "id": "t76",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
+      "en": "Water recovery",
+      "cn": ""
+    },
+    {
+      "id": "t77",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
+      "en": "Thermal collectors",
+      "cn": ""
+    },
+    {
+      "id": "t78",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
+      "en": "Press efficiency",
+      "cn": ""
+    },
+    {
+      "id": "t79",
+      "type": "text",
+      "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
+      "en": "Sludge drying",
+      "cn": ""
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Cogeneration power plant improves efficiency",
+      "cn": ""
+    },
+    {
+      "id": "t81",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "With the addition of this 2nd cogeneration power plant with the 1st in 2015, the company will not only reduce the reliance on grid electricity but also achieve an estimated reduction of",
+      "cn": ""
+    },
+    {
+      "id": "t82",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "~9,000 tonnes",
+      "cn": ""
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "of CO",
+      "cn": ""
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "emissions annually when both plants run at full capacity.",
+      "cn": ""
+    },
+    {
+      "id": "t85",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Solar Panels to generate power for self-consumption",
+      "cn": ""
+    },
+    {
+      "id": "t86",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "We have currently installed 3 phases of solar panels across our plants in Prai, where the latest installation is able to generate ~1,900 MWh of clean electricity annually and reduce gas emissions by approximately 1,500 tCO2e each year. With all 3 phases now operational, this would aid in reducing overall greenhouse gas emissions by approximately",
+      "cn": ""
+    },
+    {
+      "id": "t87",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "2,800 tCO₂e",
+      "cn": ""
+    },
+    {
+      "id": "t88",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Condensate recovery for water conservation",
+      "cn": ""
+    },
+    {
+      "id": "t89",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "The condensate recovery project which aims to adapt to water stress, where the steam condensate released from the heating of the storage tank will be reused for plant process application instead of being released to ETP plant for further treatment. This project had helped",
+      "cn": ""
+    },
+    {
+      "id": "t90",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "save ~1500 m",
+      "cn": ""
+    },
+    {
+      "id": "t91",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "of SAJ water",
+      "cn": ""
+    },
+    {
+      "id": "t92",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "and ETP treatment cost.",
+      "cn": ""
+    },
+    {
+      "id": "t93",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Solar thermal heating improves boiler efficiency",
+      "cn": ""
+    },
+    {
+      "id": "t94",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "This installation of solar thermal collector panels aided in the reduction of steam consumption which directly reduces the consumption of natural gas in conventional boiler and carbon emission",
+      "cn": ""
+    },
+    {
+      "id": "t95",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "reduction by",
+      "cn": ""
+    },
+    {
+      "id": "t96",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "~350 tCO2e/year",
+      "cn": ""
+    },
+    {
+      "id": "t97",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "High efficiency Multi Disc Screw Press (MDS)",
+      "cn": ""
+    },
+    {
+      "id": "t98",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "The installation of the Multi Disc Screw Press (MDS) improved the overall sludge generation process and also aided in substantial energy savings which resulted in a",
+      "cn": ""
+    },
+    {
+      "id": "t99",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "6-fold increase",
+      "cn": ""
+    },
+    {
+      "id": "t100",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "in sludge production and a",
+      "cn": ""
+    },
+    {
+      "id": "t101",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "42% reduction",
+      "cn": ""
+    },
+    {
+      "id": "t102",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "in energy consumption and GHG emissions compared to the old unit.",
+      "cn": ""
+    },
+    {
+      "id": "t103",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Sludge dryer reduces waste",
+      "cn": ""
+    },
+    {
+      "id": "t104",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "The commissioning of this particular sludge dryer was able to reduce bio sludge quantity by reducing its moisture content by",
+      "cn": ""
+    },
+    {
+      "id": "t105",
+      "type": "text",
+      "context": "div.layout505_tab-content-top > p > strong",
+      "en": "~70%.",
+      "cn": ""
+    },
+    {
+      "id": "t106",
+      "type": "text",
+      "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
+      "en": "This in turn also aided in the reduction of high cost of disposal as SW204.",
+      "cn": ""
+    },
+    {
+      "id": "t107",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies",
+      "cn": ""
+    },
+    {
+      "id": "t108",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
+      "cn": ""
+    },
+    {
+      "id": "t109",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us",
+      "cn": ""
+    },
+    {
+      "id": "t110",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications",
+      "cn": ""
+    },
+    {
+      "id": "t111",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product",
+      "cn": ""
+    },
+    {
+      "id": "t112",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us",
+      "cn": ""
+    },
+    {
+      "id": "t113",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t114",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t115",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t116",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t117",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA",
+      "cn": ""
+    },
+    {
+      "id": "t118",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer",
+      "cn": ""
+    },
+    {
+      "id": "t119",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©",
+      "cn": ""
+    },
+    {
+      "id": "t120",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
+      "cn": ""
+    }
+  ]
+}

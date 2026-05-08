@@ -1,0 +1,31 @@
+{
+  "file": "en/detail_job-listing.html",
+  "extracted_at": "2026-05-08T00:32:04.294Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "| Careers at IOI Oleochemical"
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Join IOI Oleochemical as a . Explore this career opportunity and become part of a world-class global oleochemical team."
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Job Listings | Careers at IOI Oleochemical"
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Join IOI Oleochemical as a professional. Explore this career opportunity and become part of a world-class global oleochemical team."
+    }
+  ]
+}

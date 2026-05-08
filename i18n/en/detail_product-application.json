@@ -1,0 +1,31 @@
+{
+  "file": "en/detail_product-application.html",
+  "extracted_at": "2026-05-08T00:32:04.299Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "| IOI Oleochemical Applications"
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Discover IOI Oleochemical's  product applications."
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Product Applications | IOI Oleochemical Applications"
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Discover IOI Oleochemical's product applications for diverse industries."
+    }
+  ]
+}

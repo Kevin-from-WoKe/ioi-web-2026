@@ -1,0 +1,31 @@
+{
+  "file": "en/detail_milestone.html",
+  "extracted_at": "2026-05-08T00:32:04.296Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "| IOI Oleochemical Milestones"
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Explore a key milestone in IOI Oleochemical's history:  — a pivotal moment in our journey as a global oleochemical leader."
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Milestones | IOI Oleochemical Milestones"
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Explore a key milestone in IOI Oleochemical's history — a pivotal moment in our journey as a global oleochemical leader."
+    }
+  ]
+}

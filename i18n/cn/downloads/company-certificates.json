@@ -1,0 +1,967 @@
+{
+  "file": "en/downloads/company-certificates.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.319Z",
+  "total": 137,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Company Certificates | IOI Oleochemical Downloads",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Download IOI Oleochemical's official company certificates including ISO, RSPO, ISCC, HACCP, MSPO, and GMP compliance documentation.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Company Certificates | IOI Oleochemical Downloads",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Download IOI Oleochemical's official company certificates including ISO, RSPO, ISCC, HACCP, MSPO, and GMP compliance documentation.",
+      "cn": ""
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
+      "cn": ""
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products",
+      "cn": ""
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->",
+      "cn": ""
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->",
+      "cn": ""
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us",
+      "cn": ""
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones",
+      "cn": ""
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices",
+      "cn": ""
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards",
+      "cn": ""
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us",
+      "cn": ""
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate",
+      "cn": ""
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability",
+      "cn": ""
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare",
+      "cn": ""
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events",
+      "cn": ""
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中",
+      "cn": ""
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire",
+      "cn": ""
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.text-align-center > div.margin-bottom > h2.heading-style-h2",
+      "en": "Browse our credentials",
+      "cn": ""
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.margin-bottom > div.text-align-center > p.text-size-medium",
+      "en": "Download certificates directly below",
+      "cn": ""
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "context": "div.category-filter-menu > a.category-filter-link > div",
+      "en": "Company A",
+      "cn": ""
+    },
+    {
+      "id": "t30",
+      "type": "text",
+      "context": "div.category-filter-menu > a.category-filter-link > div",
+      "en": "Company B",
+      "cn": ""
+    },
+    {
+      "id": "t31",
+      "type": "text",
+      "context": "div.category-filter-menu > a.category-filter-link > div",
+      "en": "Company C",
+      "cn": ""
+    },
+    {
+      "id": "t32",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "ISO 9001",
+      "cn": ""
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Quality management",
+      "cn": ""
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "RSPO certified",
+      "cn": ""
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Sustainable sourcing",
+      "cn": ""
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Environmental",
+      "cn": ""
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "ISO 9001",
+      "cn": ""
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Quality management",
+      "cn": ""
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t45",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t46",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "RSPO certified",
+      "cn": ""
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Sustainable sourcing",
+      "cn": ""
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Environmental",
+      "cn": ""
+    },
+    {
+      "id": "t49",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "RSPO certified",
+      "cn": ""
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Sustainable sourcing",
+      "cn": ""
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Environmental",
+      "cn": ""
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "ISO 9001",
+      "cn": ""
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Quality management",
+      "cn": ""
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "RSPO certified",
+      "cn": ""
+    },
+    {
+      "id": "t60",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Sustainable sourcing",
+      "cn": ""
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Environmental",
+      "cn": ""
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "RSPO certified",
+      "cn": ""
+    },
+    {
+      "id": "t64",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Sustainable sourcing",
+      "cn": ""
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Environmental",
+      "cn": ""
+    },
+    {
+      "id": "t66",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t67",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "ISO 9001",
+      "cn": ""
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Quality management",
+      "cn": ""
+    },
+    {
+      "id": "t69",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t70",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t71",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t72",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "ISO 9001",
+      "cn": ""
+    },
+    {
+      "id": "t73",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Quality management",
+      "cn": ""
+    },
+    {
+      "id": "t74",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t75",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t76",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t77",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "ISO 14001",
+      "cn": ""
+    },
+    {
+      "id": "t78",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Environmental management",
+      "cn": ""
+    },
+    {
+      "id": "t79",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Environmental",
+      "cn": ""
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t81",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Issued 2023",
+      "cn": ""
+    },
+    {
+      "id": "t82",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "FSSC 22000",
+      "cn": ""
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Food safety systems",
+      "cn": ""
+    },
+    {
+      "id": "t85",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t86",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t87",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "HALAL certified",
+      "cn": ""
+    },
+    {
+      "id": "t88",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Halal compliance",
+      "cn": ""
+    },
+    {
+      "id": "t89",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t90",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t91",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "GMP certified",
+      "cn": ""
+    },
+    {
+      "id": "t92",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Good manufacturing practice",
+      "cn": ""
+    },
+    {
+      "id": "t93",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Quality",
+      "cn": ""
+    },
+    {
+      "id": "t94",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Safety",
+      "cn": ""
+    },
+    {
+      "id": "t95",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t96",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "MSDS available",
+      "cn": ""
+    },
+    {
+      "id": "t97",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Material safety data",
+      "cn": ""
+    },
+    {
+      "id": "t98",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Environmental",
+      "cn": ""
+    },
+    {
+      "id": "t99",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t100",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "CoC certified",
+      "cn": ""
+    },
+    {
+      "id": "t101",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Chain of custody",
+      "cn": ""
+    },
+    {
+      "id": "t102",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Environmental",
+      "cn": ""
+    },
+    {
+      "id": "t103",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Download",
+      "cn": ""
+    },
+    {
+      "id": "t104",
+      "type": "text",
+      "context": "div.text-align-center > div.margin-bottom > h2.heading-style-h2",
+      "en": "Browse our credentials",
+      "cn": ""
+    },
+    {
+      "id": "t105",
+      "type": "text",
+      "context": "div.margin-bottom > div.text-align-center > p.text-size-medium",
+      "en": "Download certificates directly below",
+      "cn": ""
+    },
+    {
+      "id": "t106",
+      "type": "text",
+      "context": "div.filters5_filter-group > div.filters5_item-text-wrapper > div",
+      "en": "Company",
+      "cn": ""
+    },
+    {
+      "id": "t107",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t108",
+      "type": "text",
+      "context": "div.dropdown2_component > div.dropdown2_toggle > div",
+      "en": "Select a company",
+      "cn": ""
+    },
+    {
+      "id": "t109",
+      "type": "text",
+      "context": "div.filters5_filter-group > div.filters5_item-text-wrapper > div",
+      "en": "Certificate category",
+      "cn": ""
+    },
+    {
+      "id": "t110",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t111",
+      "type": "text",
+      "context": "div.dropdown2_component > div.dropdown2_toggle > div",
+      "en": "Select a category",
+      "cn": ""
+    },
+    {
+      "id": "t112",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "ISO",
+      "cn": ""
+    },
+    {
+      "id": "t113",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "EFfCI",
+      "cn": ""
+    },
+    {
+      "id": "t114",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "HACCP/GMP",
+      "cn": ""
+    },
+    {
+      "id": "t115",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "RSPO SCCS",
+      "cn": ""
+    },
+    {
+      "id": "t116",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "MSPO SCCS",
+      "cn": ""
+    },
+    {
+      "id": "t117",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "ISCC EU",
+      "cn": ""
+    },
+    {
+      "id": "t118",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "GMP for API",
+      "cn": ""
+    },
+    {
+      "id": "t119",
+      "type": "text",
+      "context": "div.filters5_tags-wrapper > div.filters5_tag > div",
+      "en": "Tag",
+      "cn": ""
+    },
+    {
+      "id": "t120",
+      "type": "text",
+      "context": "div.filters5_feed-header-bottom > div.filters5_results-wrapper > div.filters5_results-text",
+      "en": "Showing",
+      "cn": ""
+    },
+    {
+      "id": "t121",
+      "type": "text",
+      "context": "div.filters5_feed-header-bottom > div.filters5_results-wrapper > div.filters5_results-text",
+      "en": "of",
+      "cn": ""
+    },
+    {
+      "id": "t122",
+      "type": "text",
+      "context": "div.filters5_empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": ""
+    },
+    {
+      "id": "t123",
+      "type": "text",
+      "context": "div#w-node-_0780c44c-61a6-c470-af8d-21e8d9755698-84044d33 > div.filters5_empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": ""
+    },
+    {
+      "id": "t124",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies",
+      "cn": ""
+    },
+    {
+      "id": "t125",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
+      "cn": ""
+    },
+    {
+      "id": "t126",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us",
+      "cn": ""
+    },
+    {
+      "id": "t127",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications",
+      "cn": ""
+    },
+    {
+      "id": "t128",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product",
+      "cn": ""
+    },
+    {
+      "id": "t129",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us",
+      "cn": ""
+    },
+    {
+      "id": "t130",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t131",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t132",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t133",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t134",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA",
+      "cn": ""
+    },
+    {
+      "id": "t135",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer",
+      "cn": ""
+    },
+    {
+      "id": "t136",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©",
+      "cn": ""
+    },
+    {
+      "id": "t137",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
+      "cn": ""
+    }
+  ]
+}

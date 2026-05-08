@@ -1,0 +1,1373 @@
+{
+  "file": "en/downloads/product-certificates.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.328Z",
+  "total": 195,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Product Certificates | IOI Oleochemical Downloads",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Access and download IOI Oleochemical's product certification documents including Halal, Kosher, ECOCERT certifications and safety data sheets.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Product Certificates | IOI Oleochemical Downloads",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Access and download IOI Oleochemical's product certification documents including Halal, Kosher, ECOCERT certifications and safety data sheets.",
+      "cn": ""
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
+      "cn": ""
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products",
+      "cn": ""
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->",
+      "cn": ""
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->",
+      "cn": ""
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us",
+      "cn": ""
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones",
+      "cn": ""
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices",
+      "cn": ""
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards",
+      "cn": ""
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us",
+      "cn": ""
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate",
+      "cn": ""
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability",
+      "cn": ""
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare",
+      "cn": ""
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events",
+      "cn": ""
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中",
+      "cn": ""
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire",
+      "cn": ""
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.text-align-center > div.margin-bottom > h2.heading-style-h2",
+      "en": "Find your product",
+      "cn": ""
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.margin-bottom > div.text-align-center > p.text-size-medium",
+      "en": "Use advanced filters to locate the right IOI Oleochemical product for your needs",
+      "cn": ""
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Personal care",
+      "cn": ""
+    },
+    {
+      "id": "t30",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Home care products",
+      "cn": ""
+    },
+    {
+      "id": "t31",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t32",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "High-purity fatty acids suitable for cosmetics and skincare formulations.",
+      "cn": ""
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Food-grade glycerine meeting international safety and quality standards.",
+      "cn": ""
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Personal care",
+      "cn": ""
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Home care products",
+      "cn": ""
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "High-purity fatty acids suitable for cosmetics and skincare formulations.",
+      "cn": ""
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Food-grade glycerine meeting international safety and quality standards.",
+      "cn": ""
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Food grade",
+      "cn": ""
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Pharmaceutical grade",
+      "cn": ""
+    },
+    {
+      "id": "t45",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t46",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Reliable soap noodles engineered for detergent and cleaning product manufacturing.",
+      "cn": ""
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Pharmaceutical-grade esters meeting strict regulatory and purity requirements.",
+      "cn": ""
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Learn",
+      "cn": ""
+    },
+    {
+      "id": "t49",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Personal care",
+      "cn": ""
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Home care products",
+      "cn": ""
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "High-purity fatty acids suitable for cosmetics and skincare formulations.",
+      "cn": ""
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Food-grade glycerine meeting international safety and quality standards.",
+      "cn": ""
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Industrial use",
+      "cn": ""
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t60",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Soap noodles",
+      "cn": ""
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Food grade",
+      "cn": ""
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Pharmaceutical grade",
+      "cn": ""
+    },
+    {
+      "id": "t64",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Reliable soap noodles engineered for detergent and cleaning product manufacturing.",
+      "cn": ""
+    },
+    {
+      "id": "t66",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Pharmaceutical-grade esters meeting strict regulatory and purity requirements.",
+      "cn": ""
+    },
+    {
+      "id": "t67",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Learn",
+      "cn": ""
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Food grade",
+      "cn": ""
+    },
+    {
+      "id": "t69",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Pharmaceutical grade",
+      "cn": ""
+    },
+    {
+      "id": "t70",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t71",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Reliable soap noodles engineered for detergent and cleaning product manufacturing.",
+      "cn": ""
+    },
+    {
+      "id": "t72",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Pharmaceutical-grade esters meeting strict regulatory and purity requirements.",
+      "cn": ""
+    },
+    {
+      "id": "t73",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Learn",
+      "cn": ""
+    },
+    {
+      "id": "t74",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Industrial use",
+      "cn": ""
+    },
+    {
+      "id": "t75",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t76",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t77",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t78",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Soap noodles",
+      "cn": ""
+    },
+    {
+      "id": "t79",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Industrial use",
+      "cn": ""
+    },
+    {
+      "id": "t81",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t82",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Soap noodles",
+      "cn": ""
+    },
+    {
+      "id": "t85",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t86",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Industrial use",
+      "cn": ""
+    },
+    {
+      "id": "t87",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t88",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t89",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t90",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Soap noodles",
+      "cn": ""
+    },
+    {
+      "id": "t91",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t92",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Specialty chemicals",
+      "cn": ""
+    },
+    {
+      "id": "t93",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "Food nutrition",
+      "cn": ""
+    },
+    {
+      "id": "t94",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t95",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t96",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Custom and specialised formulations developed for demanding industrial applications.",
+      "cn": ""
+    },
+    {
+      "id": "t97",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Proven performance in household cleaning and laundry products worldwide.",
+      "cn": ""
+    },
+    {
+      "id": "t98",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Learn",
+      "cn": ""
+    },
+    {
+      "id": "t99",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Pharmaceutical",
+      "cn": ""
+    },
+    {
+      "id": "t100",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t101",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t102",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t103",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "ISO certified",
+      "cn": ""
+    },
+    {
+      "id": "t104",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t105",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "RSPO approved",
+      "cn": ""
+    },
+    {
+      "id": "t106",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t107",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t108",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t109",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "High purity",
+      "cn": ""
+    },
+    {
+      "id": "t110",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Learn",
+      "cn": ""
+    },
+    {
+      "id": "t111",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Natural origin",
+      "cn": ""
+    },
+    {
+      "id": "t112",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t113",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Online",
+      "cn": ""
+    },
+    {
+      "id": "t114",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t115",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t116",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Sustainable sourced",
+      "cn": ""
+    },
+    {
+      "id": "t117",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t118",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Regulatory compliant",
+      "cn": ""
+    },
+    {
+      "id": "t119",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t120",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t121",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t122",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Custom formulations",
+      "cn": ""
+    },
+    {
+      "id": "t123",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "Learn",
+      "cn": ""
+    },
+    {
+      "id": "t124",
+      "type": "text",
+      "context": "div.event32_list > div.event32_item > div.text-size-large",
+      "en": "Performance tested",
+      "cn": ""
+    },
+    {
+      "id": "t125",
+      "type": "text",
+      "context": "div.event32_item-content > div.event32_item-title > div.heading-style-h5",
+      "en": "In-person",
+      "cn": ""
+    },
+    {
+      "id": "t126",
+      "type": "text",
+      "context": "div.event32_tag-list > div.tag > div",
+      "en": "Speaker",
+      "cn": ""
+    },
+    {
+      "id": "t127",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Location",
+      "cn": ""
+    },
+    {
+      "id": "t128",
+      "type": "text",
+      "context": "div.event32_item > div.event32_item-content > div",
+      "en": "Technical support",
+      "cn": ""
+    },
+    {
+      "id": "t129",
+      "type": "text",
+      "context": "div.event32_item > div.button-group > a.button",
+      "en": "View",
+      "cn": ""
+    },
+    {
+      "id": "t130",
+      "type": "text",
+      "context": "div.text-align-center > div.margin-bottom > h2.heading-style-h2",
+      "en": "Product certificates",
+      "cn": ""
+    },
+    {
+      "id": "t131",
+      "type": "text",
+      "context": "div.margin-bottom > div.text-align-center > p.text-size-medium",
+      "en": "Our products are well-certified across KOSHER, HALAL and ECOCERT.",
+      "cn": ""
+    },
+    {
+      "id": "t132",
+      "type": "text",
+      "context": "div.margin-bottom > div.text-align-center > p.text-size-medium",
+      "en": "Select a certificate type:",
+      "cn": ""
+    },
+    {
+      "id": "t133",
+      "type": "attr:alt",
+      "context": "div.filters5_category-menu > a.filters5_menu-link > img.image",
+      "en": "Kosher certification logo with a 'K' inside a circle next to the words KOSHER CERTIFICATION.",
+      "cn": ""
+    },
+    {
+      "id": "t134",
+      "type": "text",
+      "context": "div.filters5_category-menu > a.filters5_menu-link > div.text-size-small",
+      "en": "KOSHER",
+      "cn": ""
+    },
+    {
+      "id": "t135",
+      "type": "attr:alt",
+      "context": "div.filters5_category-menu > a.filters5_menu-link > img.image",
+      "en": "Malaysia Halal certification logo with Arabic text inside an eight-point star and 'MALAYSIA' written around the circle.",
+      "cn": ""
+    },
+    {
+      "id": "t136",
+      "type": "text",
+      "context": "div.filters5_category-menu > a.filters5_menu-link > div.text-size-small",
+      "en": "HALAL",
+      "cn": ""
+    },
+    {
+      "id": "t137",
+      "type": "attr:alt",
+      "context": "div.filters5_category-menu > a.filters5_menu-link > img.image",
+      "en": "Ecocert certification logo with red text inside a red oval outline on a transparent background.",
+      "cn": ""
+    },
+    {
+      "id": "t138",
+      "type": "text",
+      "context": "div.filters5_category-menu > a.filters5_menu-link > div.text-size-small",
+      "en": "ECOCERT",
+      "cn": ""
+    },
+    {
+      "id": "t139",
+      "type": "text",
+      "context": "div.filters5_item > div.filters5_item-text-wrapper > div",
+      "en": "Search",
+      "cn": ""
+    },
+    {
+      "id": "t140",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t141",
+      "type": "attr:placeholder",
+      "context": "div.filters5_item > div.filters5_keyword-search > input#field-4",
+      "en": "Product grading name",
+      "cn": ""
+    },
+    {
+      "id": "t142",
+      "type": "text",
+      "context": "div.filters5_filter-group > div.filters5_item-text-wrapper > div",
+      "en": "Product family",
+      "cn": ""
+    },
+    {
+      "id": "t143",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t144",
+      "type": "text",
+      "context": "div.dropdown2_component > div.dropdown2_toggle > div",
+      "en": "Select one",
+      "cn": ""
+    },
+    {
+      "id": "t145",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Palmac® Fatty acids and Glycerine",
+      "cn": ""
+    },
+    {
+      "id": "t146",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Palmsurf® Fatty Esters",
+      "cn": ""
+    },
+    {
+      "id": "t147",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Palmsabun® Soap Noodles",
+      "cn": ""
+    },
+    {
+      "id": "t148",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Processed Palm Oil and Fractions",
+      "cn": ""
+    },
+    {
+      "id": "t149",
+      "type": "text",
+      "context": "div.filters5_filter-group > div.filters5_item-text-wrapper > div",
+      "en": "Company",
+      "cn": ""
+    },
+    {
+      "id": "t150",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t151",
+      "type": "text",
+      "context": "div.dropdown2_component > div.dropdown2_toggle > div",
+      "en": "Select one",
+      "cn": ""
+    },
+    {
+      "id": "t152",
+      "type": "text",
+      "context": "div.filters5_tags-wrapper > div.filters5_tag > div",
+      "en": "Tag",
+      "cn": ""
+    },
+    {
+      "id": "t153",
+      "type": "text",
+      "context": "div.filters5_empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": ""
+    },
+    {
+      "id": "t154",
+      "type": "text",
+      "context": "div#w-node-f538d490-7874-7261-f80e-b8032121aea3-93a89dec > div.filters5_empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": ""
+    },
+    {
+      "id": "t155",
+      "type": "text",
+      "context": "div.filters5_filter-group > div.filters5_item-text-wrapper > div",
+      "en": "Product family",
+      "cn": ""
+    },
+    {
+      "id": "t156",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t157",
+      "type": "text",
+      "context": "div.dropdown2_component > div.dropdown2_toggle > div",
+      "en": "Select one",
+      "cn": ""
+    },
+    {
+      "id": "t158",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Palmac® Fatty acids and Glycerine",
+      "cn": ""
+    },
+    {
+      "id": "t159",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Palmsurf® Fatty Esters",
+      "cn": ""
+    },
+    {
+      "id": "t160",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Palmsabun® Soap Noodles",
+      "cn": ""
+    },
+    {
+      "id": "t161",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Processed Palm Oil and Fractions",
+      "cn": ""
+    },
+    {
+      "id": "t162",
+      "type": "text",
+      "context": "div.filters5_filter-group > div.filters5_item-text-wrapper > div",
+      "en": "Company",
+      "cn": ""
+    },
+    {
+      "id": "t163",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t164",
+      "type": "text",
+      "context": "div.dropdown2_component > div.dropdown2_toggle > div",
+      "en": "Select one",
+      "cn": ""
+    },
+    {
+      "id": "t165",
+      "type": "text",
+      "context": "div.filters5_tags-wrapper > div.filters5_tag > div",
+      "en": "Tag",
+      "cn": ""
+    },
+    {
+      "id": "t166",
+      "type": "text",
+      "context": "div.filters5_empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": ""
+    },
+    {
+      "id": "t167",
+      "type": "text",
+      "context": "div#w-node-_941e34ea-5cbf-8e04-a228-1fe667d13237-93a89dec > div.filters5_empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": ""
+    },
+    {
+      "id": "t168",
+      "type": "text",
+      "context": "div.filters5_filter-group > div.filters5_item-text-wrapper > div",
+      "en": "Product family",
+      "cn": ""
+    },
+    {
+      "id": "t169",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t170",
+      "type": "text",
+      "context": "div.dropdown2_component > div.dropdown2_toggle > div",
+      "en": "Select one",
+      "cn": ""
+    },
+    {
+      "id": "t171",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Glycerine",
+      "cn": ""
+    },
+    {
+      "id": "t172",
+      "type": "text",
+      "context": "div.filters5_item > label.w-checkbox > span.filters5_form-checkbox1-label",
+      "en": "Palmsurf® Fatty Esters",
+      "cn": ""
+    },
+    {
+      "id": "t173",
+      "type": "text",
+      "context": "div.filters5_filter-group > div.filters5_item-text-wrapper > div",
+      "en": "Company",
+      "cn": ""
+    },
+    {
+      "id": "t174",
+      "type": "text",
+      "context": "div.filters5_item-text-wrapper > a.button > div.text-size-small-3",
+      "en": "Clear",
+      "cn": ""
+    },
+    {
+      "id": "t175",
+      "type": "text",
+      "context": "div.dropdown2_component > div.dropdown2_toggle > div",
+      "en": "Select one",
+      "cn": ""
+    },
+    {
+      "id": "t176",
+      "type": "text",
+      "context": "div.filters5_tags-wrapper > div.filters5_tag > div",
+      "en": "Tag",
+      "cn": ""
+    },
+    {
+      "id": "t177",
+      "type": "text",
+      "context": "div.filters5_empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": ""
+    },
+    {
+      "id": "t178",
+      "type": "text",
+      "context": "div#w-node-f79789d3-956b-51ea-aff6-193b619401c3-93a89dec > div.filters5_empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": ""
+    },
+    {
+      "id": "t179",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
+      "en": "Still searching?",
+      "cn": ""
+    },
+    {
+      "id": "t180",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
+      "en": "Describe your requirements and we'll get you to the right solution fast.",
+      "cn": ""
+    },
+    {
+      "id": "t181",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a.button",
+      "en": "Enquire",
+      "cn": ""
+    },
+    {
+      "id": "t182",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies",
+      "cn": ""
+    },
+    {
+      "id": "t183",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
+      "cn": ""
+    },
+    {
+      "id": "t184",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us",
+      "cn": ""
+    },
+    {
+      "id": "t185",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications",
+      "cn": ""
+    },
+    {
+      "id": "t186",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product",
+      "cn": ""
+    },
+    {
+      "id": "t187",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us",
+      "cn": ""
+    },
+    {
+      "id": "t188",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t189",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t190",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t191",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t192",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA",
+      "cn": ""
+    },
+    {
+      "id": "t193",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer",
+      "cn": ""
+    },
+    {
+      "id": "t194",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©",
+      "cn": ""
+    },
+    {
+      "id": "t195",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
+      "cn": ""
+    }
+  ]
+}

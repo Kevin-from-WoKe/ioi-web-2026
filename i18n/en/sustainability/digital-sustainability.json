@@ -1,0 +1,361 @@
+{
+  "file": "en/sustainability/digital-sustainability.html",
+  "extracted_at": "2026-05-08T00:32:04.361Z",
+  "total": 59,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Digital Sustainability | IOI Oleochemical"
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Discover how IOI Oleochemical leverages digital innovation and technology to enhance operational efficiency and advance sustainable business practices."
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Digital Sustainability | IOI Oleochemical"
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Discover how IOI Oleochemical leverages digital innovation and technology to enhance operational efficiency and advance sustainable business practices."
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text."
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products"
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->"
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us"
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices"
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards"
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us"
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability"
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate"
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability"
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability"
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare"
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events"
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates"
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中"
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire"
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
+      "en": "Digital sustainability in action"
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
+      "en": "Technology drives our environmental progress. Real-time monitoring and data analytics track energy use, emissions and resource consumption. We respond quickly to deviations and improve operations continuously. Our ESDE system and robotic process automation in oleo plants starting 2025 demonstrate our sustainability commitment."
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > h2.heading-style-h2",
+      "en": "Sustainability data management platforms"
+    },
+    {
+      "id": "t30",
+      "type": "text",
+      "context": "div.layout519_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "ESDE system tracks our impact"
+    },
+    {
+      "id": "t31",
+      "type": "text",
+      "context": "div.layout519_card-content > div.layout519_card-content-top > p",
+      "en": "A web-based platform that tracks and drives employees' and organisational sustainability performance. It centralizes large volumes of data for real-time KPI monitoring, delivering clear insights to guide strategic action and goal achievement ."
+    },
+    {
+      "id": "t32",
+      "type": "text",
+      "context": "div.layout519_card-content > div.layout519_card-content-top > p",
+      "en": "By connecting users across 6 global facilities, it ensures alignment, transparency, and data-driven progress."
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "context": "div.layout519_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "IOI ESG platform measures progress"
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "context": "div.layout519_card-content > div.layout519_card-content-top > p",
+      "en": "A Digitalisation Platform centralises sustainability data with real-time tracking and analysis. Integrated with Systems, Applications, and Products in Data Processing (SAP), it enhances transparency, accuracy, and auditability."
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.layout519_card-content > div.layout519_card-content-top > p",
+      "en": "The platform supports compliance with key frameworks such as ISSB and GRI, while enabling IOl to track, monitor, and manage its decarbonisation pathway."
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > h2.heading-style-h2",
+      "en": "Operational efficiency"
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.layout520_card-content-top > div.margin-bottom > h3.heading-style-h4",
+      "en": "Realtime Production Organizer - Operation Management (RPO-OM)"
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.layout520_card-content > div.layout520_card-content-top > p",
+      "en": "An integrated collection of technologies that provides a two-way communication between the operation data generated on the shop floor and the software systems used by plant management to assist the plant operation and management personnel by facilitating the sharing of plant information including unusual events, work progress, work flow, log sheet and others. By digitalizing and standardizing of how these data and info is handled, it can help the plant personnel to carry out their routine work correctly, safely and efficiently. This results in improved productivity through standardized work practices, streamlined processes, plus improved communications and coordination across departments."
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.layout520_card-content-top > div.margin-bottom > h3.heading-style-h4",
+      "en": "AI cooling towers cut energy waste"
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div.layout520_card-content > div.layout520_card-content-top > p",
+      "en": "Developed to adapt to fluctuating demand, optimize performance and continuously improve through machine learning."
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.layout520_card-content-top > div.margin-bottom > h3.heading-style-h4",
+      "en": "Robots handle repetitive production tasks"
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div.layout520_card-content > div.layout520_card-content-top > p",
+      "en": "To streamline operations through real-time monitoring and automation, enabling timely machinery repairs via predictive maintenance."
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.text-align-center > div.max-width-large > h2.heading-style-h2",
+      "en": "Energy systems and modelling"
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "context": "div.layout519_card-content-top > div.margin-bottom > h3.heading-style-h3",
+      "en": "Energy Management System (EMS)"
+    },
+    {
+      "id": "t45",
+      "type": "text",
+      "context": "div.layout519_card-content > div.layout519_card-content-top > p",
+      "en": "A tool which can calculate the energy indicators on a real time basis & monitor energy consumption at each plant. This system will be able to show deviations with respect to targets at each plant by comparing current value against set targets. Above all, the system will be able to alert for any big changes in consumption in the plants. The current features proposed for EMS includes monitoring of the energy consumption and distribution to the plant, real-time energy data analytics & historical reporting for whole company."
+    },
+    {
+      "id": "t46",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies"
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly."
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us"
+    },
+    {
+      "id": "t49",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications"
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product"
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us"
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA"
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer"
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©"
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved"
+    }
+  ]
+}

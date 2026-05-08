@@ -1,0 +1,14 @@
+{
+  "name": "ioi-i18n-tools",
+  "version": "1.0.0",
+  "description": "Extract & rebuild localized HTML pages",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "extract": "node extract.mjs",
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0"
+  }
+}

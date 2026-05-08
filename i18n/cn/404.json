@@ -1,0 +1,43 @@
+{
+  "file": "en/404.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.241Z",
+  "total": 5,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Not Found",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Not Found",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "attr:alt",
+      "context": "div.utility_component > div.utility_form-block > img._404_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "context": "div.utility_component > div.utility_form-block > h3",
+      "en": "Page not found",
+      "cn": ""
+    },
+    {
+      "id": "t5",
+      "type": "text",
+      "context": "div.utility_component > div.utility_form-block > a.button",
+      "en": "Return to homepage",
+      "cn": ""
+    }
+  ]
+}

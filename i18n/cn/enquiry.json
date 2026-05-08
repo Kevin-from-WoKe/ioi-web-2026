@@ -1,0 +1,624 @@
+{
+  "file": "en/enquiry.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.332Z",
+  "total": 88,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Contact IOI Oleochemical | Get in Touch",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Have a question? Contact IOI Oleochemical for product enquiries, partnership opportunities, technical support, and business collaboration worldwide.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Contact IOI Oleochemical | Get in Touch",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Have a question? Contact IOI Oleochemical for product enquiries, partnership opportunities, technical support, and business collaboration worldwide.",
+      "cn": ""
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
+      "cn": ""
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products",
+      "cn": ""
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->",
+      "cn": ""
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->",
+      "cn": ""
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us",
+      "cn": ""
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones",
+      "cn": ""
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices",
+      "cn": ""
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards",
+      "cn": ""
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us",
+      "cn": ""
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate",
+      "cn": ""
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability",
+      "cn": ""
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare",
+      "cn": ""
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events",
+      "cn": ""
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中",
+      "cn": ""
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire",
+      "cn": ""
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.contact6_heading-wrapper > div.margin-bottom > h2.heading-style-h2",
+      "en": "Reach our team",
+      "cn": ""
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.margin-bottom > div.contact6_heading-wrapper > p.text-size-small",
+      "en": "Please describe your needs. We will direct your enquiry to the appropriate specialists who can assist you.",
+      "cn": ""
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "context": "div#w-node-e12b5e51-3c96-be7a-c569-21b627f5922c-2b5778d1 > div.text-weight-medium > span.text-style-muted",
+      "en": "|",
+      "cn": ""
+    },
+    {
+      "id": "t30",
+      "type": "text",
+      "context": "div.contact6_contact-list > div#w-node-e12b5e51-3c96-be7a-c569-21b627f5922c-2b5778d1 > div.text-weight-medium",
+      "en": "Penang Malaysia",
+      "cn": ""
+    },
+    {
+      "id": "t31",
+      "type": "text",
+      "context": "div#w-node-e3b402a4-34d9-672d-0263-0f2837b122f5-2b5778d1 > div.text-weight-medium > span.text-style-muted",
+      "en": "|",
+      "cn": ""
+    },
+    {
+      "id": "t32",
+      "type": "text",
+      "context": "div.contact6_contact-list > div#w-node-e3b402a4-34d9-672d-0263-0f2837b122f5-2b5778d1 > div.text-weight-medium",
+      "en": "Penang Malaysia",
+      "cn": ""
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "context": "div#w-node-dfddcebb-bc14-beb7-22a7-c716b2077f5b-2b5778d1 > div.text-weight-medium > span.text-style-muted",
+      "en": "|",
+      "cn": ""
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "context": "div.contact6_contact-list > div#w-node-dfddcebb-bc14-beb7-22a7-c716b2077f5b-2b5778d1 > div.text-weight-medium",
+      "en": "Johor Malaysia",
+      "cn": ""
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.contact6_contact-list > div#w-node-_4215c048-738c-93aa-5057-460b45282d63-2b5778d1 > div.text-weight-medium",
+      "en": "ACIDCHEM (USA) INC.",
+      "cn": ""
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div#w-node-_4215c048-738c-93aa-5057-460b45282d63-2b5778d1 > div.text-weight-medium > span.text-style-muted",
+      "en": "|",
+      "cn": ""
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.contact6_contact-list > div#w-node-_4215c048-738c-93aa-5057-460b45282d63-2b5778d1 > div.text-weight-medium",
+      "en": "New Jersey USA",
+      "cn": ""
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
+      "en": "Name",
+      "cn": ""
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
+      "en": "*",
+      "cn": ""
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
+      "en": "Company",
+      "cn": ""
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
+      "en": "*",
+      "cn": ""
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
+      "en": "City",
+      "cn": ""
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
+      "en": "Country",
+      "cn": ""
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
+      "en": "*",
+      "cn": ""
+    },
+    {
+      "id": "t45",
+      "type": "text",
+      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
+      "en": "Email",
+      "cn": ""
+    },
+    {
+      "id": "t46",
+      "type": "text",
+      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
+      "en": "*",
+      "cn": ""
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
+      "en": "Phone number",
+      "cn": ""
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
+      "en": "*",
+      "cn": ""
+    },
+    {
+      "id": "t49",
+      "type": "text",
+      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
+      "en": "What is your enquiry about?",
+      "cn": ""
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
+      "en": "Product sourcing",
+      "cn": ""
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
+      "en": "HR inquiries",
+      "cn": ""
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
+      "en": "Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
+      "en": "Others",
+      "cn": ""
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
+      "en": "For what applications? (Select all that apply)",
+      "cn": ""
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": ""
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": ""
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
+      "en": "Select a product (Select all that apply)",
+      "cn": ""
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
+      "en": "Palmac®",
+      "cn": ""
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
+      "en": "Fatty Acids & Glycerine",
+      "cn": ""
+    },
+    {
+      "id": "t60",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
+      "en": "Palmsurf®",
+      "cn": ""
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
+      "en": "Esters",
+      "cn": ""
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
+      "en": "Palmsabun®",
+      "cn": ""
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
+      "en": "Soap Noodles",
+      "cn": ""
+    },
+    {
+      "id": "t64",
+      "type": "text",
+      "context": "div.margin-bottom > div.form_field-wrapper > label.form_field-label",
+      "en": "Message",
+      "cn": ""
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
+      "en": "*",
+      "cn": ""
+    },
+    {
+      "id": "t66",
+      "type": "attr:placeholder",
+      "context": "div.margin-bottom > div.form_field-wrapper > textarea#Message",
+      "en": "\"I'm looking for Product Specification, Product Enquiry or SDS.\"",
+      "cn": ""
+    },
+    {
+      "id": "t67",
+      "type": "attr:data-wait",
+      "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > input#cta-enquiry-submit",
+      "en": "Sending...",
+      "cn": ""
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
+      "en": "This site is protected by reCAPTCHA and the Google",
+      "cn": ""
+    },
+    {
+      "id": "t69",
+      "type": "text",
+      "context": "form#wf-form-Website-Enquiry-Form > p > a",
+      "en": "Privacy Policy",
+      "cn": ""
+    },
+    {
+      "id": "t70",
+      "type": "text",
+      "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
+      "en": "and",
+      "cn": ""
+    },
+    {
+      "id": "t71",
+      "type": "text",
+      "context": "form#wf-form-Website-Enquiry-Form > p > a",
+      "en": "Terms of Service",
+      "cn": ""
+    },
+    {
+      "id": "t72",
+      "type": "text",
+      "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
+      "en": "apply.",
+      "cn": ""
+    },
+    {
+      "id": "t73",
+      "type": "text",
+      "context": "div.form_message-success-wrapper > div.form_message-success > div.success-text",
+      "en": "Your enquiry has been sent successfully.",
+      "cn": ""
+    },
+    {
+      "id": "t74",
+      "type": "text",
+      "context": "div.form_message-error-wrapper > div.form_message-error > div.error-text",
+      "en": "Please check your details and try again.",
+      "cn": ""
+    },
+    {
+      "id": "t75",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies",
+      "cn": ""
+    },
+    {
+      "id": "t76",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalized suggestions directly.",
+      "cn": ""
+    },
+    {
+      "id": "t77",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us",
+      "cn": ""
+    },
+    {
+      "id": "t78",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications",
+      "cn": ""
+    },
+    {
+      "id": "t79",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product",
+      "cn": ""
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us",
+      "cn": ""
+    },
+    {
+      "id": "t81",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t82",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t85",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA",
+      "cn": ""
+    },
+    {
+      "id": "t86",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer",
+      "cn": ""
+    },
+    {
+      "id": "t87",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©",
+      "cn": ""
+    },
+    {
+      "id": "t88",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
+      "cn": ""
+    }
+  ]
+}

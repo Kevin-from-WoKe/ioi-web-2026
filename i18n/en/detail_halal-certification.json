@@ -1,0 +1,31 @@
+{
+  "file": "en/detail_halal-certification.html",
+  "extracted_at": "2026-05-08T00:32:04.293Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Halal Certificate | IOI Oleochemical"
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "IOI Oleochemical's  holds Halal certification, ensuring compliance with Islamic dietary standards for global markets."
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Halal Certificate | IOI Oleochemical"
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "IOI Oleochemical holds Halal certification, ensuring compliance with Islamic dietary standards for global markets."
+    }
+  ]
+}

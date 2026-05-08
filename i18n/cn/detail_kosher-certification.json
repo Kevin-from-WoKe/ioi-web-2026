@@ -1,0 +1,36 @@
+{
+  "file": "en/detail_kosher-certification.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.295Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "Kosher Certificate | IOI Oleochemical",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "IOI Oleochemical's  is Kosher certified, meeting strict dietary standards for food and personal care applications worldwide.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Kosher Certificate | IOI Oleochemical",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "IOI Oleochemical is Kosher certified, meeting strict dietary standards for food and personal care applications worldwide.",
+      "cn": ""
+    }
+  ]
+}

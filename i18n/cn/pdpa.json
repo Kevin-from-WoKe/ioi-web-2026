@@ -1,0 +1,1093 @@
+{
+  "file": "en/pdpa.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.342Z",
+  "total": 155,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "PDPA",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Learn how IOI Oleochemical collects, processes, and protects your personal data. Read our comprehensive PDPA notice covering data security and your rights.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "PDPA | IOI Oleochemical",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Learn how IOI Oleochemical collects, processes, and protects your personal data. Read our comprehensive PDPA notice covering data security and your rights.",
+      "cn": ""
+    },
+    {
+      "id": "t5",
+      "type": "attr:alt",
+      "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
+      "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
+      "cn": ""
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Products",
+      "cn": ""
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
+      "en": "Find a product ->",
+      "cn": ""
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
+      "en": "See all applications ->",
+      "cn": ""
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "About Us",
+      "cn": ""
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Milestones",
+      "cn": ""
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Our Offices",
+      "cn": ""
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Awards",
+      "cn": ""
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Join Us",
+      "cn": ""
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
+      "en": "Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Environment & Climate",
+      "cn": ""
+    },
+    {
+      "id": "t17",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Sourcing & Traceability",
+      "cn": ""
+    },
+    {
+      "id": "t18",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Digital Sustainability",
+      "cn": ""
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Employee Welfare",
+      "cn": ""
+    },
+    {
+      "id": "t20",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
+      "en": "CSR Events",
+      "cn": ""
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
+      "en": "Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t23",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t24",
+      "type": "text",
+      "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t25",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
+      "en": "EN / 中",
+      "cn": ""
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
+      "en": "Enquire",
+      "cn": ""
+    },
+    {
+      "id": "t27",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h2",
+      "en": "Personal Data Protection Notice",
+      "cn": ""
+    },
+    {
+      "id": "t28",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "GENERAL",
+      "cn": ""
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t30",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "We respect your privacy and are committed to protect your personal data. This Personal Data Protection Notice explains how we collect, process, disclose and store your personal data (which would include information that relates directly or indirectly to you and identifies you as an individual) (“Personal Data”) in instances when your Personal Data may be collected during the course of your access and use of our website or during your transaction and dealings with IOI Oleochemical, in accordance with the Malaysian Personal Data Protection Act 2010 (“PDPA 2010”) and any statutory amendments or re-enactments made thereof from time to time and any applicable regulations, guidelines and orders made thereunder (collectively referred to as “PDPA”) and under this Notice.",
+      "cn": ""
+    },
+    {
+      "id": "t31",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Please read this Notice carefully before using our website or submitting Personal Data to us through our website.",
+      "cn": ""
+    },
+    {
+      "id": "t32",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "INFORMATION COLLECTED",
+      "cn": ""
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t35",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Your Personal Data which we may collect includes but not limited to the following:",
+      "cn": ""
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information collected when you fill in or update your information with us, which may include personal data furnished when filling in enquiry forms and other similar online forms, provided in or through our website;",
+      "cn": ""
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information collected through your participation and/or feedback in forums, surveys, contests and/or any interactive platform(s) including but not limited to forms which you have or may be required to enter, fill and submit to us, or when you respond to communications from our website;",
+      "cn": ""
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information collected when you register or subscribe to services or offers or newsletters or request to be added to our mailing lists for our products and services;",
+      "cn": ""
+    },
+    {
+      "id": "t39",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information collected during registration or signing up of user account at our website including log-in name and password or when logging on to certain areas in the website;",
+      "cn": ""
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information collected in relation to preferences and online purchases and deliveries of our products or services (if any);",
+      "cn": ""
+    },
+    {
+      "id": "t41",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information which is automatically collected through your use of our website (eg. when you request pages from our website’s server, it automatically collects some information about your preferences, including your IP address). IOI uses this information to administer and to help diagnose problems with our website and the servers and for such other purposes set out herein;",
+      "cn": ""
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information collected through your communication with us through various methods such as emails, letters, telephone calls and conversations you have with our personnel and/or authorised agents, vendors, suppliers or contractors;",
+      "cn": ""
+    },
+    {
+      "id": "t43",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information from any messages, comments or queries you submit to us in whatsoever manner;",
+      "cn": ""
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information from existing guest lists, business cards, guest books and/or any events organised by us and/or any company under IOI Oleochemical; and/or",
+      "cn": ""
+    },
+    {
+      "id": "t45",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "information obtained from public domain and third parties such as your advocates and solicitors' and financiers.",
+      "cn": ""
+    },
+    {
+      "id": "t46",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "The Personal Data processed may include but not limited to Personal Data relating to:",
+      "cn": ""
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "your identity (including but not limited to your name, date of birth, gender, citizenship, marital status, race, religion, national registration identification card (“NRIC”) number and colour or passport number, job title, company’s name and signature);",
+      "cn": ""
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "your contact details (including but not limited to your correspondence, residential and office address, phone numbers and email address);",
+      "cn": ""
+    },
+    {
+      "id": "t49",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "your demographic information such as postcode, preferences and interest;",
+      "cn": ""
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "your financial details (including your monthly income, financial statements, status of your business and information by your financier);",
+      "cn": ""
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "your credit card, debit card or bank account information;",
+      "cn": ""
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "your advocates and solicitors’ details (including but not limited to their name, correspondence address and telephone number); and",
+      "cn": ""
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "other information relevant to customer surveys, promotions and/or offers.",
+      "cn": ""
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "The list of Personal Data stated above is not exhaustive and may include other personal data depending on the nature of dealings or transaction between you and IOI. As a user of this website, you hereby agree for any Personal Data stated above to be stored in our computer databases and servers located within and outside Malaysia.",
+      "cn": ""
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "PURPOSES OF PROCESSING",
+      "cn": ""
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "We collect and process your Personal Data for the purposes of this website and to carry out the necessary transactions and for IOI Oleochemical’s business, welfare and social activities, including but not limited to the following purposes (collectively, “Purposes”):",
+      "cn": ""
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to enable you to be provided with products, services, facilities or benefits offered by IOI Oleochemical;",
+      "cn": ""
+    },
+    {
+      "id": "t60",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to communicate with you eg. to send important notices, emails, letters, Short Message Service (“SMS”), WhatsApp messages, changes to IOI’s terms, conditions, policies and notices and other like communications;",
+      "cn": ""
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to communicate with you including to respond to any of your queries and/or requests;",
+      "cn": ""
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to keep you posted on IOI Oleochemical’s latest products and services announcements, special offers and upcoming events and promotions including products information, product updates and other related information;",
+      "cn": ""
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to conduct research, surveys and trend analysis on various matters such as planning, products, services, security and testing for marketing and research and product development purposes;",
+      "cn": ""
+    },
+    {
+      "id": "t64",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for internal purposes such as auditing, data analysis to improve IOI’s products, services and customer communications based on your feedbacks (if relevant);",
+      "cn": ""
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to perform statistical analysis for various objectives and sharing this information within IOI Oleochemical;",
+      "cn": ""
+    },
+    {
+      "id": "t66",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to process your application to transact with any of IOI Oleochemical’s business divisions;",
+      "cn": ""
+    },
+    {
+      "id": "t67",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to process any sales transaction or customer orders (if any);",
+      "cn": ""
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for internal record keeping;",
+      "cn": ""
+    },
+    {
+      "id": "t69",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to customise our website according to your interests and preferences;",
+      "cn": ""
+    },
+    {
+      "id": "t70",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for internal purposes for technical support of this website and to compile statistics on the usage of this website to improve this website;",
+      "cn": ""
+    },
+    {
+      "id": "t71",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to implement and maintain our information technology systems, including to store and process data, in computer databases and servers located within and outside Malaysia;",
+      "cn": ""
+    },
+    {
+      "id": "t72",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for purposes connected with the operation, administration, development, support, assistance or enhancement of any IOI Oleochemical’s businesses;",
+      "cn": ""
+    },
+    {
+      "id": "t73",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for financial purposes, including accounting and tax;",
+      "cn": ""
+    },
+    {
+      "id": "t74",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for IOI Oleochemical’s contractual obligations or business arrangements with third parties;",
+      "cn": ""
+    },
+    {
+      "id": "t75",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "where in IOI Oleochemical’s opinion such use or disclosure of Personal Data is necessary to protect its interests and to respond to any claims or legal processes;",
+      "cn": ""
+    },
+    {
+      "id": "t76",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for the protection and prevention against and detection of actual or potential crimes including fraud or unauthorised transactions or unlawful activities;",
+      "cn": ""
+    },
+    {
+      "id": "t77",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for the investigation of complaints, misconduct and suspected suspicious transactions (including but not limited to carrying out due diligence and/or other screening activities);",
+      "cn": ""
+    },
+    {
+      "id": "t78",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for security and access within the companies in IOI Oleochemical;",
+      "cn": ""
+    },
+    {
+      "id": "t79",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to comply with legislative, statutory and regulatory requirements;",
+      "cn": ""
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for corporate governance purposes, including auditing, internal investigations, compliance, risk management, conflict of interest reporting and security processes;",
+      "cn": ""
+    },
+    {
+      "id": "t81",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to transfer Personal Data to any parties located in other jurisdictions outside Malaysia, where necessary;",
+      "cn": ""
+    },
+    {
+      "id": "t82",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "where a third party acquires or wishes to acquire or make enquiries in relation to acquiring an interest in any company within IOI Oleochemical;",
+      "cn": ""
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "where you have provided Personal Data for purposes of online job application, to process your resume or curriculum vitae and to determine your suitability for a position within IOI Oleochemical;",
+      "cn": ""
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to protect or enforce our rights including but not limited to recover any debt due and owing to us;",
+      "cn": ""
+    },
+    {
+      "id": "t85",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for verification and reference checks by third parties;",
+      "cn": ""
+    },
+    {
+      "id": "t86",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for general administrative and management purposes; and/or",
+      "cn": ""
+    },
+    {
+      "id": "t87",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "for all other purposes in relation or incidental to the above.",
+      "cn": ""
+    },
+    {
+      "id": "t88",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "By providing your Personal Data to IOI Oleochemical, you consent to the use of Personal Data collected by us or our authorised third party in the manner set out in this Notice for the Purposes stated above.",
+      "cn": ""
+    },
+    {
+      "id": "t89",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Your Personal Data is necessary to us. Unless otherwise stated, it is an obligation for you to provide all such Personal Data requested by us. If you do not provide or allow us to process all the obligatory Personal Data as requested, we will not be able to keep complete information about you, therefore affecting our ability to accomplish the Purposes described in this Notice. As such information is crucial to your relationship with IOI Oleochemical, you are advised not to opt out of providing such Personal Data as requested by us.",
+      "cn": ""
+    },
+    {
+      "id": "t90",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t91",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "DISCLOSURE OF YOUR PERSONAL DATA",
+      "cn": ""
+    },
+    {
+      "id": "t92",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t93",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "We will not sell, distribute or lease your Personal Data to third parties unless we have your permission or are required by law.",
+      "cn": ""
+    },
+    {
+      "id": "t94",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Where necessary in performing the Purposes, IOI may disclose your Personal Data to the following parties (including those within and outside Malaysia):",
+      "cn": ""
+    },
+    {
+      "id": "t95",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "any entities within IOI Oleochemical including IOI Oleochemical’s holding company, subsidiaries, related and associate companies and affiliates and representative offices and joint-venture partners, which may be located in Malaysia or overseas;",
+      "cn": ""
+    },
+    {
+      "id": "t96",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "any authorised agents and service providers of IOI Oleochemical and those who collaborate or provide services relating to the purposes for which the Personal Data is collected or for activities related to our products or services, including but not limited to sale and marketing agents, consultants, data processing services and third party vendors, agents, suppliers or contractors and/or advisors who provide operating and administrative system, computer and information technology system, accounting and payment system, human resources and payroll system and/or other services to any company within IOI Oleochemical in connection with the operations of their businesses, with whom Personal Data may be shared for the limited purpose of enabling the authorised third party to perform the particular services on behalf of any company within IOI Oleochemical;",
+      "cn": ""
+    },
+    {
+      "id": "t97",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "any authorised third party service providers that provide services such as information processing, online payment, extending credit, fulfilling customer orders, delivering products to you, managing and enhancing customer data, providing customer service, assessing your interest in IOI’s products and services and conducting customer research, satisfaction surveys and data analysis;",
+      "cn": ""
+    },
+    {
+      "id": "t98",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "our business partners or associates and/or customers (if relevant);",
+      "cn": ""
+    },
+    {
+      "id": "t99",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "other relevant parties such as banks or financiers and their valuers, lawyers, legal advisors and auditors;",
+      "cn": ""
+    },
+    {
+      "id": "t100",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "our actual or prospective investors, assignees or potential assignees, acquirers or potential acquirers or transferees or potential transferees of the business entities within IOI Oleochemical and successors-in-title in the event we decide to divest part or all of our business through sale, merger, acquisition or joint-venture;",
+      "cn": ""
+    },
+    {
+      "id": "t101",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "any person, who is under a duty of confidentiality who has undertaken the responsibility to keep such data private and confidential;",
+      "cn": ""
+    },
+    {
+      "id": "t102",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "the Personal Data of job applicants may be shared with third parties eg. the applicant’s current or previous employers and credit reference agencies, to verify or obtain additional information about the job applicants; and",
+      "cn": ""
+    },
+    {
+      "id": "t103",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "other parties, in respect of whom you have consented to the disclosure of your Personal Data.",
+      "cn": ""
+    },
+    {
+      "id": "t104",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "In addition, we may also disclose your Personal Data (within and outside Malaysia) in good faith:",
+      "cn": ""
+    },
+    {
+      "id": "t105",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to comply with the requirements of the government or local authorities, law enforcement agencies or any other authorities including regulatory and securities authorities to whom IOI Oleochemical is subject to or have reporting obligations or to whom we are required to provide your Personal Data;",
+      "cn": ""
+    },
+    {
+      "id": "t106",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "to comply with any orders of any court of competent jurisdiction;",
+      "cn": ""
+    },
+    {
+      "id": "t107",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "as is necessary or relevant in relation to any legal process or proceedings;",
+      "cn": ""
+    },
+    {
+      "id": "t108",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "if required or authorised by law or where such disclosure is necessary to comply with applicable laws, regulations, legal processes or queries from relevant authorities; and",
+      "cn": ""
+    },
+    {
+      "id": "t109",
+      "type": "text",
+      "context": "div.w-richtext > ol > li",
+      "en": "as is necessary for purpose of preventing or detecting or investigating an actual or potential crime or suspicious transaction or breach of securities.",
+      "cn": ""
+    },
+    {
+      "id": "t110",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t111",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "RETENTION PERIOD",
+      "cn": ""
+    },
+    {
+      "id": "t112",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t113",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Any Personal Data we collect will be retained by IOI Oleochemical and/or any of the parties to whom any Personal Data has been disclosed to, for as long as necessary to fulfil the many different Purposes outlined in this Notice in line with our internal retention policies or as required to satisfy legal, regulatory, taxation and/or accounting requirements or to protect IOI Oleochemical’s interests.",
+      "cn": ""
+    },
+    {
+      "id": "t114",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t115",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "SECURITY",
+      "cn": ""
+    },
+    {
+      "id": "t116",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t117",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "We are committed to ensuring that your Personal Data is secure. We will protect your Personal Data in accordance with any applicable Malaysian laws including PDPA. In order to prevent loss, theft, misuse, modification or unauthorised or accidental access, alteration, disclosure or destruction, we have put in place appropriate physical, electronic, technical and administrative procedures and technological and organisational security measures to safeguard and secure the Personal Data that we collect online.",
+      "cn": ""
+    },
+    {
+      "id": "t118",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t119",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "ACCURACY AND UPDATING OF PERSONAL DATA",
+      "cn": ""
+    },
+    {
+      "id": "t120",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t121",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "When you provide your Personal Data to IOI Oleochemical, you undertake that all such information provided is accurate, complete and up-to-date. If there are any changes to your Personal Data or if you believe that the Personal Data we have about you is inaccurate, incomplete, misleading or not up-to-date, please contact us, the details as stated below, so that we may take steps to update your Personal Data.",
+      "cn": ""
+    },
+    {
+      "id": "t122",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "We may decline to process requests that are unreasonably repetitive, require disproportionate technical effort, jeopardize the privacy of others, are extremely impractical, or for which access to correct the Personal Data is not otherwise required by local law.",
+      "cn": ""
+    },
+    {
+      "id": "t123",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t124",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "ACCESS, CORRECTION, ENQUIRIES AND COMPLAINTS",
+      "cn": ""
+    },
+    {
+      "id": "t125",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t126",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "If you do not agree with any of the contents of this Personal Data Protection Notice, please notify us within seven (7) days from the date of this Notice. Otherwise, we shall deem that you consent to the collecting, recording, processing, holding, storing, usage and disclosure of your Personal Data.",
+      "cn": ""
+    },
+    {
+      "id": "t127",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Should you wish to limit the processing of your Personal Data in relation to any of the Purposes or any other purposes, you may communicate your wishes to us by contacting us, the details are as provided below.",
+      "cn": ""
+    },
+    {
+      "id": "t128",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Please note that in the event that sufficient Personal Data is not supplied or is found not satisfactory to IOI Oleochemical, this may:",
+      "cn": ""
+    },
+    {
+      "id": "t129",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "a. affect our ability to process any application or request which you make to us; and/or",
+      "cn": ""
+    },
+    {
+      "id": "t130",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "b. affect our ability to provide the full range of benefits and/or services which we are capable of offering to you.",
+      "cn": ""
+    },
+    {
+      "id": "t131",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "If you have any questions regarding this Notice or you would like to make any inquiries or complaints or to request access to make corrections, amendments or updates or limit our processing of your Personal Data or to withdraw your consent, you may contact us via:",
+      "cn": ""
+    },
+    {
+      "id": "t132",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t133",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Tel : +60 4 376 8888",
+      "cn": ""
+    },
+    {
+      "id": "t134",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Fax : +60 4 390 7252",
+      "cn": ""
+    },
+    {
+      "id": "t135",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Tel : +60 7 251 1580",
+      "cn": ""
+    },
+    {
+      "id": "t136",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "Fax : +60 7 251 4621",
+      "cn": ""
+    },
+    {
+      "id": "t137",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t138",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "AMENDMENTS OF THIS NOTICE",
+      "cn": ""
+    },
+    {
+      "id": "t139",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": ""
+    },
+    {
+      "id": "t140",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "IOI reserves the right to update, revise, amend and/or modify this Personal Data Protection Notice from time to time and in any manner at its absolute discretion but in accordance with the law. Any material changes will be posted on our website with the updated Personal Data Protection Notice.",
+      "cn": ""
+    },
+    {
+      "id": "t141",
+      "type": "text",
+      "context": "div.w-richtext > p > em",
+      "en": "In the event of any inconsistencies between the English version and the Bahasa Malaysia version of this Notice, the English version shall prevail.",
+      "cn": ""
+    },
+    {
+      "id": "t142",
+      "type": "text",
+      "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
+      "en": "Get your supplies",
+      "cn": ""
+    },
+    {
+      "id": "t143",
+      "type": "text",
+      "context": "div.w-layout-grid > div.max-width-large > div",
+      "en": "Connect with us to talk about your needs and get personalized suggestions directly.",
+      "cn": ""
+    },
+    {
+      "id": "t144",
+      "type": "text",
+      "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
+      "en": "Contact us",
+      "cn": ""
+    },
+    {
+      "id": "t145",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "All applications",
+      "cn": ""
+    },
+    {
+      "id": "t146",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product",
+      "cn": ""
+    },
+    {
+      "id": "t147",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Join us",
+      "cn": ""
+    },
+    {
+      "id": "t148",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t149",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t150",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements",
+      "cn": ""
+    },
+    {
+      "id": "t151",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms",
+      "cn": ""
+    },
+    {
+      "id": "t152",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA",
+      "cn": ""
+    },
+    {
+      "id": "t153",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer",
+      "cn": ""
+    },
+    {
+      "id": "t154",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "©",
+      "cn": ""
+    },
+    {
+      "id": "t155",
+      "type": "text",
+      "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
+      "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
+      "cn": ""
+    }
+  ]
+}

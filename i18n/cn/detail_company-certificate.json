@@ -1,0 +1,36 @@
+{
+  "file": "en/detail_company-certificate.html",
+  "lang_target": "cn",
+  "extracted_at": "2026-05-08T00:32:04.285Z",
+  "total": 4,
+  "strings": [
+    {
+      "id": "t1",
+      "type": "title",
+      "context": "head > title",
+      "en": "| IOI Oleochemical Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t2",
+      "type": "meta[name=description]",
+      "context": "head",
+      "en": "Download and verify IOI Oleochemical's  certification — a testament to our quality standards and regulatory compliance.",
+      "cn": ""
+    },
+    {
+      "id": "t3",
+      "type": "meta[property=og:title]",
+      "context": "head",
+      "en": "Company Certificate | IOI Oleochemical Certificates",
+      "cn": ""
+    },
+    {
+      "id": "t4",
+      "type": "meta[property=og:description]",
+      "context": "head",
+      "en": "Download and verify IOI Oleochemical's certification — a testament to our quality standards and regulatory compliance.",
+      "cn": ""
+    }
+  ]
+}
