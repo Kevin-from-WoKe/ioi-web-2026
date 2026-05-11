@@ -9,35 +9,35 @@
       "type": "title",
       "context": "head > title",
       "en": "Not Found",
-      "cn": ""
+      "cn": "未找到页面"
     },
     {
       "id": "t2",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Not Found",
-      "cn": ""
+      "cn": "未找到页面"
     },
     {
       "id": "t3",
       "type": "attr:alt",
       "context": "div.utility_component > div.utility_form-block > img._404_logo",
       "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
-      "cn": ""
+      "cn": "IOI Oleochemical 公司标志，上方为分段式蓝色圆形图案，下方为黑色公司名称文字。"
     },
     {
       "id": "t4",
       "type": "text",
       "context": "div.utility_component > div.utility_form-block > h3",
       "en": "Page not found",
-      "cn": ""
+      "cn": "未找到页面"
     },
     {
       "id": "t5",
       "type": "text",
       "context": "div.utility_component > div.utility_form-block > a.button",
       "en": "Return to homepage",
-      "cn": ""
+      "cn": "返回首页"
     }
   ]
 }
