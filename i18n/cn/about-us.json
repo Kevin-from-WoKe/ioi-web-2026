@@ -9,693 +9,693 @@
       "type": "title",
       "context": "head > title",
       "en": "About IOI Oleochemical | Our Story & Vision",
-      "cn": ""
+      "cn": "关于 IOI Oleochemical|我们的故事与愿景"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Learn about IOI Oleochemical's history, mission, and global presence as a leading manufacturer of sustainable oleochemical products and solutions.",
-      "cn": ""
+      "cn": "了解 IOI Oleochemical 作为领先可持续油脂化学产品与解决方案制造商的发展历程、使命与全球版图。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "About IOI Oleochemical | Our Story & Vision",
-      "cn": ""
+      "cn": "关于 IOI Oleochemical|我们的故事与愿景"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Learn about IOI Oleochemical's history, mission, and global presence as a leading manufacturer of sustainable oleochemical products and solutions.",
-      "cn": ""
+      "cn": "了解 IOI Oleochemical 作为领先可持续油脂化学产品与解决方案制造商的发展历程、使命与全球版图。"
     },
     {
       "id": "t5",
       "type": "attr:alt",
       "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
       "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
-      "cn": ""
+      "cn": "IOI Oleochemical 公司标志，上方为分段式蓝色圆形图案，下方为黑色公司名称文字。"
     },
     {
       "id": "t6",
       "type": "text",
       "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Products",
-      "cn": ""
+      "cn": "产品"
     },
     {
       "id": "t7",
       "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->",
-      "cn": ""
+      "cn": "查看产品 ->"
     },
     {
       "id": "t8",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->",
-      "cn": ""
+      "cn": "查看全部领域 ->"
     },
     {
       "id": "t9",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us",
-      "cn": ""
+      "cn": "公司概况"
     },
     {
       "id": "t10",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones",
-      "cn": ""
+      "cn": "发展历程"
     },
     {
       "id": "t11",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices",
-      "cn": ""
+      "cn": "分公司"
     },
     {
       "id": "t12",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards",
-      "cn": ""
+      "cn": "奖项"
     },
     {
       "id": "t13",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us",
-      "cn": ""
+      "cn": "加入团队"
     },
     {
       "id": "t14",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability",
-      "cn": ""
+      "cn": "可持续发展"
     },
     {
       "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements",
-      "cn": ""
+      "cn": "政策与声明"
     },
     {
       "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate",
-      "cn": ""
+      "cn": "环境责任"
     },
     {
       "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability",
-      "cn": ""
+      "cn": "采购与可追溯性"
     },
     {
       "id": "t18",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability",
-      "cn": ""
+      "cn": "数字可持续发展"
     },
     {
       "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare",
-      "cn": ""
+      "cn": "员工福利"
     },
     {
       "id": "t20",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events",
-      "cn": ""
+      "cn": "企业社会责任"
     },
     {
       "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates",
-      "cn": ""
+      "cn": "认证"
     },
     {
       "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates",
-      "cn": ""
+      "cn": "产品认证"
     },
     {
       "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates",
-      "cn": ""
+      "cn": "公司认证"
     },
     {
       "id": "t24",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms",
-      "cn": ""
+      "cn": "通用条款"
     },
     {
       "id": "t25",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中",
-      "cn": ""
+      "cn": "中 / EN"
     },
     {
       "id": "t26",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire",
-      "cn": ""
+      "cn": "咨询"
     },
     {
       "id": "t27",
       "type": "text",
       "context": "div.layout16_content-left > div.margin-bottom > div.text-style-tagline",
       "en": "Established since 1980",
-      "cn": ""
+      "cn": "创立于 1980 年"
     },
     {
       "id": "t28",
       "type": "text",
       "context": "div.layout16_content-left > div.margin-bottom > h2.heading-style-h2",
       "en": "Part of IOI Corporation Berhad's integrated value chain",
-      "cn": ""
+      "cn": "IOI 集团整合价值链的重要一环"
     },
     {
       "id": "t29",
       "type": "text",
       "context": "div.layout16_content-left > div.margin-bottom > p.text-size-medium",
       "en": "IOI Oleochemical operates within one of Asia's largest palm-based chemical producers. We convert raw materials into specialty chemicals that serve industries worldwide, backed by decades of operational excellence and technical depth.",
-      "cn": ""
+      "cn": "IOI Oleochemical 隶属亚洲规模最大的棕榈基化工生产商之一。我们将原材料转化为服务全球各行业的特种化学品，背后是数十年的卓越运营与深厚技术积淀。"
     },
     {
       "id": "t30",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723ad5-b8ee20cb > div.layout16_item-text-wrapper > p",
       "en": "Vertically integrated from plantation to finished product",
-      "cn": ""
+      "cn": "从种植园到成品的垂直整合体系"
     },
     {
       "id": "t31",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723adb-b8ee20cb > div.layout16_item-text-wrapper > p",
       "en": "Certified across quality, safety and environmental standards",
-      "cn": ""
+      "cn": "通过品质、安全与环境标准全方位认证"
     },
     {
       "id": "t32",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723ae1-b8ee20cb > div.layout16_item-text-wrapper > p",
       "en": "Serving personal care, home care, food, industrial and pharmaceutical sectors",
-      "cn": ""
+      "cn": "服务于个人护理、家居护理、食品、工业与制药等多个领域"
     },
     {
       "id": "t33",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > div.text-style-tagline",
       "en": "Vision",
-      "cn": ""
+      "cn": "愿景"
     },
     {
       "id": "t34",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > h2.heading-style-h4",
       "en": "To be the trusted partner for sustainable oleochemical solutions across every sector we serve. We advance industries through innovation, reliability and responsible sourcing.",
-      "cn": ""
+      "cn": "成为各服务领域中值得信赖的可持续油脂化学解决方案合作伙伴。我们以创新、可靠与负责任的采购推动行业发展。"
     },
     {
       "id": "t35",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
       "en": "Our core values",
-      "cn": ""
+      "cn": "我们的核心价值观"
     },
     {
       "id": "t36",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "We operate with clarity and purpose. Every decision reflects our commitment to quality and sustainability to the industries we serve.",
-      "cn": ""
+      "cn": "我们以清晰的目标驱动运营。每一项决策都体现着我们对所服务行业的品质承诺与可持续追求。"
     },
     {
       "id": "t37",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Integrity",
-      "cn": ""
+      "cn": "诚信"
     },
     {
       "id": "t38",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Team spirit",
-      "cn": ""
+      "cn": "团队精神"
     },
     {
       "id": "t39",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Innovation",
-      "cn": ""
+      "cn": "创新"
     },
     {
       "id": "t40",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Commitment",
-      "cn": ""
+      "cn": "承诺"
     },
     {
       "id": "t41",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Cost efficiency",
-      "cn": ""
+      "cn": "成本效益"
     },
     {
       "id": "t42",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Excellence in execution",
-      "cn": ""
+      "cn": "卓越执行"
     },
     {
       "id": "t43",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "We do the right thing",
-      "cn": ""
+      "cn": "坚守正道"
     },
     {
       "id": "t44",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "Transparency guides our business. We keep our word and stand behind what we make.",
-      "cn": ""
+      "cn": "透明度是我们经营的根基。我们恪守承诺，对所制造的每一件产品负责。"
     },
     {
       "id": "t45",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "We work as one",
-      "cn": ""
+      "cn": "齐心协力"
     },
     {
       "id": "t46",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "Our strength comes from people working together toward shared goals. We collaborate across teams and borders.",
-      "cn": ""
+      "cn": "我们的力量源自众人朝着共同目标携手前行。我们跨团队、跨地域协同合作。"
     },
     {
       "id": "t47",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Solve problems in better ways",
-      "cn": ""
+      "cn": "创新求解之道"
     },
     {
       "id": "t48",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "Our chemists and engineers embrace innovation and explore emerging technologies. We invest in research that disrupts industries and redefines what's possible.",
-      "cn": ""
+      "cn": "我们的化学家与工程师拥抱创新、探索前沿技术，致力于颠覆行业、重塑可能的研发投入。"
     },
     {
       "id": "t49",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "We own our impact",
-      "cn": ""
+      "cn": "担当影响"
     },
     {
       "id": "t50",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "From plantation to product, we take ownership and put our heart into what we do.",
-      "cn": ""
+      "cn": "从种植园到成品，我们始终亲力亲为，倾注全心。"
     },
     {
       "id": "t51",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Getting the best value",
-      "cn": ""
+      "cn": "创造最佳价值"
     },
     {
       "id": "t52",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "Precision ensures optimal value for your investment.",
-      "cn": ""
+      "cn": "精准把控，让每一分投入都换来最优回报。"
     },
     {
       "id": "t53",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "We measure and improve",
-      "cn": ""
+      "cn": "衡量改进"
     },
     {
       "id": "t54",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "We monitor our performance to ensure great results across all operations.",
-      "cn": ""
+      "cn": "我们持续监测各项运营表现，确保全面达成卓越成果。"
     },
     {
       "id": "t55",
       "type": "text",
       "context": "div.layout19_content-left > div.margin-bottom > div.text-style-tagline",
       "en": "Integrated",
-      "cn": ""
+      "cn": "整合体系"
     },
     {
       "id": "t56",
       "type": "text",
       "context": "div.layout19_content-left > div.margin-bottom > h2.heading-style-h2",
       "en": "One supply chain from soil to shelf",
-      "cn": ""
+      "cn": "从土壤到货架的完整供应链"
     },
     {
       "id": "t57",
       "type": "text",
       "context": "div.layout19_content-left > div.margin-bottom > p.text-size-medium",
       "en": "IOI Oleochemical operates within IOI Corporation Berhad's vertically integrated system. We control every stage, from sustainable palm cultivation through refining, conversion, and specialty formulation. This integration means consistency, traceability and the kind of quality assurance that comes from owning the entire process.",
-      "cn": ""
+      "cn": "IOI Oleochemical 隶属 IOI 集团的垂直整合体系。我们掌控每一个环节——从可持续棕榈种植，到精炼、转化与特种配方。整合带来稳定性、可追溯性，以及源自全流程把控的品质保证。"
     },
     {
       "id": "t58",
       "type": "text",
       "context": "ul.layout19_list > li.layout19_item > p",
       "en": "Plantation management and sustainable sourcing",
-      "cn": ""
+      "cn": "种植园管理与可持续采购"
     },
     {
       "id": "t59",
       "type": "text",
       "context": "ul.layout19_list > li.layout19_item > p",
       "en": "Refining and processing of raw materials",
-      "cn": ""
+      "cn": "原材料精炼与加工"
     },
     {
       "id": "t60",
       "type": "text",
       "context": "ul.layout19_list > li.layout19_item > p",
       "en": "Specialty chemical conversion and formulation",
-      "cn": ""
+      "cn": "特种化学品转化与配方"
     },
     {
       "id": "t61",
       "type": "text",
       "context": "div.text-align-center > div.margin-bottom > div.text-style-tagline",
       "en": "Corporate Milestones",
-      "cn": ""
+      "cn": "发展历程"
     },
     {
       "id": "t62",
       "type": "text",
       "context": "div.text-align-center > div.margin-bottom > h2.heading-style-h2",
       "en": "Five decades of building capability",
-      "cn": ""
+      "cn": "五十年实力沉淀"
     },
     {
       "id": "t63",
       "type": "text",
       "context": "div.max-width-large > div.text-align-center > p.text-size-medium",
       "en": "From our first refinery to a global network, we've grown by staying focused on what matters. Each milestone marks a commitment kept.",
-      "cn": ""
+      "cn": "从第一座炼厂到遍布全球的网络，我们始终专注本业、稳健前行。每一座里程碑，都是一份兑现的承诺。"
     },
     {
       "id": "t64",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "See all milestones",
-      "cn": ""
+      "cn": "查看完整发展历程"
     },
     {
       "id": "t65",
       "type": "text",
       "context": "div.timeline17_item > div.timeline17_item-content > p",
       "en": "Foundational maiden venture: PKO & PK expellers.",
-      "cn": ""
+      "cn": "奠基之举：棕榈仁油与棕榈仁榨油机。"
     },
     {
       "id": "t66",
       "type": "text",
       "context": "div.timeline17_item > div#w-node-c5be961c-3e1f-b35c-5c46-04386c723ba3-b8ee20cb > p",
       "en": "Palmco Holdings (now",
-      "cn": ""
+      "cn": "Palmco Holdings（今"
     },
     {
       "id": "t67",
       "type": "text",
       "context": "div.timeline17_item > div#w-node-c5be961c-3e1f-b35c-5c46-04386c723ba3-b8ee20cb > p",
       "en": "Oleo) listed on the KLSE (now Bursa Malaysia).",
-      "cn": ""
+      "cn": "Oleo）于吉隆坡证券交易所（今马来西亚交易所）上市。"
     },
     {
       "id": "t68",
       "type": "text",
       "context": "div.timeline17_item-content > div.margin-bottom > h3.heading-style-h5",
       "en": "‍",
-      "cn": ""
+      "cn": "‍"
     },
     {
       "id": "t69",
       "type": "text",
       "context": "div.timeline17_item > div.timeline17_item-content > p",
       "en": "Venture into new range of fatty esters & specialty oleo derivatives under Esterchem (M) Sdn Bhd.",
-      "cn": ""
+      "cn": "通过 Esterchem (M) Sdn Bhd 拓展全新脂肪酯与特种油脂化学衍生品系列。"
     },
     {
       "id": "t70",
       "type": "text",
       "context": "div.timeline17_item > div.timeline17_item-content > p",
       "en": "New warehouse (warehouse 5) with capacity up to 5,000 pallets storage space.",
-      "cn": ""
+      "cn": "新建 5 号仓库，可容纳 5,000 个货板的储存空间。"
     },
     {
       "id": "t71",
       "type": "text",
       "context": "div.timeline17_item > div.timeline17_item-content > p",
       "en": "Commissioning of our new Cogen plant.",
-      "cn": ""
+      "cn": "投产全新热电联产工厂。"
     },
     {
       "id": "t72",
       "type": "text",
       "context": "div.stats1_content-left > div.margin-bottom > div.text-style-tagline",
       "en": "Sustainability",
-      "cn": ""
+      "cn": "可持续发展"
     },
     {
       "id": "t73",
       "type": "text",
       "context": "div.w-layout-grid > div.stats1_content-left > h2.heading-style-h2",
       "en": "Sustainability embedded in our operations",
-      "cn": ""
+      "cn": "可持续发展融入日常运营"
     },
     {
       "id": "t74",
       "type": "text",
       "context": "div.w-layout-grid > div.stats1_content-right > p.text-size-medium",
       "en": "We source sustainably and produce responsibly. Our commitment to environmental stewardship and social impact runs through every decision we make, from plantation to product.",
-      "cn": ""
+      "cn": "我们以可持续方式采购，以负责任态度生产。从种植园到成品，每一项决策都贯彻着我们对环境守护与社会影响的承诺。"
     },
     {
       "id": "t75",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "See our commitments",
-      "cn": ""
+      "cn": "查看我们的承诺"
     },
     {
       "id": "t76",
       "type": "text",
       "context": "div.stats1_item > div.margin-bottom > div.stats1_number",
       "en": "100%",
-      "cn": ""
+      "cn": "100%"
     },
     {
       "id": "t77",
       "type": "text",
       "context": "div.w-layout-grid > div.stats1_item > h3.heading-style-h6",
       "en": "Traceable to plantation",
-      "cn": ""
+      "cn": "可追溯至种植园"
     },
     {
       "id": "t78",
       "type": "text",
       "context": "div.stats1_item > div.margin-bottom > div.stats1_number",
       "en": "Active",
-      "cn": ""
+      "cn": "持续推行"
     },
     {
       "id": "t79",
       "type": "text",
       "context": "div.w-layout-grid > div.stats1_item > h3.heading-style-h6",
       "en": "Community investment programmes",
-      "cn": ""
+      "cn": "社区投资项目"
     },
     {
       "id": "t80",
       "type": "text",
       "context": "div.stats1_item > div.margin-bottom > div.stats1_number",
       "en": "100%",
-      "cn": ""
+      "cn": "100%"
     },
     {
       "id": "t81",
       "type": "text",
       "context": "div.w-layout-grid > div.stats1_item > h3.heading-style-h6",
       "en": "Traceable to mill",
-      "cn": ""
+      "cn": "可追溯至榨油厂"
     },
     {
       "id": "t82",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > div.text-style-tagline",
       "en": "Global Presence",
-      "cn": ""
+      "cn": "全球布局"
     },
     {
       "id": "t83",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
       "en": "Where we operate",
-      "cn": ""
+      "cn": "我们的全球网络"
     },
     {
       "id": "t84",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "Five facilities across three continents serving the world's oleochemical needs",
-      "cn": ""
+      "cn": "横跨三大洲的五座生产基地，满足全球油脂化学需求"
     },
     {
       "id": "t85",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "See our global offices",
-      "cn": ""
+      "cn": "查看我们的全球分公司"
     },
     {
       "id": "t86",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
-      "cn": ""
+      "cn": "探讨您的需求"
     },
     {
       "id": "t87",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
-      "cn": ""
+      "cn": "联系我们，获取您的专属定制方案。"
     },
     {
       "id": "t88",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
-      "cn": ""
+      "cn": "联系我们"
     },
     {
       "id": "t89",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
-      "cn": ""
+      "cn": "应用领域"
     },
     {
       "id": "t90",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
-      "cn": ""
+      "cn": "查看产品"
     },
     {
       "id": "t91",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
-      "cn": ""
+      "cn": "加入团队"
     },
     {
       "id": "t92",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
-      "cn": ""
+      "cn": "产品认证"
     },
     {
       "id": "t93",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
-      "cn": ""
+      "cn": "公司认证"
     },
     {
       "id": "t94",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
-      "cn": ""
+      "cn": "政策与声明"
     },
     {
       "id": "t95",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
-      "cn": ""
+      "cn": "通用条款"
     },
     {
       "id": "t96",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
-      "cn": ""
+      "cn": "数据保护"
     },
     {
       "id": "t97",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
-      "cn": ""
+      "cn": "免责声明"
     },
     {
       "id": "t98",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
-      "cn": ""
+      "cn": "©"
     },
     {
       "id": "t99",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
-      "cn": ""
+      "cn": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) 版权所有"
     }
   ]
 }
