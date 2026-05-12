@@ -9,469 +9,469 @@
       "type": "title",
       "context": "head > title",
       "en": "Employee Welfare | IOI Oleochemical",
-      "cn": ""
+      "cn": "员工福利|IOI Oleochemical"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "IOI Oleochemical prioritises employee wellbeing through fair wages, safe workplaces, skills development, and a culture of inclusivity and respect.",
-      "cn": ""
+      "cn": "IOI Oleochemical 以公平薪酬、安全工作环境、技能发展，以及包容尊重的企业文化为本，将员工福祉放在首位。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Employee Welfare | IOI Oleochemical People First",
-      "cn": ""
+      "cn": "员工福利|IOI Oleochemical 以员工为本"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "IOI Oleochemical prioritises employee wellbeing through fair wages, safe workplaces, skills development, and a culture of inclusivity and respect.",
-      "cn": ""
+      "cn": "IOI Oleochemical 以公平薪酬、安全工作环境、技能发展，以及包容尊重的企业文化为本，将员工福祉放在首位。"
     },
     {
       "id": "t5",
       "type": "attr:alt",
       "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
       "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
-      "cn": ""
+      "cn": "IOI Oleochemical 公司标志，上方为分段式蓝色圆形图案，下方为黑色公司名称文字。"
     },
     {
       "id": "t6",
       "type": "text",
       "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Products",
-      "cn": ""
+      "cn": "产品"
     },
     {
       "id": "t7",
       "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->",
-      "cn": ""
+      "cn": "查看产品 ->"
     },
     {
       "id": "t8",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->",
-      "cn": ""
+      "cn": "查看全部领域 ->"
     },
     {
       "id": "t9",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us",
-      "cn": ""
+      "cn": "公司概况"
     },
     {
       "id": "t10",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones",
-      "cn": ""
+      "cn": "发展历程"
     },
     {
       "id": "t11",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices",
-      "cn": ""
+      "cn": "分公司"
     },
     {
       "id": "t12",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards",
-      "cn": ""
+      "cn": "奖项"
     },
     {
       "id": "t13",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us",
-      "cn": ""
+      "cn": "加入团队"
     },
     {
       "id": "t14",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability",
-      "cn": ""
+      "cn": "可持续发展"
     },
     {
       "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements",
-      "cn": ""
+      "cn": "政策与声明"
     },
     {
       "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate",
-      "cn": ""
+      "cn": "环境责任"
     },
     {
       "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability",
-      "cn": ""
+      "cn": "采购与可追溯性"
     },
     {
       "id": "t18",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability",
-      "cn": ""
+      "cn": "数字可持续发展"
     },
     {
       "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare",
-      "cn": ""
+      "cn": "员工福利"
     },
     {
       "id": "t20",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events",
-      "cn": ""
+      "cn": "企业社会责任"
     },
     {
       "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates",
-      "cn": ""
+      "cn": "认证"
     },
     {
       "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates",
-      "cn": ""
+      "cn": "产品认证"
     },
     {
       "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates",
-      "cn": ""
+      "cn": "公司认证"
     },
     {
       "id": "t24",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms",
-      "cn": ""
+      "cn": "通用条款"
     },
     {
       "id": "t25",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中",
-      "cn": ""
+      "cn": "中 / EN"
     },
     {
       "id": "t26",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire",
-      "cn": ""
+      "cn": "咨询"
     },
     {
       "id": "t27",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
       "en": "Employee welfare",
-      "cn": ""
+      "cn": "员工福利"
     },
     {
       "id": "t28",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "Safe workplaces, healthy lives and fair treatment define how we operate.",
-      "cn": ""
+      "cn": "安全的工作环境、健康的生活方式与公平待遇，定义了我们的运营方式。"
     },
     {
       "id": "t29",
       "type": "attr:alt",
       "context": "div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0ea9e-d1539c8a > div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0ea9f-d1539c8a > img#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa0-d1539c8a",
       "en": "Two people in business attire shaking hands in a professional setting.",
-      "cn": ""
+      "cn": "两位身着商务装的人士在专业场合中握手。"
     },
     {
       "id": "t30",
       "type": "attr:alt",
       "context": "div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0ea9e-d1539c8a > div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa1-d1539c8a > img#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa2-d1539c8a",
       "en": "Two workers in blue uniforms and yellow helmets repairing a large industrial metal drum outdoors.",
-      "cn": ""
+      "cn": "两位身穿蓝色工装、佩戴黄色安全帽的工人在户外检修大型工业金属储罐。"
     },
     {
       "id": "t31",
       "type": "attr:alt",
       "context": "div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0ea9e-d1539c8a > div#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa7-d1539c8a > img#w-node-_32d68f1f-fe83-0fce-a6bd-deba4cc0eaa4-d1539c8a",
       "en": "Collage of indoor sports activities including badminton, table tennis, Zumba, yoga, and Tai Chi classes with participants engaged in each activity.",
-      "cn": ""
+      "cn": "室内运动活动拼图，涵盖羽毛球、乒乓球、尊巴、瑜伽与太极课程，参与者投入其中。"
     },
     {
       "id": "t32",
       "type": "attr:alt",
       "context": "div#w-node-_60499b4c-5703-610e-6545-f45145e7b63d-d1539c8a > div#w-node-_60499b4c-5703-610e-6545-f45145e7b63e-d1539c8a > img#w-node-_60499b4c-5703-610e-6545-f45145e7b63f-d1539c8a",
       "en": "Two people in business attire shaking hands in a professional setting.",
-      "cn": ""
+      "cn": "两位身着商务装的人士在专业场合中握手。"
     },
     {
       "id": "t33",
       "type": "attr:alt",
       "context": "div#w-node-_60499b4c-5703-610e-6545-f45145e7b63d-d1539c8a > div#w-node-_60499b4c-5703-610e-6545-f45145e7b640-d1539c8a > img#w-node-_60499b4c-5703-610e-6545-f45145e7b641-d1539c8a",
       "en": "Two workers in blue uniforms and yellow helmets repairing a large industrial metal drum outdoors.",
-      "cn": ""
+      "cn": "两位身穿蓝色工装、佩戴黄色安全帽的工人在户外检修大型工业金属储罐。"
     },
     {
       "id": "t34",
       "type": "attr:alt",
       "context": "div#w-node-_60499b4c-5703-610e-6545-f45145e7b63d-d1539c8a > div#w-node-_60499b4c-5703-610e-6545-f45145e7b646-d1539c8a > img#w-node-_60499b4c-5703-610e-6545-f45145e7b647-d1539c8a",
       "en": "Collage of indoor sports activities including badminton, table tennis, Zumba, yoga, and Tai Chi classes with participants engaged in each activity.",
-      "cn": ""
+      "cn": "室内运动活动拼图，涵盖羽毛球、乒乓球、尊巴、瑜伽与太极课程，参与者投入其中。"
     },
     {
       "id": "t35",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
       "en": "Safe Workplace",
-      "cn": ""
+      "cn": "安全职场"
     },
     {
       "id": "t36",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
       "en": "Ethical workspace",
-      "cn": ""
+      "cn": "合乎道德的工作环境"
     },
     {
       "id": "t37",
       "type": "text",
       "context": "div.w-layout-grid > div.layout231_item > p",
       "en": "We partner with SMETA to ensure ethical, legally compliant operations that eliminate slavery and child labour while maintaining safe working environments. We're committed to zero safety incidents through comprehensive equipment, training and monitoring of safety indicators. Details are available on our corporate website.",
-      "cn": ""
+      "cn": "我们与 SMETA 合作，确保运营合乎道德与法律规范，杜绝奴役和童工，同时维护安全的工作环境。我们以全面的设备、培训与安全指标监测，致力实现零安全事故。详情请见我们的企业网站。"
     },
     {
       "id": "t38",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
       "en": "Safe Workplace",
-      "cn": ""
+      "cn": "安全职场"
     },
     {
       "id": "t39",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
       "en": "Vision zero 3E+3S",
-      "cn": ""
+      "cn": "零事故愿景 3E+3S"
     },
     {
       "id": "t40",
       "type": "text",
       "context": "div.w-layout-grid > div.layout231_item > p",
       "en": "We are committed to fostering a robust safety culture through its 3E framework—Engagement, Empowerment and Enforcement—which aligns with the 3S theme (Sihat, Selamat, Semangat) under Vision Zero Malaysia. This strategic initiative seeks to minimize occupational accidents and workplace illness by cultivating organisational commitment to accident prevention.",
-      "cn": ""
+      "cn": "我们致力构建坚实的安全文化，依托 3E 框架——参与（Engagement）、赋能（Empowerment）与执行（Enforcement），并与马来西亚零事故愿景下的 3S 主题（Sihat 健康、Selamat 安全、Semangat 活力）一致。此战略举措旨在通过培育组织对事故预防的承诺，最大限度降低工伤事故与职业病。"
     },
     {
       "id": "t41",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
       "en": "Safe Workplace",
-      "cn": ""
+      "cn": "安全职场"
     },
     {
       "id": "t42",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
       "en": "Safety trainings",
-      "cn": ""
+      "cn": "安全培训"
     },
     {
       "id": "t43",
       "type": "text",
       "context": "div.w-layout-grid > div.layout231_item > p",
       "en": "We deliver comprehensive safety training programmes for new hires and refresher courses for existing personnel. Our Safe Handling of Chemicals and Spillage Management curriculum includes hands-on spill simulations where employees practice response procedures in full protective equipment, strengthening preparedness for chemical incidents.",
-      "cn": ""
+      "cn": "我们为新员工提供全面安全培训课程，并为在职人员开设进修课程。化学品安全处理与泄漏管理课程包含实操泄漏演练，员工在全套防护装备下模拟应对程序，强化化学品事故应急能力。"
     },
     {
       "id": "t44",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
       "en": "Healthy Lifestyle",
-      "cn": ""
+      "cn": "健康生活"
     },
     {
       "id": "t45",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
       "en": "Preventive care and occupational health support",
-      "cn": ""
+      "cn": "预防保健与职业健康支持"
     },
     {
       "id": "t46",
       "type": "text",
       "context": "div.w-layout-grid > div.layout231_item > p",
       "en": "Promoting a healthy lifestyle requires nutrition and wellness awareness. We partner with local healthcare authorities to organise health programmes and blood donation campaigns for employees.",
-      "cn": ""
+      "cn": "推广健康生活方式需要营养与养生意识。我们与本地卫生机构合作，为员工举办健康讲座与献血活动。"
     },
     {
       "id": "t47",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > div.text-style-tagline",
       "en": "Sport facilities/Activities",
-      "cn": ""
+      "cn": "运动设施／活动"
     },
     {
       "id": "t48",
       "type": "text",
       "context": "div.layout231_item > div.margin-bottom > h3.heading-style-h4",
       "en": "Sports facilities that strengthen workplace bonds",
-      "cn": ""
+      "cn": "凝聚团队情谊的运动设施"
     },
     {
       "id": "t49",
       "type": "text",
       "context": "div.w-layout-grid > div.layout231_item > p",
       "en": "We established an in-house sports complex with badminton and squash courts, table tennis and a gymnasium to promote employee wellness and productivity. Our initiatives include an annual badminton tournament, inter-company football matches and team-building events through the IOI Sport & Recreational Club.",
-      "cn": ""
+      "cn": "我们设立了内部运动综合中心，包含羽毛球与壁球场地、乒乓球室及健身房，旨在促进员工健康与工作效率。常规活动涵盖每年举办的羽毛球锦标赛、跨公司足球赛，以及通过 IOI 体育与康乐俱乐部组织的团建活动。"
     },
     {
       "id": "t50",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "More information at IOI Group: Publications ->",
-      "cn": ""
+      "cn": "更多信息请见 IOI 集团：出版物 ->"
     },
     {
       "id": "t51",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h3",
       "en": "Work with us",
-      "cn": ""
+      "cn": "加入我们"
     },
     {
       "id": "t52",
       "type": "text",
       "context": "div.cta45_card > div.max-width-large > p.text-size-medium",
       "en": "Explore career opportunities in our growing organisation",
-      "cn": ""
+      "cn": "在我们持续成长的组织中探索职业机会"
     },
     {
       "id": "t53",
       "type": "text",
       "context": "div.cta45_card > div.button-group > a.button",
       "en": "See Jobs",
-      "cn": ""
+      "cn": "查看职位"
     },
     {
       "id": "t54",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
-      "cn": ""
+      "cn": "探讨您的需求"
     },
     {
       "id": "t55",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
-      "cn": ""
+      "cn": "联系我们，获取您的专属定制方案。"
     },
     {
       "id": "t56",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
-      "cn": ""
+      "cn": "联系我们"
     },
     {
       "id": "t57",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
-      "cn": ""
+      "cn": "应用领域"
     },
     {
       "id": "t58",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
-      "cn": ""
+      "cn": "查看产品"
     },
     {
       "id": "t59",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
-      "cn": ""
+      "cn": "加入团队"
     },
     {
       "id": "t60",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
-      "cn": ""
+      "cn": "产品认证"
     },
     {
       "id": "t61",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
-      "cn": ""
+      "cn": "公司认证"
     },
     {
       "id": "t62",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
-      "cn": ""
+      "cn": "政策与声明"
     },
     {
       "id": "t63",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
-      "cn": ""
+      "cn": "通用条款"
     },
     {
       "id": "t64",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
-      "cn": ""
+      "cn": "数据保护"
     },
     {
       "id": "t65",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
-      "cn": ""
+      "cn": "免责声明"
     },
     {
       "id": "t66",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
-      "cn": ""
+      "cn": "©"
     },
     {
       "id": "t67",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
-      "cn": ""
+      "cn": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) 版权所有"
     }
   ]
 }

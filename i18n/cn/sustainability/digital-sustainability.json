@@ -9,413 +9,413 @@
       "type": "title",
       "context": "head > title",
       "en": "Digital Sustainability | IOI Oleochemical",
-      "cn": ""
+      "cn": "数字可持续发展|IOI Oleochemical"
     },
     {
       "id": "t2",
       "type": "meta[name=description]",
       "context": "head",
       "en": "Discover how IOI Oleochemical leverages digital innovation and technology to enhance operational efficiency and advance sustainable business practices.",
-      "cn": ""
+      "cn": "了解 IOI Oleochemical 如何借助数字创新与科技提升营运效率，推进可持续商业实践。"
     },
     {
       "id": "t3",
       "type": "meta[property=og:title]",
       "context": "head",
       "en": "Digital Sustainability | IOI Oleochemical",
-      "cn": ""
+      "cn": "数字可持续发展|IOI Oleochemical"
     },
     {
       "id": "t4",
       "type": "meta[property=og:description]",
       "context": "head",
       "en": "Discover how IOI Oleochemical leverages digital innovation and technology to enhance operational efficiency and advance sustainable business practices.",
-      "cn": ""
+      "cn": "了解 IOI Oleochemical 如何借助数字创新与科技提升营运效率，推进可持续商业实践。"
     },
     {
       "id": "t5",
       "type": "attr:alt",
       "context": "div.navbar5_container > a.navbar5_logo-link > img.navbar5_logo",
       "en": "IOI Oleochemical company logo featuring a segmented blue circle above the company name in black text.",
-      "cn": ""
+      "cn": "IOI Oleochemical 公司标志，上方为分段式蓝色圆形图案，下方为黑色公司名称文字。"
     },
     {
       "id": "t6",
       "type": "text",
       "context": "div.navbar5_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Products",
-      "cn": ""
+      "cn": "产品"
     },
     {
       "id": "t7",
       "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->",
-      "cn": ""
+      "cn": "查看产品 ->"
     },
     {
       "id": "t8",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->",
-      "cn": ""
+      "cn": "查看全部领域 ->"
     },
     {
       "id": "t9",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us",
-      "cn": ""
+      "cn": "公司概况"
     },
     {
       "id": "t10",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones",
-      "cn": ""
+      "cn": "发展历程"
     },
     {
       "id": "t11",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices",
-      "cn": ""
+      "cn": "分公司"
     },
     {
       "id": "t12",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards",
-      "cn": ""
+      "cn": "奖项"
     },
     {
       "id": "t13",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us",
-      "cn": ""
+      "cn": "加入团队"
     },
     {
       "id": "t14",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability",
-      "cn": ""
+      "cn": "可持续发展"
     },
     {
       "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements",
-      "cn": ""
+      "cn": "政策与声明"
     },
     {
       "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate",
-      "cn": ""
+      "cn": "环境责任"
     },
     {
       "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability",
-      "cn": ""
+      "cn": "采购与可追溯性"
     },
     {
       "id": "t18",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability",
-      "cn": ""
+      "cn": "数字可持续发展"
     },
     {
       "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare",
-      "cn": ""
+      "cn": "员工福利"
     },
     {
       "id": "t20",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events",
-      "cn": ""
+      "cn": "企业社会责任"
     },
     {
       "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates",
-      "cn": ""
+      "cn": "认证"
     },
     {
       "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates",
-      "cn": ""
+      "cn": "产品认证"
     },
     {
       "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates",
-      "cn": ""
+      "cn": "公司认证"
     },
     {
       "id": "t24",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms",
-      "cn": ""
+      "cn": "通用条款"
     },
     {
       "id": "t25",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中",
-      "cn": ""
+      "cn": "中 / EN"
     },
     {
       "id": "t26",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire",
-      "cn": ""
+      "cn": "咨询"
     },
     {
       "id": "t27",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
       "en": "Digital sustainability in action",
-      "cn": ""
+      "cn": "数字可持续发展实践"
     },
     {
       "id": "t28",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "Technology drives our environmental progress. Real-time monitoring and data analytics track energy use, emissions and resource consumption. We respond quickly to deviations and improve operations continuously. Our ESDE system and robotic process automation in oleo plants starting 2025 demonstrate our sustainability commitment.",
-      "cn": ""
+      "cn": "科技驱动我们的环境进步。实时监测与数据分析追踪能源使用、排放与资源消耗。一旦发现异常即刻应对，并持续优化运营。我们的 ESDE 系统及自 2025 年起在油脂化学工厂部署的机器人流程自动化，充分体现了我们对可持续发展的承诺。"
     },
     {
       "id": "t29",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > h2.heading-style-h2",
       "en": "Sustainability data management platforms",
-      "cn": ""
+      "cn": "可持续发展数据管理平台"
     },
     {
       "id": "t30",
       "type": "text",
       "context": "div.layout519_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "ESDE system tracks our impact",
-      "cn": ""
+      "cn": "ESDE 系统追踪我们的影响"
     },
     {
       "id": "t31",
       "type": "text",
       "context": "div.layout519_card-content > div.layout519_card-content-top > p",
       "en": "A web-based platform that tracks and drives employees' and organisational sustainability performance. It centralizes large volumes of data for real-time KPI monitoring, delivering clear insights to guide strategic action and goal achievement .",
-      "cn": ""
+      "cn": "一个基于网页的平台，追踪并推动员工与组织的可持续发展表现。集中管理海量数据，实现 KPI 实时监测，提供清晰洞察，指引战略行动与目标达成。"
     },
     {
       "id": "t32",
       "type": "text",
       "context": "div.layout519_card-content > div.layout519_card-content-top > p",
       "en": "By connecting users across 6 global facilities, it ensures alignment, transparency, and data-driven progress.",
-      "cn": ""
+      "cn": "平台连接全球 6 座生产基地的使用者，确保步调一致、信息透明与数据驱动的持续进步。"
     },
     {
       "id": "t33",
       "type": "text",
       "context": "div.layout519_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "IOI ESG platform measures progress",
-      "cn": ""
+      "cn": "IOI ESG 平台衡量进展"
     },
     {
       "id": "t34",
       "type": "text",
       "context": "div.layout519_card-content > div.layout519_card-content-top > p",
       "en": "A Digitalisation Platform centralises sustainability data with real-time tracking and analysis. Integrated with Systems, Applications, and Products in Data Processing (SAP), it enhances transparency, accuracy, and auditability.",
-      "cn": ""
+      "cn": "数字化平台集中管理可持续发展数据，提供实时追踪与分析。与 SAP（系统、应用与数据处理产品）深度集成，提升透明度、准确性与可审计性。"
     },
     {
       "id": "t35",
       "type": "text",
       "context": "div.layout519_card-content > div.layout519_card-content-top > p",
       "en": "The platform supports compliance with key frameworks such as ISSB and GRI, while enabling IOl to track, monitor, and manage its decarbonisation pathway.",
-      "cn": ""
+      "cn": "平台支持 ISSB、GRI 等关键框架的合规要求，同时助力 IOI 追踪、监测与管理脱碳路径。"
     },
     {
       "id": "t36",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > h2.heading-style-h2",
       "en": "Operational efficiency",
-      "cn": ""
+      "cn": "营运效率"
     },
     {
       "id": "t37",
       "type": "text",
       "context": "div.layout520_card-content-top > div.margin-bottom > h3.heading-style-h4",
       "en": "Realtime Production Organizer - Operation Management (RPO-OM)",
-      "cn": ""
+      "cn": "实时生产组织 - 运营管理系统 (RPO-OM)"
     },
     {
       "id": "t38",
       "type": "text",
       "context": "div.layout520_card-content > div.layout520_card-content-top > p",
       "en": "An integrated collection of technologies that provides a two-way communication between the operation data generated on the shop floor and the software systems used by plant management to assist the plant operation and management personnel by facilitating the sharing of plant information including unusual events, work progress, work flow, log sheet and others. By digitalizing and standardizing of how these data and info is handled, it can help the plant personnel to carry out their routine work correctly, safely and efficiently. This results in improved productivity through standardized work practices, streamlined processes, plus improved communications and coordination across departments.",
-      "cn": ""
+      "cn": "这是一套整合式技术组合，在车间产生的运营数据与厂区管理使用的软件系统之间建立双向通讯，协助运营与管理人员共享工厂信息，涵盖异常事件、工作进度、工作流程、日志记录等。通过将数据与信息处理方式数字化与标准化，平台帮助厂区人员准确、安全、高效地完成日常工作。借助标准化作业、流程优化以及跨部门沟通协调的提升，整体生产力得以增强。"
     },
     {
       "id": "t39",
       "type": "text",
       "context": "div.layout520_card-content-top > div.margin-bottom > h3.heading-style-h4",
       "en": "AI cooling towers cut energy waste",
-      "cn": ""
+      "cn": "AI 冷却塔减少能源浪费"
     },
     {
       "id": "t40",
       "type": "text",
       "context": "div.layout520_card-content > div.layout520_card-content-top > p",
       "en": "Developed to adapt to fluctuating demand, optimize performance and continuously improve through machine learning.",
-      "cn": ""
+      "cn": "专为适应需求波动而开发，借助机器学习不断优化性能、持续改进。"
     },
     {
       "id": "t41",
       "type": "text",
       "context": "div.layout520_card-content-top > div.margin-bottom > h3.heading-style-h4",
       "en": "Robots handle repetitive production tasks",
-      "cn": ""
+      "cn": "机器人处理重复性生产任务"
     },
     {
       "id": "t42",
       "type": "text",
       "context": "div.layout520_card-content > div.layout520_card-content-top > p",
       "en": "To streamline operations through real-time monitoring and automation, enabling timely machinery repairs via predictive maintenance.",
-      "cn": ""
+      "cn": "通过实时监测与自动化简化运营，借助预测性维护实现机械设备的及时检修。"
     },
     {
       "id": "t43",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > h2.heading-style-h2",
       "en": "Energy systems and modelling",
-      "cn": ""
+      "cn": "能源系统与建模"
     },
     {
       "id": "t44",
       "type": "text",
       "context": "div.layout519_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Energy Management System (EMS)",
-      "cn": ""
+      "cn": "能源管理系统 (EMS)"
     },
     {
       "id": "t45",
       "type": "text",
       "context": "div.layout519_card-content > div.layout519_card-content-top > p",
       "en": "A tool which can calculate the energy indicators on a real time basis & monitor energy consumption at each plant. This system will be able to show deviations with respect to targets at each plant by comparing current value against set targets. Above all, the system will be able to alert for any big changes in consumption in the plants. The current features proposed for EMS includes monitoring of the energy consumption and distribution to the plant, real-time energy data analytics & historical reporting for whole company.",
-      "cn": ""
+      "cn": "该工具可实时计算能源指标，并监测各厂区的能源消耗。系统将当前数值与设定目标对比，揭示各厂区与目标之间的偏差。更重要的是，一旦各厂区能耗出现重大变化，系统会即刻发出警报。EMS 现规划的功能涵盖：监测厂区能源消耗与分配、实时能源数据分析，以及全公司层面的历史数据报告。"
     },
     {
       "id": "t46",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
-      "cn": ""
+      "cn": "探讨您的需求"
     },
     {
       "id": "t47",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
-      "cn": ""
+      "cn": "联系我们，获取您的专属定制方案。"
     },
     {
       "id": "t48",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
-      "cn": ""
+      "cn": "联系我们"
     },
     {
       "id": "t49",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
-      "cn": ""
+      "cn": "应用领域"
     },
     {
       "id": "t50",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
-      "cn": ""
+      "cn": "查看产品"
     },
     {
       "id": "t51",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
-      "cn": ""
+      "cn": "加入团队"
     },
     {
       "id": "t52",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
-      "cn": ""
+      "cn": "产品认证"
     },
     {
       "id": "t53",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
-      "cn": ""
+      "cn": "公司认证"
     },
     {
       "id": "t54",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
-      "cn": ""
+      "cn": "政策与声明"
     },
     {
       "id": "t55",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
-      "cn": ""
+      "cn": "通用条款"
     },
     {
       "id": "t56",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
-      "cn": ""
+      "cn": "数据保护"
     },
     {
       "id": "t57",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
-      "cn": ""
+      "cn": "免责声明"
     },
     {
       "id": "t58",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
-      "cn": ""
+      "cn": "©"
     },
     {
       "id": "t59",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",
-      "cn": ""
+      "cn": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) 版权所有"
     }
   ]
 }
