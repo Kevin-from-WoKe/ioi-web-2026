@@ -226,6 +226,7 @@ async function main() {
   // bucket rows by cluster
   const buckets = new Map();
   for (const c of CLUSTER_ORDER) buckets.set(c, []);
+  const sharedRows = [];   // nav + footer, deduped later
 
   let totalAll = 0, totalVisible = 0;
 
@@ -255,24 +256,54 @@ async function main() {
       const lookup = cnMap.get(r.id);
       const en = r.en;
       const cn = lookup?.cn || "";
-      buckets.get(cluster).push({
+      const row = {
         Page: pageRel,
         ID: r.id,
         Section: r.section,
         EN: en,
         CN: cn,
         "Client notes": "",
-      });
+      };
+      // Nav and Footer strings repeat verbatim on every page — collect them in a
+      // dedicated dedup bucket instead of polluting every cluster tab.
+      if (r.section === "Nav" || r.section === "Footer") {
+        sharedRows.push(row);
+      } else {
+        buckets.get(cluster).push(row);
+      }
       totalVisible++;
     }
   }
+
+  // Dedup shared (Nav/Footer) rows by (Section + EN). Preserve first occurrence
+  // order so canonical nav order matches the homepage walk.
+  const seen = new Set();
+  const sharedDeduped = [];
+  for (const r of sharedRows) {
+    const key = `${r.Section}::${r.EN}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    // Drop the per-page Page column since it's shared — keep ID from first sighting
+    sharedDeduped.push({
+      Section: r.Section,
+      EN: r.EN,
+      CN: r.CN,
+      "Client notes": "",
+    });
+  }
+  // Sort: Nav first, then Footer
+  sharedDeduped.sort((a, b) => {
+    if (a.Section !== b.Section) return a.Section === "Nav" ? -1 : 1;
+    return 0;
+  });
 
   // Build workbook
   const wb = XLSX.utils.book_new();
 
   // Index sheet
-  const indexRows = [["Cluster", "Pages", "Visible strings"]];
-  let grand = 0;
+  const indexRows = [["Tab", "Scope", "Strings"]];
+  indexRows.push(["Nav & Footer", "Shared across all pages (deduped)", sharedDeduped.length]);
+  let grand = sharedDeduped.length;
   for (const cluster of CLUSTER_ORDER) {
     const rows = buckets.get(cluster);
     if (!rows.length) continue;
@@ -286,14 +317,30 @@ async function main() {
   indexRows.push(["Notes for reviewer", "", ""]);
   indexRows.push(["", "Edit the CN column directly if you have amendments.", ""]);
   indexRows.push(["", "Use the Client notes column for any comments / questions.", ""]);
-  indexRows.push(["", "Each tab corresponds to one section cluster of the site.", ""]);
+  indexRows.push(["", "Nav & Footer tab covers strings that repeat across every page.", ""]);
+  indexRows.push(["", "Each cluster tab covers only its page-specific content.", ""]);
   indexRows.push(["", "Hidden / SEO / alt-text content is intentionally excluded from review.", ""]);
 
   const idxSheet = XLSX.utils.aoa_to_sheet(indexRows);
   idxSheet["!cols"] = [{ wch: 18 }, { wch: 70 }, { wch: 16 }];
   XLSX.utils.book_append_sheet(wb, idxSheet, "Index");
 
-  // One sheet per cluster
+  // Nav & Footer tab (deduped, shared)
+  if (sharedDeduped.length) {
+    const sheet = XLSX.utils.json_to_sheet(sharedDeduped, {
+      header: ["Section", "EN", "CN", "Client notes"],
+    });
+    sheet["!cols"] = [
+      { wch: 10 },   // Section (Nav / Footer)
+      { wch: 60 },   // EN
+      { wch: 60 },   // CN
+      { wch: 30 },   // Notes
+    ];
+    sheet["!freeze"] = { xSplit: 0, ySplit: 1 };
+    XLSX.utils.book_append_sheet(wb, sheet, "Nav & Footer");
+  }
+
+  // One sheet per cluster (now without nav/footer noise)
   for (const cluster of CLUSTER_ORDER) {
     const rows = buckets.get(cluster);
     if (!rows.length) continue;
@@ -316,11 +363,12 @@ async function main() {
 
   XLSX.writeFile(wb, OUT_PATH);
   console.log(`\nSummary:`);
-  console.log(`  Total strings walked:    ${totalAll}`);
-  console.log(`  Visible (exported):      ${totalVisible}`);
-  console.log(`  Excluded (SEO/hidden):   ${totalAll - totalVisible}`);
+  console.log(`  Total strings walked:           ${totalAll}`);
+  console.log(`  Visible (before dedup):         ${totalVisible}`);
+  console.log(`  Nav/Footer rows collapsed:      ${sharedRows.length} → ${sharedDeduped.length}`);
+  console.log(`  Excluded (SEO/hidden):          ${totalAll - totalVisible}`);
   console.log(`\nWrote: ${OUT_PATH}`);
-  console.log(`Tabs: Index, ${[...buckets.entries()].filter(([_,v]) => v.length).map(([k]) => k).join(", ")}`);
+  console.log(`Tabs: Index, Nav & Footer, ${[...buckets.entries()].filter(([_,v]) => v.length).map(([k]) => k).join(", ")}`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
