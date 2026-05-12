@@ -1024,14 +1024,14 @@
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
       "en": "Still searching?",
-      "cn": "仍在查找？"
+      "cn": "没找到产品?"
     },
     {
       "id": "t147",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "Describe your requirements and we'll get you to the right solution fast.",
-      "cn": "告诉我们您的需求，我们将快速为您匹配合适的解决方案。"
+      "cn": "提供我们您的需求，我们将快速为您匹配合适的方案。"
     },
     {
       "id": "t148",
