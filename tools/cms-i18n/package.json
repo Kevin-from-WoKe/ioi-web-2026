@@ -1,0 +1,15 @@
+{
+  "name": "ioi-cms-i18n-tools",
+  "version": "1.0.0",
+  "description": "Export Contentful EN entries to Excel and import CN translations back",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "export": "node export.mjs",
+    "import": "node import.mjs"
+  },
+  "dependencies": {
+    "contentful-management": "^11.31.0",
+    "xlsx": "^0.18.5"
+  }
+}
