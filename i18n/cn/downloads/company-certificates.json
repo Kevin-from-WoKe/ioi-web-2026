@@ -51,14 +51,14 @@
       "type": "text",
       "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
       "en": "No results found.",
-      "cn": "未找到结果。"
+      "cn": "搜索无结果"
     },
     {
       "id": "t8",
       "type": "text",
       "context": "div.w-dyn-list > div.w-dyn-empty > div",
       "en": "There are no results with this criteria. Try changing your search.",
-      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+      "cn": "请更改搜索条件"
     },
     {
       "id": "t9",
@@ -72,14 +72,14 @@
       "type": "text",
       "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
       "en": "No results found.",
-      "cn": "未找到结果。"
+      "cn": "搜索无结果"
     },
     {
       "id": "t11",
       "type": "text",
       "context": "div.w-dyn-list > div.w-dyn-empty > div",
       "en": "There are no results with this criteria. Try changing your search.",
-      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+      "cn": "请更改搜索条件"
     },
     {
       "id": "t12",
@@ -793,14 +793,14 @@
       "type": "text",
       "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
       "en": "No results found.",
-      "cn": "未找到结果。"
+      "cn": "搜索无结果"
     },
     {
       "id": "t114",
       "type": "text",
       "context": "div.w-dyn-list > div.w-dyn-empty > div",
       "en": "There are no results with this criteria. Try changing your search.",
-      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+      "cn": "请更改搜索条件"
     },
     {
       "id": "t115",
@@ -898,28 +898,28 @@
       "type": "text",
       "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
       "en": "No results found.",
-      "cn": "未找到结果。"
+      "cn": "搜索无结果"
     },
     {
       "id": "t129",
       "type": "text",
       "context": "div.event32_list-wrapper > div.w-dyn-empty > div",
       "en": "There are no results with this criteria. Try changing your search.",
-      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+      "cn": "请更改搜索条件"
     },
     {
       "id": "t130",
       "type": "text",
       "context": "div.filters5_empty > div.margin-bottom > div.heading-style-h6",
       "en": "No results found.",
-      "cn": "未找到结果。"
+      "cn": "搜索无结果"
     },
     {
       "id": "t131",
       "type": "text",
       "context": "div#w-node-_0780c44c-61a6-c470-af8d-21e8d9755698-84044d33 > div.filters5_empty > div",
       "en": "There are no results with this criteria. Try changing your search.",
-      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+      "cn": "请更改搜索条件"
     },
     {
       "id": "t132",
@@ -947,14 +947,14 @@
       "type": "text",
       "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
       "en": "No results found.",
-      "cn": "未找到结果。"
+      "cn": "搜索无结果"
     },
     {
       "id": "t136",
       "type": "text",
       "context": "div.w-dyn-list > div.w-dyn-empty > div",
       "en": "There are no results with this criteria. Try changing your search.",
-      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+      "cn": "请更改搜索条件"
     },
     {
       "id": "t137",

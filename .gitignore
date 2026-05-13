@@ -1,3 +1,7 @@
 .DS_Store
 node_modules/
 *.log
+
+# Contentful CMS i18n tool — secrets & working files
+tools/cms-i18n/.env
+tools/cms-i18n/contentful-translations.xlsx
