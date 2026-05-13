@@ -191,6 +191,7 @@ function replaceMetaAndTitle($, lookup, idCounter, stats) {
 
 // Rewrite internal links to keep navigation inside cn locale.
 // Skips the language switcher (#lnkLangOpt) — that one flips to en.
+// Also rewrites data-cms-href-prefix attributes (runtime-built detail page URLs).
 function rewriteInternalLinks($) {
   $("a[href], link[href]").each((_, el) => {
     const href = el.attribs?.href;
@@ -209,6 +210,44 @@ function rewriteInternalLinks($) {
     newHref = newHref.replace(/^\/en\//, "/cn/");
     if (newHref !== href) el.attribs.href = newHref;
   });
+
+  // Rewrite data-cms-href-prefix (runtime detail-page URL prefixes like ../en/detail_csr.html)
+  $("[data-cms-href-prefix]").each((_, el) => {
+    const prefix = el.attribs["data-cms-href-prefix"];
+    if (!prefix) return;
+    // Skip non-path prefixes (mailto:, tel:, https:, etc.)
+    if (/^(https?:|mailto:|tel:|#|javascript:|data:)/i.test(prefix)) return;
+    let newPrefix = prefix;
+    newPrefix = newPrefix.replace(/(\.\.\/)+en\//g, (m) => m.replace("en/", "cn/"));
+    newPrefix = newPrefix.replace(/^\/en\//, "/cn/");
+    if (newPrefix !== prefix) el.attribs["data-cms-href-prefix"] = newPrefix;
+  });
+}
+
+// Replace static UI strings inside CMS template/list elements that the i18n walker
+// intentionally skips (dynamic content containers). "Read more" is the main example —
+// it sits inside data-cms-template but is not itself dynamic.
+// Map is English text → Chinese replacement.
+const CMS_TEMPLATE_STATIC_STRINGS = {
+  "Read more": "了解更多",
+};
+
+function translateCmsTemplateStrings($) {
+  for (const [en, cn] of Object.entries(CMS_TEMPLATE_STATIC_STRINGS)) {
+    // Find text nodes with the exact value inside any CMS container
+    $("[data-cms-template], [data-cms-list]").each((_, container) => {
+      const findAndReplace = (node) => {
+        if (!node) return;
+        if (node.type === "text" && node.data.trim() === en) {
+          // Preserve surrounding whitespace
+          node.data = node.data.replace(en, cn);
+          return;
+        }
+        if (node.children) node.children.forEach(findAndReplace);
+      };
+      findAndReplace(container);
+    });
+  }
 }
 
 // Some pages reference assets / scripts via relative paths like "../../js/..." — these don't change.
@@ -262,10 +301,13 @@ async function buildFile(absPath) {
   // 3. Update <html lang>
   $("html").attr("lang", TARGET_LANG);
 
-  // 4. Rewrite internal links
+  // 4. Rewrite internal links + data-cms-href-prefix attributes
   rewriteInternalLinks($);
 
-  // 5. Write output
+  // 5. Translate static UI strings inside CMS template containers
+  translateCmsTemplateStrings($);
+
+  // 7. Write output
   await mkdir(dirname(outPath), { recursive: true });
   await writeFile(outPath, $.html(), "utf8");
 
