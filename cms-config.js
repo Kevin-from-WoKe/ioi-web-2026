@@ -10,4 +10,4 @@
  */
 window.CONTENTFUL_SPACE_ID = "slmipam661bk";
 window.CONTENTFUL_ACCESS_TOKEN = "mzqVu_K9SJTw8LpTgpa2U5Q9zXpQfzSeImmh8VXdgMA";
-window.CONTENTFUL_ENVIRONMENT = "master";
+window.CONTENTFUL_ENVIRONMENT = "staging";

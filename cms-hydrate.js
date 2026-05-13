@@ -89,7 +89,12 @@
 
   function detectLocale() {
     var lang = document.documentElement.lang;
-    return lang === "zh-CN" ? "zh-CN" : "en-US";
+    // Accept both zh-CN (Contentful locale code) and zh-Hans (set by build.mjs).
+    // Also fall back to URL path so /cn/ pages always get Chinese regardless of
+    // what lang attribute the HTML was built with.
+    var isChinese = lang === "zh-CN" || lang === "zh-Hans"
+      || window.location.pathname.indexOf("/cn/") !== -1;
+    return isChinese ? "zh-CN" : "en-US";
   }
 
   // ---------------------------------------------------------------------------
