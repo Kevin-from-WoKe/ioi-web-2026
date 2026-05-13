@@ -88,6 +88,19 @@ $("[data-lenis-toggle]").on("click", function () {
 	siteYearLabel.innerText = new Date().getFullYear();
   }
   
-  // Language toggle (#lnkLangOpt) is visible by default.
-  
+  // Language toggle: always links to the home page of the other locale.
+  // Compute the correct relative path based on current page depth.
+  // e.g. /en/about-us/offices.html (depth 2) → ../../cn/index.html
+  //      /en/index.html             (depth 1) → ../cn/index.html
+  let langOpt = document.getElementById('lnkLangOpt');
+  if (langOpt) {
+    const segments = window.location.pathname.split('/').filter(Boolean);
+    // segments[0] is the locale folder ('en' or 'cn'); remaining segments
+    // are subdirectory + filename.  depth = number of path levels to climb.
+    const depth = Math.max(1, segments.length - 1);
+    const prefix = Array(depth).fill('..').join('/');
+    const isEn = segments[0] === 'en';
+    langOpt.href = prefix + (isEn ? '/cn/index.html' : '/en/index.html');
+  }
+
 })();
