@@ -224,18 +224,32 @@ function rewriteInternalLinks($) {
   });
 }
 
-// Replace static UI strings inside CMS template/list elements that the i18n walker
-// intentionally skips (dynamic content containers). "Read more" is the main example —
-// it sits inside data-cms-template but is not itself dynamic.
+// Replace static UI strings inside CMS dynamic containers that the i18n walker
+// intentionally skips (elements with data-cms-template, data-cms-list, data-cms-href,
+// data-cms-src, or data-cms). These hold button labels and UI text that are not
+// themselves dynamic but live inside dynamic parent elements.
 // Map is English text → Chinese replacement.
 const CMS_TEMPLATE_STATIC_STRINGS = {
-  "Read more": "了解更多",
+  "Read more":    "了解更多",
+  "Enquire":      "咨询",
+  "Find products":"查找产品",
+  "View on map":  "在地图上查看",
+  "Apply":        "申请",
+  "View":         "查看",
+  "Download":     "下载",
 };
 
 function translateCmsTemplateStrings($) {
   for (const [en, cn] of Object.entries(CMS_TEMPLATE_STATIC_STRINGS)) {
-    // Find text nodes with the exact value inside any CMS container
-    $("[data-cms-template], [data-cms-list]").each((_, container) => {
+    // Cover all CMS dynamic container types: template, list, and individual CMS-bound elements.
+    const selector = [
+      "[data-cms-template]",
+      "[data-cms-list]",
+      "[data-cms-href]",
+      "[data-cms-src]",
+      "[data-cms]",
+    ].join(", ");
+    $(selector).each((_, container) => {
       const findAndReplace = (node) => {
         if (!node) return;
         if (node.type === "text" && node.data.trim() === en) {
