@@ -112,7 +112,18 @@ function walkAndReplace($, el, lookup, idCounter, stats) {
   }
   if (el.type !== "tag") return;
   if (SKIP_TAGS.has(el.name)) return;
-  if (isDynamicElement($, el)) return;
+  if (isDynamicElement($, el)) {
+    // Even inside dynamic CMS list containers, w-dyn-empty holds *static* empty-state text.
+    // Walk into direct w-dyn-empty children so those strings get translated.
+    if (el.children) {
+      for (const child of el.children) {
+        if (child.type === "tag" && $(child).hasClass("w-dyn-empty")) {
+          walkAndReplace($, child, lookup, idCounter, stats);
+        }
+      }
+    }
+    return;
+  }
 
   for (const attr of TRANSLATABLE_ATTRS) {
     if (el.attribs && attr in el.attribs) {

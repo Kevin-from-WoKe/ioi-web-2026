@@ -1,8 +1,8 @@
 {
   "file": "en/enquiry.html",
   "lang_target": "cn",
-  "extracted_at": "2026-05-08T00:32:04.332Z",
-  "total": 88,
+  "extracted_at": "2026-05-13T01:50:21.468Z",
+  "total": 94,
   "strings": [
     {
       "id": "t1",
@@ -49,289 +49,289 @@
     {
       "id": "t7",
       "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "未找到结果。"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+    },
+    {
+      "id": "t9",
+      "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->",
       "cn": "查看产品 ->"
     },
     {
-      "id": "t8",
+      "id": "t10",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "未找到结果。"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+    },
+    {
+      "id": "t12",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->",
       "cn": "查看全部领域 ->"
     },
     {
-      "id": "t9",
+      "id": "t13",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us",
       "cn": "公司概况"
     },
     {
-      "id": "t10",
+      "id": "t14",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones",
       "cn": "发展历程"
     },
     {
-      "id": "t11",
+      "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices",
       "cn": "分公司"
     },
     {
-      "id": "t12",
+      "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards",
       "cn": "奖项"
     },
     {
-      "id": "t13",
+      "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us",
       "cn": "加入团队"
     },
     {
-      "id": "t14",
+      "id": "t18",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability",
       "cn": "可持续发展"
     },
     {
-      "id": "t15",
+      "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t16",
+      "id": "t20",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate",
       "cn": "环境责任"
     },
     {
-      "id": "t17",
+      "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability",
       "cn": "采购与可追溯性"
     },
     {
-      "id": "t18",
+      "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability",
       "cn": "数字可持续发展"
     },
     {
-      "id": "t19",
+      "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare",
       "cn": "员工福利"
     },
     {
-      "id": "t20",
+      "id": "t24",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events",
       "cn": "企业社会责任"
     },
     {
-      "id": "t21",
+      "id": "t25",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates",
       "cn": "认证"
     },
     {
-      "id": "t22",
+      "id": "t26",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t23",
+      "id": "t27",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t24",
+      "id": "t28",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t25",
+      "id": "t29",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中",
       "cn": "中 / EN"
     },
     {
-      "id": "t26",
+      "id": "t30",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire",
       "cn": "咨询"
     },
     {
-      "id": "t27",
+      "id": "t31",
       "type": "text",
       "context": "div.contact6_heading-wrapper > div.margin-bottom > h2.heading-style-h2",
       "en": "Reach our team",
       "cn": "联系我们的团队"
     },
     {
-      "id": "t28",
+      "id": "t32",
       "type": "text",
       "context": "div.margin-bottom > div.contact6_heading-wrapper > p.text-size-small",
       "en": "Please describe your needs. We will direct your enquiry to the appropriate specialists who can assist you.",
       "cn": "请描述您的需求。我们将把您的咨询转给最合适的专员协助处理。"
     },
     {
-      "id": "t29",
+      "id": "t33",
       "type": "text",
       "context": "div#w-node-e12b5e51-3c96-be7a-c569-21b627f5922c-2b5778d1 > div.text-weight-medium > span.text-style-muted",
       "en": "|",
       "cn": "|"
     },
     {
-      "id": "t30",
+      "id": "t34",
       "type": "text",
       "context": "div.contact6_contact-list > div#w-node-e12b5e51-3c96-be7a-c569-21b627f5922c-2b5778d1 > div.text-weight-medium",
       "en": "Penang Malaysia",
       "cn": "马来西亚槟城"
     },
     {
-      "id": "t31",
+      "id": "t35",
       "type": "text",
       "context": "div#w-node-e3b402a4-34d9-672d-0263-0f2837b122f5-2b5778d1 > div.text-weight-medium > span.text-style-muted",
       "en": "|",
       "cn": "|"
     },
     {
-      "id": "t32",
+      "id": "t36",
       "type": "text",
       "context": "div.contact6_contact-list > div#w-node-e3b402a4-34d9-672d-0263-0f2837b122f5-2b5778d1 > div.text-weight-medium",
       "en": "Penang Malaysia",
       "cn": "马来西亚槟城"
     },
     {
-      "id": "t33",
+      "id": "t37",
       "type": "text",
       "context": "div#w-node-dfddcebb-bc14-beb7-22a7-c716b2077f5b-2b5778d1 > div.text-weight-medium > span.text-style-muted",
       "en": "|",
       "cn": "|"
     },
     {
-      "id": "t34",
+      "id": "t38",
       "type": "text",
       "context": "div.contact6_contact-list > div#w-node-dfddcebb-bc14-beb7-22a7-c716b2077f5b-2b5778d1 > div.text-weight-medium",
       "en": "Johor Malaysia",
       "cn": "马来西亚柔佛"
     },
     {
-      "id": "t35",
+      "id": "t39",
       "type": "text",
       "context": "div.contact6_contact-list > div#w-node-_4215c048-738c-93aa-5057-460b45282d63-2b5778d1 > div.text-weight-medium",
       "en": "ACIDCHEM (USA) INC.",
       "cn": "ACIDCHEM (USA) INC."
     },
     {
-      "id": "t36",
+      "id": "t40",
       "type": "text",
       "context": "div#w-node-_4215c048-738c-93aa-5057-460b45282d63-2b5778d1 > div.text-weight-medium > span.text-style-muted",
       "en": "|",
       "cn": "|"
     },
     {
-      "id": "t37",
+      "id": "t41",
       "type": "text",
       "context": "div.contact6_contact-list > div#w-node-_4215c048-738c-93aa-5057-460b45282d63-2b5778d1 > div.text-weight-medium",
       "en": "New Jersey USA",
       "cn": "美国新泽西"
     },
     {
-      "id": "t38",
+      "id": "t42",
       "type": "text",
       "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
       "en": "Name",
       "cn": "姓名"
     },
     {
-      "id": "t39",
+      "id": "t43",
       "type": "text",
       "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
       "en": "*",
       "cn": "*"
     },
     {
-      "id": "t40",
+      "id": "t44",
       "type": "text",
       "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
       "en": "Company",
       "cn": "公司"
     },
     {
-      "id": "t41",
+      "id": "t45",
       "type": "text",
       "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
       "en": "*",
       "cn": "*"
     },
     {
-      "id": "t42",
+      "id": "t46",
       "type": "text",
       "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
       "en": "City",
       "cn": "城市"
     },
     {
-      "id": "t43",
+      "id": "t47",
       "type": "text",
       "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
       "en": "Country",
       "cn": "国家"
-    },
-    {
-      "id": "t44",
-      "type": "text",
-      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
-      "en": "*",
-      "cn": "*"
-    },
-    {
-      "id": "t45",
-      "type": "text",
-      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
-      "en": "Email",
-      "cn": "电邮"
-    },
-    {
-      "id": "t46",
-      "type": "text",
-      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
-      "en": "*",
-      "cn": "*"
-    },
-    {
-      "id": "t47",
-      "type": "text",
-      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
-      "en": "Phone number",
-      "cn": "联系电话"
     },
     {
       "id": "t48",
@@ -343,278 +343,320 @@
     {
       "id": "t49",
       "type": "text",
-      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
-      "en": "What is your enquiry about?",
-      "cn": "咨询主题"
+      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
+      "en": "Email",
+      "cn": "电邮"
     },
     {
       "id": "t50",
-      "type": "text",
-      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
-      "en": "Product sourcing",
-      "cn": "产品采购"
-    },
-    {
-      "id": "t51",
-      "type": "text",
-      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
-      "en": "HR inquiries",
-      "cn": "人力资源咨询"
-    },
-    {
-      "id": "t52",
-      "type": "text",
-      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
-      "en": "Sustainability",
-      "cn": "可持续发展"
-    },
-    {
-      "id": "t53",
-      "type": "text",
-      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
-      "en": "Others",
-      "cn": "其他"
-    },
-    {
-      "id": "t54",
-      "type": "text",
-      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
-      "en": "For what applications? (Select all that apply)",
-      "cn": "适用于哪些领域？（可多选）"
-    },
-    {
-      "id": "t55",
-      "type": "text",
-      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
-      "en": "No results found.",
-      "cn": "未找到结果。"
-    },
-    {
-      "id": "t56",
-      "type": "text",
-      "context": "div.w-dyn-list > div.w-dyn-empty > div",
-      "en": "There are no results with this criteria. Try changing your search.",
-      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
-    },
-    {
-      "id": "t57",
-      "type": "text",
-      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
-      "en": "Select a product (Select all that apply)",
-      "cn": "请选择产品（可多选）"
-    },
-    {
-      "id": "t58",
-      "type": "text",
-      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
-      "en": "Palmac®",
-      "cn": "Palmac®"
-    },
-    {
-      "id": "t59",
-      "type": "text",
-      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
-      "en": "Fatty Acids & Glycerine",
-      "cn": "脂肪酸与甘油"
-    },
-    {
-      "id": "t60",
-      "type": "text",
-      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
-      "en": "Palmsurf®",
-      "cn": "Palmsurf®"
-    },
-    {
-      "id": "t61",
-      "type": "text",
-      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
-      "en": "Esters",
-      "cn": "酯类"
-    },
-    {
-      "id": "t62",
-      "type": "text",
-      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
-      "en": "Palmsabun®",
-      "cn": "Palmsabun®"
-    },
-    {
-      "id": "t63",
-      "type": "text",
-      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
-      "en": "Soap Noodles",
-      "cn": "皂粒"
-    },
-    {
-      "id": "t64",
-      "type": "text",
-      "context": "div.margin-bottom > div.form_field-wrapper > label.form_field-label",
-      "en": "Message",
-      "cn": "留言"
-    },
-    {
-      "id": "t65",
       "type": "text",
       "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
       "en": "*",
       "cn": "*"
     },
     {
+      "id": "t51",
+      "type": "text",
+      "context": "div.form_field-2col > div.form_field-wrapper > label.form_field-label",
+      "en": "Phone number",
+      "cn": "联系电话"
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
+      "en": "*",
+      "cn": "*"
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
+      "en": "What is your enquiry about?",
+      "cn": "咨询主题"
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
+      "en": "Product sourcing",
+      "cn": "产品采购"
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
+      "en": "HR inquiries",
+      "cn": "人力资源咨询"
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
+      "en": "Sustainability",
+      "cn": "可持续发展"
+    },
+    {
+      "id": "t57",
+      "type": "text",
+      "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
+      "en": "Others",
+      "cn": "其他"
+    },
+    {
+      "id": "t58",
+      "type": "text",
+      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
+      "en": "For what applications? (Select all that apply)",
+      "cn": "适用于哪些领域？（可多选）"
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "未找到结果。"
+    },
+    {
+      "id": "t60",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
+      "en": "Select a product (Select all that apply)",
+      "cn": "请选择产品（可多选）"
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
+      "en": "Palmac®",
+      "cn": "Palmac®"
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
+      "en": "Fatty Acids & Glycerine",
+      "cn": "脂肪酸与甘油"
+    },
+    {
+      "id": "t64",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
+      "en": "Palmsurf®",
+      "cn": "Palmsurf®"
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
+      "en": "Esters",
+      "cn": "酯类"
+    },
+    {
       "id": "t66",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > span.form_checkbox-label",
+      "en": "Palmsabun®",
+      "cn": "Palmsabun®"
+    },
+    {
+      "id": "t67",
+      "type": "text",
+      "context": "div.form_radio-1coll > label.w-checkbox > div.margin-left",
+      "en": "Soap Noodles",
+      "cn": "皂粒"
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "context": "div.margin-bottom > div.form_field-wrapper > label.form_field-label",
+      "en": "Message",
+      "cn": "留言"
+    },
+    {
+      "id": "t69",
+      "type": "text",
+      "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
+      "en": "*",
+      "cn": "*"
+    },
+    {
+      "id": "t70",
       "type": "attr:placeholder",
       "context": "div.margin-bottom > div.form_field-wrapper > textarea#Message",
       "en": "\"I'm looking for Product Specification, Product Enquiry or SDS.\"",
       "cn": "「我正在查找产品规格、产品咨询或 SDS。」"
     },
     {
-      "id": "t67",
+      "id": "t71",
       "type": "attr:data-wait",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > input#cta-enquiry-submit",
       "en": "Sending...",
       "cn": "发送中..."
     },
     {
-      "id": "t68",
+      "id": "t72",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "This site is protected by reCAPTCHA and the Google",
       "cn": "本网站受 Google reCAPTCHA 保护"
     },
     {
-      "id": "t69",
+      "id": "t73",
       "type": "text",
       "context": "form#wf-form-Website-Enquiry-Form > p > a",
       "en": "Privacy Policy",
       "cn": "隐私政策"
     },
     {
-      "id": "t70",
+      "id": "t74",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "and",
       "cn": "及"
     },
     {
-      "id": "t71",
+      "id": "t75",
       "type": "text",
       "context": "form#wf-form-Website-Enquiry-Form > p > a",
       "en": "Terms of Service",
       "cn": "服务条款"
     },
     {
-      "id": "t72",
+      "id": "t76",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "apply.",
       "cn": "。"
     },
     {
-      "id": "t73",
+      "id": "t77",
       "type": "text",
       "context": "div.form_message-success-wrapper > div.form_message-success > div.success-text",
       "en": "Your enquiry has been sent successfully.",
       "cn": "您的咨询已成功发送。"
     },
     {
-      "id": "t74",
+      "id": "t78",
       "type": "text",
       "context": "div.form_message-error-wrapper > div.form_message-error > div.error-text",
       "en": "Please check your details and try again.",
       "cn": "请检查您填写的信息并重试。"
     },
     {
-      "id": "t75",
+      "id": "t79",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
       "cn": "探讨您的需求"
     },
     {
-      "id": "t76",
+      "id": "t80",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalized suggestions directly.",
       "cn": "联系我们，获取您的专属定制方案。"
     },
     {
-      "id": "t77",
+      "id": "t81",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
       "cn": "联系我们"
     },
     {
-      "id": "t78",
+      "id": "t82",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "未找到结果。"
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合条件的结果，请尝试修改筛选条件。"
+    },
+    {
+      "id": "t84",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
       "cn": "应用领域"
     },
     {
-      "id": "t79",
+      "id": "t85",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
       "cn": "查看产品"
     },
     {
-      "id": "t80",
+      "id": "t86",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
       "cn": "加入团队"
     },
     {
-      "id": "t81",
+      "id": "t87",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t82",
+      "id": "t88",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t83",
+      "id": "t89",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t84",
+      "id": "t90",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t85",
+      "id": "t91",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
       "cn": "数据保护"
     },
     {
-      "id": "t86",
+      "id": "t92",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
       "cn": "免责声明"
     },
     {
-      "id": "t87",
+      "id": "t93",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
       "cn": "©"
     },
     {
-      "id": "t88",
+      "id": "t94",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",

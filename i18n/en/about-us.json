@@ -1,7 +1,7 @@
 {
   "file": "en/about-us.html",
-  "extracted_at": "2026-05-08T00:32:04.278Z",
-  "total": 99,
+  "extracted_at": "2026-05-13T01:50:21.387Z",
+  "total": 105,
   "strings": [
     {
       "id": "t1",
@@ -42,440 +42,440 @@
     {
       "id": "t7",
       "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
+    },
+    {
+      "id": "t9",
+      "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->"
     },
     {
-      "id": "t8",
+      "id": "t10",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
+    },
+    {
+      "id": "t12",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->"
     },
     {
-      "id": "t9",
+      "id": "t13",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us"
     },
     {
-      "id": "t10",
+      "id": "t14",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones"
     },
     {
-      "id": "t11",
+      "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices"
     },
     {
-      "id": "t12",
+      "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards"
     },
     {
-      "id": "t13",
+      "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us"
     },
     {
-      "id": "t14",
+      "id": "t18",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability"
     },
     {
-      "id": "t15",
+      "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements"
     },
     {
-      "id": "t16",
+      "id": "t20",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate"
     },
     {
-      "id": "t17",
+      "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability"
     },
     {
-      "id": "t18",
+      "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability"
     },
     {
-      "id": "t19",
+      "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare"
     },
     {
-      "id": "t20",
+      "id": "t24",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events"
     },
     {
-      "id": "t21",
+      "id": "t25",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates"
     },
     {
-      "id": "t22",
+      "id": "t26",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates"
     },
     {
-      "id": "t23",
+      "id": "t27",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates"
     },
     {
-      "id": "t24",
+      "id": "t28",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms"
     },
     {
-      "id": "t25",
+      "id": "t29",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中"
     },
     {
-      "id": "t26",
+      "id": "t30",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire"
     },
     {
-      "id": "t27",
+      "id": "t31",
       "type": "text",
       "context": "div.layout16_content-left > div.margin-bottom > div.text-style-tagline",
       "en": "Established since 1980"
     },
     {
-      "id": "t28",
+      "id": "t32",
       "type": "text",
       "context": "div.layout16_content-left > div.margin-bottom > h2.heading-style-h2",
       "en": "Part of IOI Corporation Berhad's integrated value chain"
     },
     {
-      "id": "t29",
+      "id": "t33",
       "type": "text",
       "context": "div.layout16_content-left > div.margin-bottom > p.text-size-medium",
       "en": "IOI Oleochemical operates within one of Asia's largest palm-based chemical producers. We convert raw materials into specialty chemicals that serve industries worldwide, backed by decades of operational excellence and technical depth."
     },
     {
-      "id": "t30",
+      "id": "t34",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723ad5-b8ee20cb > div.layout16_item-text-wrapper > p",
       "en": "Vertically integrated from plantation to finished product"
     },
     {
-      "id": "t31",
+      "id": "t35",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723adb-b8ee20cb > div.layout16_item-text-wrapper > p",
       "en": "Certified across quality, safety and environmental standards"
     },
     {
-      "id": "t32",
+      "id": "t36",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723ae1-b8ee20cb > div.layout16_item-text-wrapper > p",
       "en": "Serving personal care, home care, food, industrial and pharmaceutical sectors"
     },
     {
-      "id": "t33",
+      "id": "t37",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > div.text-style-tagline",
       "en": "Vision"
     },
     {
-      "id": "t34",
+      "id": "t38",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > h2.heading-style-h4",
       "en": "To be the trusted partner for sustainable oleochemical solutions across every sector we serve. We advance industries through innovation, reliability and responsible sourcing."
     },
     {
-      "id": "t35",
+      "id": "t39",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
       "en": "Our core values"
     },
     {
-      "id": "t36",
+      "id": "t40",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "We operate with clarity and purpose. Every decision reflects our commitment to quality and sustainability to the industries we serve."
     },
     {
-      "id": "t37",
+      "id": "t41",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Integrity"
     },
     {
-      "id": "t38",
+      "id": "t42",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Team spirit"
     },
     {
-      "id": "t39",
+      "id": "t43",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Innovation"
     },
     {
-      "id": "t40",
+      "id": "t44",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Commitment"
     },
     {
-      "id": "t41",
+      "id": "t45",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Cost efficiency"
     },
     {
-      "id": "t42",
+      "id": "t46",
       "type": "text",
       "context": "div#w-node-c5be961c-3e1f-b35c-5c46-04386c723b06-b8ee20cb > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Excellence in execution"
     },
     {
-      "id": "t43",
+      "id": "t47",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "We do the right thing"
     },
     {
-      "id": "t44",
+      "id": "t48",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "Transparency guides our business. We keep our word and stand behind what we make."
     },
     {
-      "id": "t45",
+      "id": "t49",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "We work as one"
     },
     {
-      "id": "t46",
+      "id": "t50",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "Our strength comes from people working together toward shared goals. We collaborate across teams and borders."
     },
     {
-      "id": "t47",
+      "id": "t51",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Solve problems in better ways"
     },
     {
-      "id": "t48",
+      "id": "t52",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "Our chemists and engineers embrace innovation and explore emerging technologies. We invest in research that disrupts industries and redefines what's possible."
     },
     {
-      "id": "t49",
+      "id": "t53",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "We own our impact"
     },
     {
-      "id": "t50",
+      "id": "t54",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "From plantation to product, we take ownership and put our heart into what we do."
     },
     {
-      "id": "t51",
+      "id": "t55",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Getting the best value"
     },
     {
-      "id": "t52",
+      "id": "t56",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "Precision ensures optimal value for your investment."
     },
     {
-      "id": "t53",
+      "id": "t57",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "We measure and improve"
     },
     {
-      "id": "t54",
+      "id": "t58",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "We monitor our performance to ensure great results across all operations."
     },
     {
-      "id": "t55",
+      "id": "t59",
       "type": "text",
       "context": "div.layout19_content-left > div.margin-bottom > div.text-style-tagline",
       "en": "Integrated"
     },
     {
-      "id": "t56",
+      "id": "t60",
       "type": "text",
       "context": "div.layout19_content-left > div.margin-bottom > h2.heading-style-h2",
       "en": "One supply chain from soil to shelf"
     },
     {
-      "id": "t57",
+      "id": "t61",
       "type": "text",
       "context": "div.layout19_content-left > div.margin-bottom > p.text-size-medium",
       "en": "IOI Oleochemical operates within IOI Corporation Berhad's vertically integrated system. We control every stage, from sustainable palm cultivation through refining, conversion, and specialty formulation. This integration means consistency, traceability and the kind of quality assurance that comes from owning the entire process."
     },
     {
-      "id": "t58",
+      "id": "t62",
       "type": "text",
       "context": "ul.layout19_list > li.layout19_item > p",
       "en": "Plantation management and sustainable sourcing"
     },
     {
-      "id": "t59",
+      "id": "t63",
       "type": "text",
       "context": "ul.layout19_list > li.layout19_item > p",
       "en": "Refining and processing of raw materials"
     },
     {
-      "id": "t60",
+      "id": "t64",
       "type": "text",
       "context": "ul.layout19_list > li.layout19_item > p",
       "en": "Specialty chemical conversion and formulation"
     },
     {
-      "id": "t61",
+      "id": "t65",
       "type": "text",
       "context": "div.text-align-center > div.margin-bottom > div.text-style-tagline",
       "en": "Corporate Milestones"
     },
     {
-      "id": "t62",
+      "id": "t66",
       "type": "text",
       "context": "div.text-align-center > div.margin-bottom > h2.heading-style-h2",
       "en": "Five decades of building capability"
     },
     {
-      "id": "t63",
+      "id": "t67",
       "type": "text",
       "context": "div.max-width-large > div.text-align-center > p.text-size-medium",
       "en": "From our first refinery to a global network, we've grown by staying focused on what matters. Each milestone marks a commitment kept."
     },
     {
-      "id": "t64",
+      "id": "t68",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "See all milestones"
     },
     {
-      "id": "t65",
+      "id": "t69",
       "type": "text",
       "context": "div.timeline17_item > div.timeline17_item-content > p",
       "en": "Foundational maiden venture: PKO & PK expellers."
     },
     {
-      "id": "t66",
+      "id": "t70",
       "type": "text",
       "context": "div.timeline17_item > div#w-node-c5be961c-3e1f-b35c-5c46-04386c723ba3-b8ee20cb > p",
       "en": "Palmco Holdings (now"
     },
     {
-      "id": "t67",
+      "id": "t71",
       "type": "text",
       "context": "div.timeline17_item > div#w-node-c5be961c-3e1f-b35c-5c46-04386c723ba3-b8ee20cb > p",
       "en": "Oleo) listed on the KLSE (now Bursa Malaysia)."
     },
     {
-      "id": "t68",
+      "id": "t72",
       "type": "text",
       "context": "div.timeline17_item-content > div.margin-bottom > h3.heading-style-h5",
       "en": "‍"
     },
     {
-      "id": "t69",
+      "id": "t73",
       "type": "text",
       "context": "div.timeline17_item > div.timeline17_item-content > p",
       "en": "Venture into new range of fatty esters & specialty oleo derivatives under Esterchem (M) Sdn Bhd."
     },
     {
-      "id": "t70",
+      "id": "t74",
       "type": "text",
       "context": "div.timeline17_item > div.timeline17_item-content > p",
       "en": "New warehouse (warehouse 5) with capacity up to 5,000 pallets storage space."
     },
     {
-      "id": "t71",
+      "id": "t75",
       "type": "text",
       "context": "div.timeline17_item > div.timeline17_item-content > p",
       "en": "Commissioning of our new Cogen plant."
     },
     {
-      "id": "t72",
+      "id": "t76",
       "type": "text",
       "context": "div.stats1_content-left > div.margin-bottom > div.text-style-tagline",
       "en": "Sustainability"
     },
     {
-      "id": "t73",
+      "id": "t77",
       "type": "text",
       "context": "div.w-layout-grid > div.stats1_content-left > h2.heading-style-h2",
       "en": "Sustainability embedded in our operations"
     },
     {
-      "id": "t74",
+      "id": "t78",
       "type": "text",
       "context": "div.w-layout-grid > div.stats1_content-right > p.text-size-medium",
       "en": "We source sustainably and produce responsibly. Our commitment to environmental stewardship and social impact runs through every decision we make, from plantation to product."
     },
     {
-      "id": "t75",
+      "id": "t79",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "See our commitments"
-    },
-    {
-      "id": "t76",
-      "type": "text",
-      "context": "div.stats1_item > div.margin-bottom > div.stats1_number",
-      "en": "100%"
-    },
-    {
-      "id": "t77",
-      "type": "text",
-      "context": "div.w-layout-grid > div.stats1_item > h3.heading-style-h6",
-      "en": "Traceable to plantation"
-    },
-    {
-      "id": "t78",
-      "type": "text",
-      "context": "div.stats1_item > div.margin-bottom > div.stats1_number",
-      "en": "Active"
-    },
-    {
-      "id": "t79",
-      "type": "text",
-      "context": "div.w-layout-grid > div.stats1_item > h3.heading-style-h6",
-      "en": "Community investment programmes"
     },
     {
       "id": "t80",
@@ -487,112 +487,148 @@
       "id": "t81",
       "type": "text",
       "context": "div.w-layout-grid > div.stats1_item > h3.heading-style-h6",
-      "en": "Traceable to mill"
+      "en": "Traceable to plantation"
     },
     {
       "id": "t82",
+      "type": "text",
+      "context": "div.stats1_item > div.margin-bottom > div.stats1_number",
+      "en": "Active"
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.w-layout-grid > div.stats1_item > h3.heading-style-h6",
+      "en": "Community investment programmes"
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "context": "div.stats1_item > div.margin-bottom > div.stats1_number",
+      "en": "100%"
+    },
+    {
+      "id": "t85",
+      "type": "text",
+      "context": "div.w-layout-grid > div.stats1_item > h3.heading-style-h6",
+      "en": "Traceable to mill"
+    },
+    {
+      "id": "t86",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > div.text-style-tagline",
       "en": "Global Presence"
     },
     {
-      "id": "t83",
+      "id": "t87",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
       "en": "Where we operate"
     },
     {
-      "id": "t84",
+      "id": "t88",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "Five facilities across three continents serving the world's oleochemical needs"
     },
     {
-      "id": "t85",
+      "id": "t89",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "See our global offices"
     },
     {
-      "id": "t86",
+      "id": "t90",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies"
     },
     {
-      "id": "t87",
+      "id": "t91",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly."
     },
     {
-      "id": "t88",
+      "id": "t92",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us"
     },
     {
-      "id": "t89",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "All applications"
-    },
-    {
-      "id": "t90",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
-      "en": "Find a product"
-    },
-    {
-      "id": "t91",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Join us"
-    },
-    {
-      "id": "t92",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Product Certificates"
-    },
-    {
       "id": "t93",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Company Certificates"
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
     },
     {
       "id": "t94",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Policies & Statements"
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
     },
     {
       "id": "t95",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "General Terms"
+      "en": "All applications"
     },
     {
       "id": "t96",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "PDPA"
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product"
     },
     {
       "id": "t97",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Disclaimer"
+      "en": "Join us"
     },
     {
       "id": "t98",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t99",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t100",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t101",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t102",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA"
+    },
+    {
+      "id": "t103",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer"
+    },
+    {
+      "id": "t104",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©"
     },
     {
-      "id": "t99",
+      "id": "t105",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved"

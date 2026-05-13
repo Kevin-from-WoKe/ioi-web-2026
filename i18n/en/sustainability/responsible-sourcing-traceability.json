@@ -1,7 +1,7 @@
 {
   "file": "en/sustainability/responsible-sourcing-traceability.html",
-  "extracted_at": "2026-05-08T00:32:04.387Z",
-  "total": 80,
+  "extracted_at": "2026-05-13T01:50:21.538Z",
+  "total": 86,
   "strings": [
     {
       "id": "t1",
@@ -42,443 +42,479 @@
     {
       "id": "t7",
       "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
+    },
+    {
+      "id": "t9",
+      "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->"
     },
     {
-      "id": "t8",
+      "id": "t10",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
+    },
+    {
+      "id": "t12",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->"
     },
     {
-      "id": "t9",
+      "id": "t13",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us"
     },
     {
-      "id": "t10",
+      "id": "t14",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones"
     },
     {
-      "id": "t11",
+      "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices"
     },
     {
-      "id": "t12",
+      "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards"
     },
     {
-      "id": "t13",
+      "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us"
     },
     {
-      "id": "t14",
+      "id": "t18",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability"
     },
     {
-      "id": "t15",
+      "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements"
     },
     {
-      "id": "t16",
+      "id": "t20",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate"
     },
     {
-      "id": "t17",
+      "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability"
     },
     {
-      "id": "t18",
+      "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability"
     },
     {
-      "id": "t19",
+      "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare"
     },
     {
-      "id": "t20",
+      "id": "t24",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events"
     },
     {
-      "id": "t21",
+      "id": "t25",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates"
     },
     {
-      "id": "t22",
+      "id": "t26",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates"
     },
     {
-      "id": "t23",
+      "id": "t27",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates"
     },
     {
-      "id": "t24",
+      "id": "t28",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms"
     },
     {
-      "id": "t25",
+      "id": "t29",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中"
     },
     {
-      "id": "t26",
+      "id": "t30",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire"
     },
     {
-      "id": "t27",
+      "id": "t31",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
       "en": "Responsible Sourcing & Traceability"
     },
     {
-      "id": "t28",
+      "id": "t32",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "At IOI Oleochemical, sustainability is core to our operations. We source certified raw materials from responsible suppliers while maintaining NDPE, RSPO and regulatory compliance. Through transparent tracking and responsible logistics, we deliver ethically sustainable oleochemicals."
     },
     {
-      "id": "t29",
+      "id": "t33",
       "type": "text",
       "context": "div.w-layout-grid > div.layout54_content-left > h2.heading-style-h2",
       "en": "Midstream leadership in sustainable oleochemicals"
     },
     {
-      "id": "t30",
+      "id": "t34",
       "type": "text",
       "context": "div.layout54_content-right > div.margin-bottom > p.text-size-medium",
       "en": "IOI Oleochemical sources responsibly because we understand our place in complex supply chains. Our commitment runs deep, backed by IOI Corporation's founding RSPO membership and our own certified operations."
     },
     {
-      "id": "t31",
+      "id": "t35",
       "type": "text",
       "context": "div.layout54_item-text-wrapper > div.margin-bottom > h3.heading-style-h6",
       "en": "Steering influence"
     },
     {
-      "id": "t32",
+      "id": "t36",
       "type": "text",
       "context": "div#w-node-_0a67f569-b321-004f-3b43-eac7548856c9-8392438b > div.layout54_item-text-wrapper > p",
       "en": "RSPO Oleochemical and Derivatives Working Group steering committee member"
     },
     {
-      "id": "t33",
+      "id": "t37",
       "type": "text",
       "context": "div.layout54_item-text-wrapper > div.margin-bottom > h3.heading-style-h6",
       "en": "Early adoption"
     },
     {
-      "id": "t34",
+      "id": "t38",
       "type": "text",
       "context": "div#w-node-_0a67f569-b321-004f-3b43-eac7548856d2-8392438b > div.layout54_item-text-wrapper > p",
       "en": "Among first suppliers of RSPO Mass Balance and Segregated oleochemicals"
     },
     {
-      "id": "t35",
+      "id": "t39",
       "type": "text",
       "context": "div.layout54_item-text-wrapper > div.margin-bottom > h3.heading-style-h6",
       "en": "Trade leadership"
     },
     {
-      "id": "t36",
+      "id": "t40",
       "type": "text",
       "context": "div#w-node-_0a67f569-b321-004f-3b43-eac7548856db-8392438b > div.layout54_item-text-wrapper > p",
       "en": "RSPO Trade and Traceability Standing Committee member shaping industry standards"
     },
     {
-      "id": "t37",
+      "id": "t41",
       "type": "text",
       "context": "div.layout54_item-text-wrapper > div.margin-bottom > h3.heading-style-h6",
       "en": "Founding legacy"
     },
     {
-      "id": "t38",
+      "id": "t42",
       "type": "text",
       "context": "div#w-node-_0a67f569-b321-004f-3b43-eac7548856e4-8392438b > div.layout54_item-text-wrapper > p",
       "en": "IOI Corporation established RSPO membership in 2004, setting direction"
     },
     {
-      "id": "t39",
+      "id": "t43",
       "type": "text",
       "context": "div.w-layout-grid > div.stats26_content-left > h2.heading-style-h3",
       "en": "Certified operations across all regions"
     },
     {
-      "id": "t40",
+      "id": "t44",
       "type": "text",
       "context": "div.w-layout-grid > div.stats26_content-right > p.text-size-medium",
       "en": "IOI Oleochemical maintains rigorous certification standards across its global footprint. Every facility meets or exceeds industry requirements for responsible sourcing, occupational safety and supply chain integrity. These certifications provide independent verification of our commitment to sustainable practices."
     },
     {
-      "id": "t41",
+      "id": "t45",
       "type": "text",
       "context": "div.stats26_item > div.margin-bottom > div.stats26_number",
       "en": "100%"
     },
     {
-      "id": "t42",
+      "id": "t46",
       "type": "text",
       "context": "div.stats26_item > div.stats26_item-content > h3.heading-style-h6",
       "en": "RSPO supply chain certified"
     },
     {
-      "id": "t43",
+      "id": "t47",
       "type": "text",
       "context": "div.stats26_item-content > div.margin-top > p",
       "en": "Malaysia and Germany oleochemical operations"
     },
     {
-      "id": "t44",
+      "id": "t48",
       "type": "text",
       "context": "div.stats26_item > div.margin-bottom > div.stats26_number",
       "en": "100%"
     },
     {
-      "id": "t45",
+      "id": "t49",
       "type": "text",
       "context": "div.stats26_item > div.stats26_item-content > h3.heading-style-h6",
       "en": "MSPO supply chain certified"
     },
     {
-      "id": "t46",
+      "id": "t50",
       "type": "text",
       "context": "div.stats26_item-content > div.margin-top > p",
       "en": "Malaysian oleochemical operations"
     },
     {
-      "id": "t47",
+      "id": "t51",
       "type": "text",
       "context": "div.stats26_item > div.margin-bottom > div.stats26_number",
       "en": "100%"
     },
     {
-      "id": "t48",
+      "id": "t52",
       "type": "text",
       "context": "div.stats26_item > div.stats26_item-content > h3.heading-style-h6",
       "en": "ISO 45001:2018/Eco-Management and Audit Scheme(EMAS) certified"
     },
     {
-      "id": "t49",
+      "id": "t53",
       "type": "text",
       "context": "div.stats26_item-content > div.margin-top > p",
       "en": "All oleochemical operations globally"
     },
     {
-      "id": "t50",
+      "id": "t54",
       "type": "text",
       "context": "div#w-node-_0a67f569-b321-004f-3b43-eac754885787-8392438b > div.button-group > a.button",
       "en": "NDPE Implementation Reporting Framework ->"
     },
     {
-      "id": "t51",
+      "id": "t55",
       "type": "text",
       "context": "div.layout220_item > div.margin-bottom > h3.heading-style-h5",
       "en": "No deforestation"
     },
     {
-      "id": "t52",
+      "id": "t56",
       "type": "text",
       "context": "div.w-layout-grid > div.layout220_item > p",
       "en": "We protect forests and natural ecosystems through verified sourcing practices"
     },
     {
-      "id": "t53",
+      "id": "t57",
       "type": "text",
       "context": "div.layout220_item > div.margin-bottom > h3.heading-style-h5",
       "en": "No peat expansion"
     },
     {
-      "id": "t54",
+      "id": "t58",
       "type": "text",
       "context": "div.w-layout-grid > div.layout220_item > p",
       "en": "Our supply chain excludes operations on peatland or areas of high conservation value"
     },
     {
-      "id": "t55",
+      "id": "t59",
       "type": "text",
       "context": "div#w-node-_0a67f569-b321-004f-3b43-eac75488579d-8392438b > div.margin-bottom > h3.heading-style-h5",
       "en": "No exploitation"
     },
     {
-      "id": "t56",
+      "id": "t60",
       "type": "text",
       "context": "div.w-layout-grid > div#w-node-_0a67f569-b321-004f-3b43-eac75488579d-8392438b > p",
       "en": "We ensure fair labour practices and respect for workers throughout our supply chain."
     },
     {
-      "id": "t57",
+      "id": "t61",
       "type": "text",
       "context": "div#w-node-_0a67f569-b321-004f-3b43-eac7548857b7-8392438b > div.margin-bottom > h2.heading-style-h2",
       "en": "Every shipment tracked from source to delivery"
     },
     {
-      "id": "t58",
+      "id": "t62",
       "type": "text",
       "context": "div#w-node-_0a67f569-b321-004f-3b43-eac7548857b7-8392438b > div.margin-bottom > p.text-size-medium",
       "en": "We document certified palm oil through our supply chain with precision. Our commitment to transparency lets stakeholders verify product origin and handling at each stage."
     },
     {
-      "id": "t59",
+      "id": "t63",
       "type": "text",
       "context": "div.layout216_text-wrapper > div.margin-bottom > div.heading-style-h2",
       "en": "100%"
     },
     {
-      "id": "t60",
+      "id": "t64",
       "type": "text",
       "context": "div.w-layout-grid > div.layout216_text-wrapper > p",
       "en": "of facilities RSPO supply chain certified globally"
     },
     {
-      "id": "t61",
+      "id": "t65",
       "type": "text",
       "context": "div.layout216_text-wrapper > div.margin-bottom > div.heading-style-h2",
       "en": "100%"
     },
     {
-      "id": "t62",
+      "id": "t66",
       "type": "text",
       "context": "div.w-layout-grid > div.layout216_text-wrapper > p",
       "en": "of Malaysian operations MSPO supply chain certified"
     },
     {
-      "id": "t63",
+      "id": "t67",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "Find out the traceability of origin of our oil ->"
     },
     {
-      "id": "t64",
+      "id": "t68",
       "type": "text",
       "context": "div.w-layout-grid > div.layout90_content-left > h2.heading-style-h3",
       "en": "Grievance mechanisms"
     },
     {
-      "id": "t65",
+      "id": "t69",
       "type": "text",
       "context": "div.w-layout-grid > div.layout90_content-right > p.text-size-medium",
       "en": "We listen to concerns from workers, suppliers, communities and stakeholders. IOI Oleochemical maintains open channels for reporting issues related to labour practices, environmental impact or ethical conduct. Every report receives fair review and timely response, ensuring accountability throughout our supply chain."
     },
     {
-      "id": "t66",
+      "id": "t70",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "IOI Group: Grievance Procedure and Special Complaints ->"
     },
     {
-      "id": "t67",
+      "id": "t71",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies"
     },
     {
-      "id": "t68",
+      "id": "t72",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly."
     },
     {
-      "id": "t69",
+      "id": "t73",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us"
     },
     {
-      "id": "t70",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "All applications"
-    },
-    {
-      "id": "t71",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
-      "en": "Find a product"
-    },
-    {
-      "id": "t72",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Join us"
-    },
-    {
-      "id": "t73",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Product Certificates"
-    },
-    {
       "id": "t74",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Company Certificates"
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
     },
     {
       "id": "t75",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Policies & Statements"
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
     },
     {
       "id": "t76",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "General Terms"
+      "en": "All applications"
     },
     {
       "id": "t77",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "PDPA"
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product"
     },
     {
       "id": "t78",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Disclaimer"
+      "en": "Join us"
     },
     {
       "id": "t79",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t81",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t82",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t83",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA"
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer"
+    },
+    {
+      "id": "t85",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©"
     },
     {
-      "id": "t80",
+      "id": "t86",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved"

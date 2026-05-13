@@ -1,8 +1,8 @@
 {
   "file": "en/sustainability.html",
   "lang_target": "cn",
-  "extracted_at": "2026-05-08T00:32:04.403Z",
-  "total": 131,
+  "extracted_at": "2026-05-13T01:50:21.545Z",
+  "total": 137,
   "strings": [
     {
       "id": "t1",
@@ -49,429 +49,429 @@
     {
       "id": "t7",
       "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t9",
+      "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->",
       "cn": "查看产品 ->"
     },
     {
-      "id": "t8",
+      "id": "t10",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t12",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->",
       "cn": "查看全部领域 ->"
     },
     {
-      "id": "t9",
+      "id": "t13",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us",
       "cn": "公司概况"
     },
     {
-      "id": "t10",
+      "id": "t14",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones",
       "cn": "发展历程"
     },
     {
-      "id": "t11",
+      "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices",
       "cn": "分公司"
     },
     {
-      "id": "t12",
+      "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards",
       "cn": "奖项"
     },
     {
-      "id": "t13",
+      "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us",
       "cn": "加入团队"
     },
     {
-      "id": "t14",
+      "id": "t18",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability",
       "cn": "可持续发展"
     },
     {
-      "id": "t15",
+      "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t16",
+      "id": "t20",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate",
       "cn": "环境责任"
     },
     {
-      "id": "t17",
+      "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability",
       "cn": "采购与可追溯性"
     },
     {
-      "id": "t18",
+      "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability",
       "cn": "数字可持续发展"
     },
     {
-      "id": "t19",
+      "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare",
       "cn": "员工福利"
     },
     {
-      "id": "t20",
+      "id": "t24",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events",
       "cn": "企业社会责任"
     },
     {
-      "id": "t21",
+      "id": "t25",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates",
       "cn": "认证"
     },
     {
-      "id": "t22",
+      "id": "t26",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t23",
+      "id": "t27",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t24",
+      "id": "t28",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t25",
+      "id": "t29",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中",
       "cn": "中 / EN"
     },
     {
-      "id": "t26",
+      "id": "t30",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire",
       "cn": "咨询"
     },
     {
-      "id": "t27",
+      "id": "t31",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > h1.heading-style-h1",
       "en": "Creating Value the Right Way — Our Path to Responsible Oleochemicals",
       "cn": "以正道创造价值——我们的负责任油脂化学之路"
     },
     {
-      "id": "t28",
+      "id": "t32",
       "type": "text",
       "context": "div.layout6_content-left > div.margin-bottom > h2.heading-style-h3",
       "en": "What is Oleochemicals",
       "cn": "什么是油脂化学"
     },
     {
-      "id": "t29",
+      "id": "t33",
       "type": "text",
       "context": "div.layout6_content-left > div.margin-bottom > p.text-size-medium",
       "en": "Oleochemicals, derived from natural oils and fats including palm, coconut and animal sources, provide an alternative to petroleum-based products.",
       "cn": "油脂化学产品源自天然油脂，包括棕榈油、椰子油及动物油脂，是石油基产品的可持续替代选择。"
     },
     {
-      "id": "t30",
+      "id": "t34",
       "type": "text",
       "context": "div.layout6_content-left > div.margin-bottom > p.text-size-medium",
       "en": "These compounds serve as key ingredients in soaps, detergents, cosmetics, pharmaceuticals and various industrial applications. Responsibly sourced oleochemicals represent a sustainable substitute for conventional petrochemicals.",
       "cn": "这些化合物是肥皂、洗涤剂、化妆品、医药与各类工业应用的关键成分。负责任采购的油脂化学产品是传统石化产品的可持续替代方案。"
     },
     {
-      "id": "t31",
+      "id": "t35",
       "type": "text",
       "context": "div.layout6_text-wrapper > div.margin-bottom > h3.heading-style-h6",
       "en": "How we source",
       "cn": "我们如何采购"
     },
     {
-      "id": "t32",
+      "id": "t36",
       "type": "text",
       "context": "div.w-layout-grid > div.layout6_text-wrapper > p",
       "en": "We select feedstocks with care and accountability.",
       "cn": "我们以审慎与责任感挑选原料。"
     },
     {
-      "id": "t33",
+      "id": "t37",
       "type": "text",
       "context": "div.layout6_text-wrapper > div.margin-bottom > h3.heading-style-h6",
       "en": "How we operate",
       "cn": "我们如何运营"
     },
     {
-      "id": "t34",
+      "id": "t38",
       "type": "text",
       "context": "div.w-layout-grid > div.layout6_text-wrapper > p",
       "en": "We measure results and answers for them daily.",
       "cn": "我们每日衡量成果，并对成果负责。"
     },
     {
-      "id": "t35",
+      "id": "t39",
       "type": "text",
       "context": "div.layout353_content-left > div.margin-bottom > h2.heading-style-h2",
       "en": "Pillars of Sustainability",
       "cn": "可持续发展支柱"
     },
     {
-      "id": "t36",
+      "id": "t40",
       "type": "text",
       "context": "div.w-layout-grid > div.layout353_content-left > p.text-size-medium",
       "en": "Aligning with IOI Group's Sustainability Policy, the IOI Oleochemical Division commits to sustainable operations across all sites through initiatives aligned with the United Nations Sustainable Development Goals.",
       "cn": "IOI Oleochemical 事业部与 IOI 集团的可持续发展政策保持一致，承诺通过呼应联合国可持续发展目标的举措，在所有厂区推行可持续运营。"
     },
     {
-      "id": "t37",
+      "id": "t41",
       "type": "text",
       "context": "div.button-group > a.button > div.text-size-medium",
       "en": "More at www.ioigroup.com ->",
       "cn": "更多信息见 www.ioigroup.com ->"
     },
     {
-      "id": "t38",
+      "id": "t42",
       "type": "text",
       "context": "div.button-group > a.button > div.text-size-medium",
       "en": "Reach us at sustainability@ioioleo.com ->",
       "cn": "联系我们：sustainability@ioioleo.com ->"
     },
     {
-      "id": "t39",
+      "id": "t43",
       "type": "text",
       "context": "div.layout353_content-item > div.margin-bottom > h3.heading-style-h5",
       "en": "Natural Resources",
       "cn": "自然资源"
     },
     {
-      "id": "t40",
+      "id": "t44",
       "type": "text",
       "context": "div#w-node-_92c54fed-5da1-0a54-c3b8-a3910d9e9702-6a894c88 > div.layout353_content-item > p",
       "en": "Optimize natural resource utilization and reduce environmental impact through the implementation of sustainable processes and the development of environmentally responsible products.",
       "cn": "通过实施可持续工艺与开发环境友善产品，优化自然资源利用，降低环境影响。"
     },
     {
-      "id": "t41",
+      "id": "t45",
       "type": "text",
       "context": "div.layout353_content-item > div.margin-bottom > h3.heading-style-h5",
       "en": "RSPO Certified",
       "cn": "RSPO 认证"
     },
     {
-      "id": "t42",
+      "id": "t46",
       "type": "text",
       "context": "div#w-node-_92c54fed-5da1-0a54-c3b8-a3910d9e9702-6a894c88 > div.layout353_content-item > p",
       "en": "Demonstrate commitment to responsible sourcing and advance RSPO standards by manufacturing and marketing RSPO-certified palm-based oleochemicals and their derivatives.",
       "cn": "通过生产与销售经 RSPO 认证的棕榈基油脂化学产品及其衍生品，体现负责任采购的承诺，推进 RSPO 标准发展。"
     },
     {
-      "id": "t43",
+      "id": "t47",
       "type": "text",
       "context": "div.layout353_content-item > div.margin-bottom > h3.heading-style-h5",
       "en": "Equal Opportunities",
       "cn": "平等机会"
     },
     {
-      "id": "t44",
+      "id": "t48",
       "type": "text",
       "context": "div#w-node-_92c54fed-5da1-0a54-c3b8-a3910d9e9702-6a894c88 > div.layout353_content-item > p",
       "en": "Ensure equal employment opportunities and fair treatment for all employees at every organisational level, regardless of nationality, race, religion or gender.",
       "cn": "不论国籍、种族、宗教或性别，确保各级员工享有平等就业机会与公平待遇。"
     },
     {
-      "id": "t45",
+      "id": "t49",
       "type": "text",
       "context": "div.layout353_content-item > div.margin-bottom > h3.heading-style-h5",
       "en": "Positive Environment",
       "cn": "正向环境"
     },
     {
-      "id": "t46",
+      "id": "t50",
       "type": "text",
       "context": "div#w-node-_92c54fed-5da1-0a54-c3b8-a3910d9e9702-6a894c88 > div.layout353_content-item > p",
       "en": "Maintain a safe and healthy working environment for all employees.",
       "cn": "为全体员工维护安全健康的工作环境。"
     },
     {
-      "id": "t47",
+      "id": "t51",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_content-left > h2.heading-style-h2",
       "en": "Our journey of sustainablity",
       "cn": "我们的可持续发展之路"
     },
     {
-      "id": "t48",
+      "id": "t52",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI Pan-Century Oleochemicals Sdn Bhd, IOI Pan-Century Edible Oils Sdn Bhd, first",
       "cn": "IOI Pan-Century Oleochemicals Sdn Bhd、IOI Pan-Century Edible Oils Sdn Bhd 首度获得"
     },
     {
-      "id": "t49",
+      "id": "t53",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "RSPO",
       "cn": "RSPO"
     },
     {
-      "id": "t50",
+      "id": "t54",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "certification.",
       "cn": "认证。"
     },
     {
-      "id": "t51",
+      "id": "t55",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI Acidchem Sdn Bhd certified with",
       "cn": "IOI Acidchem Sdn Bhd 获得"
     },
     {
-      "id": "t52",
+      "id": "t56",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "RSPO SCCS",
       "cn": "RSPO SCCS"
     },
     {
-      "id": "t53",
+      "id": "t57",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "Acidchem, Derichem and Pan-Century Oleochemicals achieved",
       "cn": "Acidchem、Derichem 与 Pan-Century Oleochemicals 获得"
     },
     {
-      "id": "t54",
+      "id": "t58",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "RSPO SCCS",
       "cn": "RSPO SCCS"
     },
     {
-      "id": "t55",
+      "id": "t59",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "certification (expanded supply chain recognition).",
       "cn": "认证（供应链认可范围扩大）。"
     },
     {
-      "id": "t56",
+      "id": "t60",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "Multiple awards and",
       "cn": "多项奖项及"
     },
     {
-      "id": "t57",
+      "id": "t61",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "responsible-care recognitions",
       "cn": "责任关怀奖项"
     },
     {
-      "id": "t58",
+      "id": "t62",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "for environmental and safety performance.",
       "cn": "表彰环境与安全表现。"
     },
     {
-      "id": "t59",
+      "id": "t63",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "Introduction of",
       "cn": "引入"
     },
     {
-      "id": "t60",
+      "id": "t64",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "solar photovoltaic (PV)",
       "cn": "太阳能光伏 (PV)"
     },
     {
-      "id": "t61",
+      "id": "t65",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "energy harvesting under a “Go Green” initiative.",
       "cn": "能源采集，作为「Go Green」倡议的一部分。"
     },
     {
-      "id": "t62",
+      "id": "t66",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "Continued awards recognising innovation and environmental stewardship.",
       "cn": "持续获得肯定创新与环境守护的奖项。"
     },
     {
-      "id": "t63",
+      "id": "t67",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI Esterchem(M) Sdn Bhd certified with",
       "cn": "IOI Esterchem(M) Sdn Bhd 获得"
-    },
-    {
-      "id": "t64",
-      "type": "text",
-      "context": "div.layout121_timeline-right > p > strong",
-      "en": "RSPO SCCS",
-      "cn": "RSPO SCCS"
-    },
-    {
-      "id": "t65",
-      "type": "text",
-      "context": "div.layout121_timeline-right > p > strong",
-      "en": "ISO & food-safety certifications",
-      "cn": "ISO 与食品安全认证"
-    },
-    {
-      "id": "t66",
-      "type": "text",
-      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
-      "en": "enhanced production quality and traceability",
-      "cn": "提升生产品质与可追溯性"
-    },
-    {
-      "id": "t67",
-      "type": "text",
-      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
-      "en": "IOI Oleo GmbH certified with",
-      "cn": "IOI Oleo GmbH 获得"
     },
     {
       "id": "t68",
@@ -483,439 +483,481 @@
     {
       "id": "t69",
       "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "ISO & food-safety certifications",
+      "cn": "ISO 与食品安全认证"
+    },
+    {
+      "id": "t70",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "enhanced production quality and traceability",
+      "cn": "提升生产品质与可追溯性"
+    },
+    {
+      "id": "t71",
+      "type": "text",
+      "context": "div.w-layout-grid > div.layout121_timeline-right > p",
+      "en": "IOI Oleo GmbH certified with",
+      "cn": "IOI Oleo GmbH 获得"
+    },
+    {
+      "id": "t72",
+      "type": "text",
+      "context": "div.layout121_timeline-right > p > strong",
+      "en": "RSPO SCCS",
+      "cn": "RSPO SCCS"
+    },
+    {
+      "id": "t73",
+      "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "Multiple",
       "cn": "多项"
     },
     {
-      "id": "t70",
+      "id": "t74",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "ISO certifications",
       "cn": "ISO 认证"
     },
     {
-      "id": "t71",
+      "id": "t75",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "(ISO 50001 energy management; ISO 14001 environmental) achieved by Acidchem and Esterchem, indicating sustained EMS and environmental performance improvements.",
       "cn": "（ISO 50001 能源管理；ISO 14001 环境）由 Acidchem 与 Esterchem 取得，体现 EMS 与环境表现的持续改进。"
     },
     {
-      "id": "t72",
+      "id": "t76",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI Acidchem won a",
       "cn": "IOI Acidchem 荣获"
     },
     {
-      "id": "t73",
+      "id": "t77",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "Gold Award",
       "cn": "金奖"
     },
     {
-      "id": "t74",
+      "id": "t78",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "for an energy-efficient vapour absorption chiller project, demonstrating investment in energy-saving technologies.",
       "cn": "肯定其节能型蒸汽吸收冷却机项目，体现对节能技术的投入。"
     },
     {
-      "id": "t75",
+      "id": "t79",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI has achieved another important milestone in its sustainability performance by making good progress in the Carbon Disclosure Programme (\"",
       "cn": "IOI 在可持续发展表现上又达成一座重要里程碑，在由非营利组织 CDP 主办的（推动企业透明度与环境行动衡量的）2018 年碳披露项目（\""
     },
     {
-      "id": "t76",
+      "id": "t80",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "CDP",
       "cn": "CDP"
     },
     {
-      "id": "t77",
+      "id": "t81",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "\") 2018 survey, organised by CDP, a not-for-profit organisation that promotes corporate transparency and the measurement of environmental action.",
       "cn": "\"）调查中取得良好进展。"
     },
     {
-      "id": "t78",
+      "id": "t82",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "Two of IOI Oleo operation upgrades Occupational Health & Safety (\"OHS\") Management System to",
       "cn": "两家 IOI Oleo 运营单位将职业健康与安全（\"OHS\"）管理系统升级至"
     },
     {
-      "id": "t79",
+      "id": "t83",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "ISO 45001:2018",
       "cn": "ISO 45001:2018"
     },
     {
-      "id": "t80",
+      "id": "t84",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI Oleo conducted a",
       "cn": "IOI Oleo 召开"
     },
     {
-      "id": "t81",
+      "id": "t85",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "Sustainability Steering Committee Meeting",
       "cn": "可持续发展指导委员会会议"
     },
     {
-      "id": "t82",
+      "id": "t86",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "to discuss on matters such as sustainability performance against targets and goals, policies, resources, major projects, etc.",
       "cn": "就可持续发展表现对照目标、政策、资源与重点项目等事项进行讨论。"
     },
     {
-      "id": "t83",
+      "id": "t87",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI released its revised",
       "cn": "IOI 发布修订版"
     },
     {
-      "id": "t84",
+      "id": "t88",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "SPOP",
       "cn": "SPOP"
     },
     {
-      "id": "t85",
+      "id": "t89",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": ". The latest revision was based on industry's best practices and inputs from engagements with relevant stakeholders. The policy has been further expanded to strengthen our commitments on women empowerment, biodiversity and NDPE, etc.",
       "cn": "。最新修订基于行业最佳实践与相关利益相关方的反馈意见。该政策进一步扩展，强化在女性赋权、生物多样性与 NDPE 等方面的承诺。"
     },
     {
-      "id": "t86",
+      "id": "t90",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI's Responsible Sourcing Guidelines (\"",
       "cn": "IOI 负责任采购指引（\""
     },
     {
-      "id": "t87",
+      "id": "t91",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "RSG",
       "cn": "RSG"
     },
     {
-      "id": "t88",
+      "id": "t92",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "\") was also introduced to give further clarity on IOI's roles and commitments in the supply chain.",
       "cn": "\"）亦同步推出，进一步阐明 IOI 在供应链中的角色与承诺。"
     },
     {
-      "id": "t89",
+      "id": "t93",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI publicly committed to the",
       "cn": "IOI 公开承诺加入"
     },
     {
-      "id": "t90",
+      "id": "t94",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "Science Based Targets initiative (SBTi)",
       "cn": "科学减碳目标倡议 (SBTi)"
     },
     {
-      "id": "t91",
+      "id": "t95",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "FLAG targets — linking sustainable production to science-based GHG reduction commitments and no deforestation in FLAG commodities.",
       "cn": "FLAG 目标——将可持续生产与基于科学的温室气体减排承诺及 FLAG 大宗商品零毁林相结合。"
     },
     {
-      "id": "t92",
+      "id": "t96",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "IOI Oleochemical manufacturing sites has prepared GHG reports for FY2024 and completed verification process for Scope 1, 2 and 3 in-line with",
       "cn": "IOI Oleochemical 各生产基地已编制 2024 财年温室气体报告，并完成范围 1、2、3 的验证流程，符合"
     },
     {
-      "id": "t93",
+      "id": "t97",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "ISO14064-1:2018",
       "cn": "ISO 14064-1:2018"
     },
     {
-      "id": "t94",
+      "id": "t98",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "standard.",
       "cn": "标准。"
     },
     {
-      "id": "t95",
+      "id": "t99",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "GHG emissions of oleochemical operations are verified under ISO14064-1:2018",
       "cn": "油脂化学业务的温室气体排放经 ISO 14064-1:2018 验证"
     },
     {
-      "id": "t96",
+      "id": "t100",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "The near-term GHG emissions reduction targets have been",
       "cn": "近期温室气体减排目标已"
     },
     {
-      "id": "t97",
+      "id": "t101",
       "type": "text",
       "context": "div.layout121_timeline-right > p > strong",
       "en": "successfully validated",
       "cn": "成功通过验证"
     },
     {
-      "id": "t98",
+      "id": "t102",
       "type": "text",
       "context": "div.w-layout-grid > div.layout121_timeline-right > p",
       "en": "by the Science Based Targets initiative (SBTi).",
       "cn": "由科学减碳目标倡议 (SBTi) 验证。"
     },
     {
-      "id": "t99",
+      "id": "t103",
       "type": "text",
       "context": "div.layout364_component > div.margin-bottom > h2.heading-style-h3",
       "en": "Sustainability in Action",
       "cn": "可持续发展实践"
     },
     {
-      "id": "t100",
+      "id": "t104",
       "type": "text",
       "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
       "en": "Explore ->",
       "cn": "了解更多 ->"
     },
     {
-      "id": "t101",
+      "id": "t105",
       "type": "text",
       "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Policies and statement",
       "cn": "政策与声明"
     },
     {
-      "id": "t102",
+      "id": "t106",
       "type": "text",
       "context": "div.layout364_card-content > div.layout364_card-content-top > p",
       "en": "Our commitments guide every decision we make.",
       "cn": "我们的承诺指引每一项决策。"
     },
     {
-      "id": "t103",
+      "id": "t107",
       "type": "text",
       "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
       "en": "Explore ->",
       "cn": "了解更多 ->"
     },
     {
-      "id": "t104",
+      "id": "t108",
       "type": "text",
       "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Environmental management",
       "cn": "环境管理"
     },
     {
-      "id": "t105",
+      "id": "t109",
       "type": "text",
       "context": "div.layout364_card-content > div.layout364_card-content-top > p",
       "en": "Continuous improvement in environmental and social practices.",
       "cn": "持续提升环境与社会实践。"
     },
     {
-      "id": "t106",
+      "id": "t110",
       "type": "text",
       "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
       "en": "Explore ->",
       "cn": "了解更多 ->"
     },
     {
-      "id": "t107",
+      "id": "t111",
       "type": "text",
       "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Responsible sourcing & traceability",
       "cn": "负责任采购与可追溯性"
     },
     {
-      "id": "t108",
+      "id": "t112",
       "type": "text",
       "context": "div.layout364_card-content > div.layout364_card-content-top > p",
       "en": "Transparent supply chains built on accountability.",
       "cn": "以责任为基的透明供应链。"
     },
     {
-      "id": "t109",
+      "id": "t113",
       "type": "text",
       "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
       "en": "Explore ->",
       "cn": "了解更多 ->"
     },
     {
-      "id": "t110",
+      "id": "t114",
       "type": "text",
       "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Digital sustainability",
       "cn": "数字可持续发展"
     },
     {
-      "id": "t111",
+      "id": "t115",
       "type": "text",
       "context": "div.layout364_card-content > div.layout364_card-content-top > p",
       "en": "Technology enabling safer, smarter operations.",
       "cn": "科技赋能更安全、更智能的运营。"
     },
     {
-      "id": "t112",
+      "id": "t116",
       "type": "text",
       "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
       "en": "Explore ->",
       "cn": "了解更多 ->"
     },
     {
-      "id": "t113",
+      "id": "t117",
       "type": "text",
       "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "People & employee welfare",
       "cn": "员工福祉"
     },
     {
-      "id": "t114",
+      "id": "t118",
       "type": "text",
       "context": "div.layout364_card-content > div.layout364_card-content-top > p",
       "en": "Safe workplaces where people thrive.",
       "cn": "安全的工作环境，让员工蓬勃发展。"
     },
     {
-      "id": "t115",
+      "id": "t119",
       "type": "text",
       "context": "div.layout364_item-icon-wrapper > div.button-group > a.button",
       "en": "Explore ->",
       "cn": "了解更多 ->"
     },
     {
-      "id": "t116",
+      "id": "t120",
       "type": "text",
       "context": "div.layout364_card-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Awards & recognition",
       "cn": "奖项与荣誉"
     },
     {
-      "id": "t117",
+      "id": "t121",
       "type": "text",
       "context": "div.layout364_card-content > div.layout364_card-content-top > p",
       "en": "Industry acknowledgment of our efforts.",
       "cn": "行业对我们努力的认可。"
     },
     {
-      "id": "t118",
+      "id": "t122",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
       "cn": "探讨您的需求"
     },
     {
-      "id": "t119",
+      "id": "t123",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
       "cn": "联系我们，获取您的专属定制方案。"
     },
     {
-      "id": "t120",
+      "id": "t124",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
       "cn": "联系我们"
     },
     {
-      "id": "t121",
+      "id": "t125",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t126",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t127",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
       "cn": "应用领域"
     },
     {
-      "id": "t122",
+      "id": "t128",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
       "cn": "查看产品"
     },
     {
-      "id": "t123",
+      "id": "t129",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
       "cn": "加入团队"
     },
     {
-      "id": "t124",
+      "id": "t130",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t125",
+      "id": "t131",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t126",
+      "id": "t132",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t127",
+      "id": "t133",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t128",
+      "id": "t134",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
       "cn": "数据保护"
     },
     {
-      "id": "t129",
+      "id": "t135",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
       "cn": "免责声明"
     },
     {
-      "id": "t130",
+      "id": "t136",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
       "cn": "©"
     },
     {
-      "id": "t131",
+      "id": "t137",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",

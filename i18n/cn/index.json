@@ -1,8 +1,8 @@
 {
   "file": "en/index.html",
   "lang_target": "cn",
-  "extracted_at": "2026-05-08T00:32:04.337Z",
-  "total": 68,
+  "extracted_at": "2026-05-13T01:50:21.475Z",
+  "total": 78,
   "strings": [
     {
       "id": "t1",
@@ -49,432 +49,502 @@
     {
       "id": "t7",
       "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t9",
+      "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->",
       "cn": "查看产品 ->"
     },
     {
-      "id": "t8",
+      "id": "t10",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t12",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->",
       "cn": "查看全部领域 ->"
     },
     {
-      "id": "t9",
+      "id": "t13",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us",
       "cn": "公司概况"
     },
     {
-      "id": "t10",
+      "id": "t14",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones",
       "cn": "发展历程"
     },
     {
-      "id": "t11",
+      "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices",
       "cn": "分公司"
     },
     {
-      "id": "t12",
+      "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards",
       "cn": "奖项"
     },
     {
-      "id": "t13",
+      "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us",
       "cn": "加入团队"
     },
     {
-      "id": "t14",
+      "id": "t18",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability",
       "cn": "可持续发展"
     },
     {
-      "id": "t15",
+      "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t16",
+      "id": "t20",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate",
       "cn": "环境责任"
     },
     {
-      "id": "t17",
+      "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability",
       "cn": "采购与可追溯性"
     },
     {
-      "id": "t18",
+      "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability",
       "cn": "数字可持续发展"
     },
     {
-      "id": "t19",
+      "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare",
       "cn": "员工福利"
     },
     {
-      "id": "t20",
+      "id": "t24",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events",
       "cn": "企业社会责任"
     },
     {
-      "id": "t21",
+      "id": "t25",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates",
       "cn": "认证"
     },
     {
-      "id": "t22",
+      "id": "t26",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t23",
+      "id": "t27",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t24",
+      "id": "t28",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t25",
+      "id": "t29",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中",
       "cn": "中 / EN"
     },
     {
-      "id": "t26",
+      "id": "t30",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire",
       "cn": "咨询"
     },
     {
-      "id": "t27",
+      "id": "t31",
       "type": "text",
       "context": "div.max-width-xlarge > div.margin-bottom > h1.heading-style-h1",
       "en": "Leading palm-based",
       "cn": "全球领先的棕榈基"
     },
     {
-      "id": "t28",
+      "id": "t32",
       "type": "text",
       "context": "div.margin-bottom > h1.heading-style-h1 > span.text-color-accent",
       "en": "Oleochemical Manufacturer",
       "cn": "油脂化学制造商"
     },
     {
-      "id": "t29",
+      "id": "t33",
       "type": "text",
       "context": "div.max-width-xlarge > div.max-width-large > p.text-size-medium",
       "en": "IOI Oleochemical is a leading palm-based oleochemical supplier focused on value-added derivatives. Our integrated supply chain strengthens operational efficiency while leveraging responsible, sustainable sourcing practices.",
       "cn": "IOI Oleochemical 是领先的棕榈基油脂化学供应商，专注于高附加值衍生品。我们的整合式供应链强化营运效率，同时践行负责任与可持续的采购方式。"
     },
     {
-      "id": "t30",
+      "id": "t34",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
       "en": "Find what you need",
       "cn": "精准选材，所需即所得"
     },
     {
-      "id": "t31",
+      "id": "t35",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "We offer one of the most complete quality ranges of customisable products.",
       "cn": "我们提供业内最完善的可定制优质产品系列之一。"
     },
     {
-      "id": "t32",
+      "id": "t36",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "Browse all products ->",
       "cn": "浏览所有产品 ->"
     },
     {
-      "id": "t33",
+      "id": "t37",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "context": "div.layout394_grid-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t39",
       "type": "text",
       "context": "div.header56_content-left > div.margin-bottom > div.text-style-tagline",
       "en": "Product Enquiry",
       "cn": "产品咨询"
     },
     {
-      "id": "t34",
+      "id": "t40",
       "type": "text",
       "context": "div.w-layout-grid > div.header56_content-left > h1.heading-style-h1",
       "en": "Request for specs",
       "cn": "索取产品规格"
     },
     {
-      "id": "t35",
+      "id": "t41",
       "type": "text",
       "context": "div.w-layout-grid > div.header56_content-right > p.text-size-regular",
       "en": "Every certification, compliance and technical document is ready upon request. Leave us an enquiry and get the answers your team needs to move forward.",
       "cn": "所有认证、合规与技术文件均可应需提供。提交咨询，获得团队推进所需的全部解答。"
     },
     {
-      "id": "t36",
+      "id": "t42",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-hero",
       "en": "Request product specifications",
       "cn": "索取产品规格"
     },
     {
-      "id": "t37",
+      "id": "t43",
       "type": "text",
       "context": "div#w-node-d117c394-0e78-fc14-a0a2-e52b30e13342-438e3b0f > div.margin-bottom > h2.heading-style-h2",
       "en": "Decades of experience in global supply",
       "cn": "数十年全球供应经验"
     },
     {
-      "id": "t38",
+      "id": "t44",
       "type": "text",
       "context": "div.w-layout-grid > div#w-node-d117c394-0e78-fc14-a0a2-e52b30e13342-438e3b0f > p.text-size-medium",
       "en": "IOI Oleochemical has served the industry since the beginning. Our track record speaks for itself across continents and categories.",
       "cn": "IOI Oleochemical 自创立伊始即服务整个行业。横跨各大洲与各品类的业绩，足以印证我们的实力。"
     },
     {
-      "id": "t39",
+      "id": "t45",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "See our milestones since 1970 ->",
       "cn": "查看我们自 1970 年以来的发展历程 ->"
     },
     {
-      "id": "t40",
+      "id": "t46",
       "type": "text",
       "context": "div.w-layout-grid > div#w-node-d117c394-0e78-fc14-a0a2-e52b30e13350-438e3b0f > h3.heading-style-h6",
       "en": "Years in operation",
       "cn": "运营年数"
     },
     {
-      "id": "t41",
+      "id": "t47",
       "type": "text",
       "context": "div.w-layout-grid > div.stats55_item > h3.heading-style-h6",
       "en": "Countries served globally",
       "cn": "服务的国家数（全球）"
     },
     {
-      "id": "t42",
+      "id": "t48",
       "type": "text",
       "context": "div.stats55_item > div.margin-bottom > div.stats55_number_smaller",
       "en": ",000 MT",
       "cn": ",000 公吨"
     },
     {
-      "id": "t43",
+      "id": "t49",
       "type": "text",
       "context": "div.w-layout-grid > div.stats55_item > h3.heading-style-h6",
       "en": "Combined annual oleochemical capacity",
       "cn": "油脂化学综合年产能"
     },
     {
-      "id": "t44",
+      "id": "t50",
       "type": "text",
       "context": "div.stats55_item > div.margin-bottom > div.stats55_number_smaller",
       "en": "ISO, RSPO, Kosher",
       "cn": "ISO、RSPO、犹太洁食"
     },
     {
-      "id": "t45",
+      "id": "t51",
       "type": "text",
       "context": "div.w-layout-grid > div.stats55_item > h3.heading-style-h6",
       "en": "Certified",
       "cn": "认证"
     },
     {
-      "id": "t46",
+      "id": "t52",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2-2",
       "en": "Global footprint",
       "cn": "全球版图"
     },
     {
-      "id": "t47",
+      "id": "t53",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium-2",
       "en": "We cover over 90+ markets powered by trusted Agents and Distribution partners.",
       "cn": "依托值得信赖的代理与分销伙伴，我们覆盖超过 90 个市场。"
     },
     {
-      "id": "t48",
+      "id": "t54",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > div.text-style-tagline",
       "en": "Corporate Social Responsibility",
       "cn": "企业社会责任"
     },
     {
-      "id": "t49",
+      "id": "t55",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
       "en": "What we're doing now",
       "cn": "最新活动"
     },
     {
-      "id": "t50",
+      "id": "t56",
       "type": "text",
       "context": "div.blog44_heading > div.max-width-large > p.text-size-medium",
       "en": "Recent initiatives across our operations and communities.",
       "cn": "近期在营运与社区方面推行的各项举措。"
     },
     {
-      "id": "t51",
+      "id": "t57",
       "type": "text",
       "context": "div.blog44_heading-wrapper > div.button-group > a.button",
       "en": "View all CSR activities",
       "cn": "查看所有活动"
     },
     {
-      "id": "t52",
+      "id": "t58",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "context": "div.blog36_list-wrapper > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t60",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "View all CSR activities",
       "cn": "查看所有活动"
     },
     {
-      "id": "t53",
+      "id": "t61",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
       "en": "Questions",
       "cn": "常见问题"
     },
     {
-      "id": "t54",
+      "id": "t62",
       "type": "text",
       "context": "div.margin-bottom > div.max-width-large > p.text-size-medium",
       "en": "Find answers to common questions from procurement and technical teams.",
       "cn": "查找采购与技术团队常见问题的解答。"
     },
     {
-      "id": "t55",
+      "id": "t63",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
       "cn": "探讨您的需求"
     },
     {
-      "id": "t56",
+      "id": "t64",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
       "cn": "联系我们，获取您的专属定制方案。"
     },
     {
-      "id": "t57",
+      "id": "t65",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
       "cn": "联系我们"
     },
     {
-      "id": "t58",
+      "id": "t66",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t67",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t68",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
       "cn": "应用领域"
     },
     {
-      "id": "t59",
+      "id": "t69",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
       "cn": "查看产品"
     },
     {
-      "id": "t60",
+      "id": "t70",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
       "cn": "加入团队"
     },
     {
-      "id": "t61",
+      "id": "t71",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t62",
+      "id": "t72",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t63",
+      "id": "t73",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t64",
+      "id": "t74",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t65",
+      "id": "t75",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
       "cn": "数据保护"
     },
     {
-      "id": "t66",
+      "id": "t76",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
       "cn": "免责声明"
     },
     {
-      "id": "t67",
+      "id": "t77",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
       "cn": "©"
     },
     {
-      "id": "t68",
+      "id": "t78",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",

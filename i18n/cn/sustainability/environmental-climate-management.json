@@ -1,8 +1,8 @@
 {
   "file": "en/sustainability/environmental-climate-management.html",
   "lang_target": "cn",
-  "extracted_at": "2026-05-08T00:32:04.379Z",
-  "total": 120,
+  "extracted_at": "2026-05-13T01:50:21.521Z",
+  "total": 126,
   "strings": [
     {
       "id": "t1",
@@ -49,796 +49,838 @@
     {
       "id": "t7",
       "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t9",
+      "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->",
       "cn": "查看产品 ->"
     },
     {
-      "id": "t8",
+      "id": "t10",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t12",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->",
       "cn": "查看全部领域 ->"
     },
     {
-      "id": "t9",
+      "id": "t13",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us",
       "cn": "公司概况"
     },
     {
-      "id": "t10",
+      "id": "t14",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones",
       "cn": "发展历程"
     },
     {
-      "id": "t11",
+      "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices",
       "cn": "分公司"
     },
     {
-      "id": "t12",
+      "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards",
       "cn": "奖项"
     },
     {
-      "id": "t13",
+      "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us",
       "cn": "加入团队"
     },
     {
-      "id": "t14",
+      "id": "t18",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability",
       "cn": "可持续发展"
     },
     {
-      "id": "t15",
+      "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t16",
+      "id": "t20",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate",
       "cn": "环境责任"
     },
     {
-      "id": "t17",
+      "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability",
       "cn": "采购与可追溯性"
     },
     {
-      "id": "t18",
+      "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability",
       "cn": "数字可持续发展"
     },
     {
-      "id": "t19",
+      "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare",
       "cn": "员工福利"
     },
     {
-      "id": "t20",
+      "id": "t24",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events",
       "cn": "企业社会责任"
     },
     {
-      "id": "t21",
+      "id": "t25",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates",
       "cn": "认证"
     },
     {
-      "id": "t22",
+      "id": "t26",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t23",
+      "id": "t27",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t24",
+      "id": "t28",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t25",
+      "id": "t29",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中",
       "cn": "中 / EN"
     },
     {
-      "id": "t26",
+      "id": "t30",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire",
       "cn": "咨询"
     },
     {
-      "id": "t27",
+      "id": "t31",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h1",
       "en": "Environmental & Climate Management",
       "cn": "环境与气候管理"
     },
     {
-      "id": "t28",
+      "id": "t32",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "Beyond complying with OSHA and EQA regulations, we use environmentally friendly and energy-efficient processes to conserve natural resources and minimize our operational and product environmental impact.",
       "cn": "除遵守 OSHA 与 EQA 法规外，我们采用环保且节能的工艺，节约自然资源，将营运及产品对环境的影响降至最低。"
     },
     {
-      "id": "t29",
+      "id": "t33",
       "type": "text",
       "context": "div.layout558_content > div.margin-bottom > h2.heading-style-h2",
       "en": "Energy and water systems cutting operational emissions",
       "cn": "节能节水系统降低营运排放"
     },
     {
-      "id": "t30",
+      "id": "t34",
       "type": "text",
       "context": "div.layout558_content > div.margin-bottom > p.text-size-medium",
       "en": "Our facilities run on integrated renewable and efficient systems. Solar generation, thermal heating, cogeneration and water recovery work in concern to reduce emissions and resource consumption across all plants.",
       "cn": "我们的厂区运行整合式可再生与高效系统。太阳能发电、热能加热、热电联产与水回收协同运作，全面降低各厂区的排放与资源消耗。"
     },
     {
-      "id": "t31",
+      "id": "t35",
       "type": "text",
       "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
       "en": "Solar generation",
       "cn": "太阳能发电"
     },
     {
-      "id": "t32",
+      "id": "t36",
       "type": "text",
       "context": "div.w-layout-grid > div.layout558_item > p",
       "en": "3,600,000 kWh electricity generated from solar panel",
       "cn": "太阳能板年发电 3,600,000 千瓦时"
     },
     {
-      "id": "t33",
+      "id": "t37",
       "type": "text",
       "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
       "en": "Thermal collectors",
       "cn": "热能集热器"
     },
     {
-      "id": "t34",
+      "id": "t38",
       "type": "text",
       "context": "div.w-layout-grid > div.layout558_item > p",
       "en": "75 sets supply heating for boiler feed water with IoT monitoring.",
       "cn": "75 套设备为锅炉给水提供加热，配备物联网监测。"
     },
     {
-      "id": "t35",
+      "id": "t39",
       "type": "text",
       "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
       "en": "Rainwater harvesting",
       "cn": "雨水收集"
     },
     {
-      "id": "t36",
+      "id": "t40",
       "type": "text",
       "context": "div.w-layout-grid > div.layout558_item > p",
       "en": "Captured water feeds distillation steam generators, reducing freshwater demand.",
       "cn": "收集的雨水供应蒸馏蒸汽发生器，减少淡水需求。"
     },
     {
-      "id": "t37",
+      "id": "t41",
       "type": "text",
       "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
       "en": "3 Cogeneration plants",
       "cn": "3 座热电联产工厂"
     },
     {
-      "id": "t38",
+      "id": "t42",
       "type": "text",
       "context": "div.w-layout-grid > div.layout558_item > p",
       "en": "Three facilities generate combined heat and power, cutting fuel dependency significantly.",
       "cn": "三座设施同时产生热能与电力，显著减少对燃料的依赖。"
     },
     {
-      "id": "t39",
+      "id": "t43",
       "type": "text",
       "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
       "en": "Reactive distillation",
       "cn": "反应蒸馏"
     },
     {
-      "id": "t40",
+      "id": "t44",
       "type": "text",
       "context": "div.w-layout-grid > div.layout558_item > p",
       "en": "Continuous process combines reaction and separation, reducing energy and chemical use.",
       "cn": "连续工艺将反应与分离合而为一，减少能源与化学品消耗。"
     },
     {
-      "id": "t41",
+      "id": "t45",
       "type": "text",
       "context": "div.layout558_item > div.margin-bottom > h3.heading-style-h6",
       "en": "Spray cooling",
       "cn": "喷雾冷却"
     },
     {
-      "id": "t42",
+      "id": "t46",
       "type": "text",
       "context": "div.w-layout-grid > div.layout558_item > p",
       "en": "Open loop system at beading plant operates more efficiently than closed loop alternatives.",
       "cn": "珠粒厂的开环系统运行效率高于闭环方案。"
     },
     {
-      "id": "t43",
+      "id": "t47",
       "type": "text",
       "context": "div.layout16_content-left > div.margin-bottom > h2.heading-style-h2",
       "en": "Chemical-free technology",
       "cn": "无化学品技术"
     },
     {
-      "id": "t44",
+      "id": "t48",
       "type": "text",
       "context": "div.layout16_content-left > div.margin-bottom > p.text-size-medium",
       "en": "We adopt chemical-free technologies and eco-friendly manufacturing processes that minimize chemical use while improving product quality and reducing environmental impact.",
       "cn": "我们采用无化学品技术与环保制造工艺，减少化学品使用，同时提升产品品质并降低环境影响。"
     },
     {
-      "id": "t45",
+      "id": "t49",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e32097d-8313eb1b > div.layout16_item-text-wrapper > p",
       "en": "We use ultrafiltration to purify some of our products, avoiding chemical treatments and residue.",
       "cn": "我们使用超滤技术净化部分产品，避免化学处理与残留。"
     },
     {
-      "id": "t46",
+      "id": "t50",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320983-8313eb1b > div.layout16_item-text-wrapper > p",
       "en": "We now use crystallisation, a chemical-free process that produces a cleaner, higher-quality, safer product.",
       "cn": "如今采用结晶——一种无化学品工艺，产出更洁净、品质更高、更安全的产品。"
     },
     {
-      "id": "t47",
+      "id": "t51",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320989-8313eb1b > div.layout16_item-text-wrapper > p",
       "en": "We use continuous reactive distillation in our esterification process, to achieve better efficiency, lower energy use and reduced chemical requirements compared to conventional processes.",
       "cn": "酯化工艺中采用连续反应蒸馏，相较传统工艺，效率更高，能耗与化学品需求更低。"
     },
     {
-      "id": "t48",
+      "id": "t52",
       "type": "text",
       "context": "div#w-node-_405463f8-2f73-ac0e-7aa8-7b4cf1d67a2d-8313eb1b > div.layout16_item-text-wrapper > p",
       "en": "Our reverse osmosis (RO) system treats waste water using membrane filtration which minimizes chemical usage while effectively removing impurities.",
       "cn": "反渗透 (RO) 系统通过膜过滤处理废水，将化学品使用降至最低，同时高效去除杂质。"
     },
     {
-      "id": "t49",
+      "id": "t53",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320999-8313eb1b > div.margin-bottom > h2.heading-style-h2",
       "en": "6 Principles for responsible operations",
       "cn": "负责任运营的 6 项准则"
     },
     {
-      "id": "t50",
+      "id": "t54",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320999-8313eb1b > div.margin-bottom > p.text-size-medium",
       "en": "In 1994, we adopted the Chemical Industries Council of Malaysia's Guiding Principles of Responsible Care and six Codes of Practice. We're committed to minimizing environmental impact while protecting employee, public health and safety. For more information, visit CICM's website.",
       "cn": "1994 年，我们采纳马来西亚化学工业理事会的责任关怀指导原则及六项行为守则，致力将环境影响降至最低，同时保护员工、公众的健康与安全。详情请见 CICM 网站。"
     },
     {
-      "id": "t51",
+      "id": "t55",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320999-8313eb1b > div.margin-bottom > p.text-size-medium",
       "en": "In 2010, Acidchem International received Platinum Award, under Responsible Care for Pollution Prevention code from the Chemical Industries Council of Malaysia. The award is typically presented to companies that have achieved a Gold Award for three consecutive years.",
       "cn": "2010 年，Acidchem International 因污染防治表现荣获马来西亚化学工业理事会颁发的责任关怀白金奖。该奖项通常授予连续三年荣获金奖的公司。"
     },
     {
-      "id": "t52",
+      "id": "t56",
       "type": "text",
       "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
       "en": "Distribution",
       "cn": "分销"
     },
     {
-      "id": "t53",
+      "id": "t57",
       "type": "text",
       "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
       "en": "Community awareness and emergency response (CAER)",
       "cn": "社区意识与应急响应 (CAER)"
     },
     {
-      "id": "t54",
+      "id": "t58",
       "type": "text",
       "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
       "en": "Pollution prevention",
       "cn": "污染防治"
     },
     {
-      "id": "t55",
+      "id": "t59",
       "type": "text",
       "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
       "en": "Employee health and safety",
       "cn": "员工健康与安全"
     },
     {
-      "id": "t56",
+      "id": "t60",
       "type": "text",
       "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
       "en": "Process safety",
       "cn": "工艺安全"
     },
     {
-      "id": "t57",
+      "id": "t61",
       "type": "text",
       "context": "div.w-layout-grid > div.layout201_item > h3.heading-style-h6",
       "en": "Product stewardship",
       "cn": "产品管理"
     },
     {
-      "id": "t58",
+      "id": "t62",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
       "en": "International Benchmarking",
       "cn": "国际标杆"
     },
     {
-      "id": "t59",
+      "id": "t63",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > p.text-size-medium",
       "en": "We work with clients and international organisations to tackle climate change and reduce supply chain emissions. Our SBTi-validated emissions reduction targets align with global climate science.",
       "cn": "我们与客户及国际机构合作，应对气候变化、降低供应链排放。我们经 SBTi 验证的减排目标与全球气候科学保持一致。"
     },
     {
-      "id": "t60",
+      "id": "t64",
       "type": "text",
       "context": "div.max-width-large > div.button-group > a.button",
       "en": "More about IOI Group:IOI's Science-Based Targets Validated By SBTi ->",
       "cn": "更多 IOI 集团信息：IOI 科学减碳目标获 SBTi 验证 ->"
     },
     {
-      "id": "t61",
+      "id": "t65",
       "type": "text",
       "context": "div.w-embed > svg > title",
       "en": "Home",
       "cn": "首页"
     },
     {
-      "id": "t62",
+      "id": "t66",
       "type": "text",
       "context": "div.w-layout-grid > div.contact19_item > p",
       "en": "We disclose greenhouse gas emissions and climate action plans annually through the Carbon Disclosure Project.",
       "cn": "我们每年通过碳披露项目公开温室气体排放与气候行动计划。"
     },
     {
-      "id": "t63",
+      "id": "t67",
       "type": "text",
       "context": "div.contact19_item > div.margin-top > a",
       "en": "Go to CDP ->",
       "cn": "前往 CDP ->"
     },
     {
-      "id": "t64",
+      "id": "t68",
       "type": "text",
       "context": "div.w-layout-grid > div.contact19_item > p",
       "en": "Independent assessors evaluate our environmental and social performance across the entire supply chain.",
       "cn": "独立评估机构对我们整条供应链的环境与社会表现进行评估。"
     },
     {
-      "id": "t65",
+      "id": "t69",
       "type": "text",
       "context": "div.contact19_item > div.margin-top > a",
       "en": "Go to EcoVadis ->",
       "cn": "前往 EcoVadis ->"
     },
     {
-      "id": "t66",
+      "id": "t70",
       "type": "text",
       "context": "div.w-layout-grid > div.contact19_item > p",
       "en": "Our emissions reduction targets align with scientific consensus on climate action requirements.",
       "cn": "我们的减排目标与气候行动要求的科学共识保持一致。"
     },
     {
-      "id": "t67",
+      "id": "t71",
       "type": "text",
       "context": "div.contact19_item > div.margin-top > a",
       "en": "Go to SBTi ->",
       "cn": "前往 SBTi ->"
     },
     {
-      "id": "t68",
+      "id": "t72",
       "type": "text",
       "context": "div.w-layout-grid > div.cta15_content-left > h2.heading-style-h2",
       "en": "Pathway to Net Zero by 2040",
       "cn": "迈向 2040 年净零排放之路"
     },
     {
-      "id": "t69",
+      "id": "t73",
       "type": "text",
       "context": "div.w-layout-grid > div.cta15_content-right > p.text-size-medium",
       "en": "IOI Oleochemical supports IOI Group's climate action through a structured GHG reduction roadmap that integrates operational improvements with Group-wide objectives. The roadmap addresses absolute and intensity-based emissions reductions through energy efficiency, renewable energy adoption, methane capture, and process optimization, while strengthening emissions data quality and governance.",
       "cn": "IOI Oleochemical 通过结构化的温室气体减排路线图支持 IOI 集团的气候行动，将营运改进与集团整体目标相结合。路线图通过能效提升、可再生能源采用、甲烷捕集与工艺优化，实现绝对排放与排放强度的削减，同时强化排放数据品质与治理。"
     },
     {
-      "id": "t70",
+      "id": "t74",
       "type": "text",
       "context": "div.w-layout-grid > div.cta15_content-right > p.text-size-medium",
       "en": "Detailed targets and commitments are outlined in the IOI Group Climate Change Action Initiative (CCAi) framework.",
       "cn": "详细目标与承诺已纳入 IOI 集团气候变化行动倡议 (CCAi) 框架。"
     },
     {
-      "id": "t71",
+      "id": "t75",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "IOI Group: Climate Change Action Initiative (CCAi) ->",
       "cn": "IOI 集团：气候变化行动倡议 (CCAi) ->"
     },
     {
-      "id": "t72",
+      "id": "t76",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h2",
       "en": "Sustainability Projects",
       "cn": "可持续发展项目"
     },
     {
-      "id": "t73",
+      "id": "t77",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > p.text-size-medium",
       "en": "Reducing greenhouse gas emissions is central to our sustainability strategy. We're implementing targeted projects through energy optimization, heat recovery and efficient technologies to lower consumption and reduce fossil fuel reliance.",
       "cn": "减少温室气体排放是我们可持续发展战略的核心。我们正通过能源优化、热回收与高效技术推进针对性项目，降低消耗并减少对化石燃料的依赖。"
     },
     {
-      "id": "t74",
+      "id": "t78",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Cogeneration",
       "cn": "热电联产"
     },
     {
-      "id": "t75",
+      "id": "t79",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Solar energy",
       "cn": "太阳能"
     },
     {
-      "id": "t76",
+      "id": "t80",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Water recovery",
       "cn": "水回收"
     },
     {
-      "id": "t77",
+      "id": "t81",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Thermal collectors",
       "cn": "热能集热器"
     },
     {
-      "id": "t78",
+      "id": "t82",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Press efficiency",
       "cn": "压榨效率"
     },
     {
-      "id": "t79",
+      "id": "t83",
       "type": "text",
       "context": "div#w-node-_4971c223-7d78-1ce0-0b48-43b28e320a1b-8313eb1b > a.layout505_tab-link > h3.heading-style-h5",
       "en": "Sludge drying",
       "cn": "污泥干燥"
     },
     {
-      "id": "t80",
+      "id": "t84",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Cogeneration power plant improves efficiency",
       "cn": "热电联产工厂提升效率"
     },
     {
-      "id": "t81",
+      "id": "t85",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "With the addition of this 2nd cogeneration power plant with the 1st in 2015, the company will not only reduce the reliance on grid electricity but also achieve an estimated reduction of",
       "cn": "继 2015 年首座热电联产工厂之后再增建第二座，公司不仅减少对电网的依赖，两座工厂满载运行时预计每年还能减排"
     },
     {
-      "id": "t82",
+      "id": "t86",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "~9,000 tonnes",
       "cn": "约 9,000 吨"
     },
     {
-      "id": "t83",
+      "id": "t87",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "of CO",
       "cn": "CO"
     },
     {
-      "id": "t84",
+      "id": "t88",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "emissions annually when both plants run at full capacity.",
       "cn": "排放。"
     },
     {
-      "id": "t85",
+      "id": "t89",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Solar Panels to generate power for self-consumption",
       "cn": "太阳能板供自用发电"
     },
     {
-      "id": "t86",
+      "id": "t90",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "We have currently installed 3 phases of solar panels across our plants in Prai, where the latest installation is able to generate ~1,900 MWh of clean electricity annually and reduce gas emissions by approximately 1,500 tCO2e each year. With all 3 phases now operational, this would aid in reducing overall greenhouse gas emissions by approximately",
       "cn": "我们已在 Prai 各厂区分三期安装太阳能板，最新一期每年可发电约 1,900 兆瓦时清洁电力，每年减少约 1,500 吨二氧化碳当量排放。三期全部投运后，整体温室气体排放预计可减少约"
     },
     {
-      "id": "t87",
+      "id": "t91",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "2,800 tCO₂e",
       "cn": "2,800 吨 CO₂e"
     },
     {
-      "id": "t88",
+      "id": "t92",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Condensate recovery for water conservation",
       "cn": "凝结水回收节约用水"
     },
     {
-      "id": "t89",
+      "id": "t93",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "The condensate recovery project which aims to adapt to water stress, where the steam condensate released from the heating of the storage tank will be reused for plant process application instead of being released to ETP plant for further treatment. This project had helped",
       "cn": "凝结水回收项目旨在应对水资源紧张，将储罐加热释放的蒸汽凝结水回收用于厂区工艺，而非排入污水处理厂进一步处理。该项目助力"
     },
     {
-      "id": "t90",
+      "id": "t94",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "save ~1500 m",
       "cn": "节约约 1500 立方米"
     },
     {
-      "id": "t91",
+      "id": "t95",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "of SAJ water",
       "cn": "SAJ 自来水"
     },
     {
-      "id": "t92",
+      "id": "t96",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "and ETP treatment cost.",
       "cn": "并降低 ETP 处理成本。"
     },
     {
-      "id": "t93",
+      "id": "t97",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Solar thermal heating improves boiler efficiency",
       "cn": "太阳能热加热提升锅炉效率"
     },
     {
-      "id": "t94",
+      "id": "t98",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "This installation of solar thermal collector panels aided in the reduction of steam consumption which directly reduces the consumption of natural gas in conventional boiler and carbon emission",
       "cn": "太阳能热集热板的安装减少蒸汽消耗，从而直接降低传统锅炉对天然气的消耗以及碳排放"
     },
     {
-      "id": "t95",
+      "id": "t99",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "reduction by",
       "cn": "减排"
     },
     {
-      "id": "t96",
+      "id": "t100",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "~350 tCO2e/year",
       "cn": "约 350 吨 CO₂e/年"
     },
     {
-      "id": "t97",
+      "id": "t101",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "High efficiency Multi Disc Screw Press (MDS)",
       "cn": "高效多盘螺旋压榨机 (MDS)"
     },
     {
-      "id": "t98",
+      "id": "t102",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "The installation of the Multi Disc Screw Press (MDS) improved the overall sludge generation process and also aided in substantial energy savings which resulted in a",
       "cn": "多盘螺旋压榨机 (MDS) 的安装改善了整体污泥生成工艺，并实现可观的能源节约，带来"
     },
     {
-      "id": "t99",
+      "id": "t103",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "6-fold increase",
       "cn": "6 倍增长"
     },
     {
-      "id": "t100",
+      "id": "t104",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "in sludge production and a",
       "cn": "污泥产出，以及"
     },
     {
-      "id": "t101",
+      "id": "t105",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "42% reduction",
       "cn": "少 42%"
     },
     {
-      "id": "t102",
+      "id": "t106",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "in energy consumption and GHG emissions compared to the old unit.",
       "cn": "（较旧设备）的能源消耗与温室气体排放。"
     },
     {
-      "id": "t103",
+      "id": "t107",
       "type": "text",
       "context": "div.layout505_tab-content-top > div.margin-bottom > h3.heading-style-h3",
       "en": "Sludge dryer reduces waste",
       "cn": "污泥干燥机减少废物"
     },
     {
-      "id": "t104",
+      "id": "t108",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "The commissioning of this particular sludge dryer was able to reduce bio sludge quantity by reducing its moisture content by",
       "cn": "这套污泥干燥机投运后，通过降低含水量将生物污泥总量减少约"
     },
     {
-      "id": "t105",
+      "id": "t109",
       "type": "text",
       "context": "div.layout505_tab-content-top > p > strong",
       "en": "~70%.",
       "cn": "70%。"
     },
     {
-      "id": "t106",
+      "id": "t110",
       "type": "text",
       "context": "div.layout505_tab-content > div.layout505_tab-content-top > p",
       "en": "This in turn also aided in the reduction of high cost of disposal as SW204.",
       "cn": "进而降低了 SW204 类废物的高昂处置成本。"
     },
     {
-      "id": "t107",
+      "id": "t111",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
       "cn": "探讨您的需求"
     },
     {
-      "id": "t108",
+      "id": "t112",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
       "cn": "联系我们，获取您的专属定制方案。"
     },
     {
-      "id": "t109",
+      "id": "t113",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
       "cn": "联系我们"
     },
     {
-      "id": "t110",
+      "id": "t114",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t115",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t116",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
       "cn": "应用领域"
     },
     {
-      "id": "t111",
+      "id": "t117",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
       "cn": "查看产品"
     },
     {
-      "id": "t112",
+      "id": "t118",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
       "cn": "加入团队"
     },
     {
-      "id": "t113",
+      "id": "t119",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t114",
+      "id": "t120",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t115",
+      "id": "t121",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t116",
+      "id": "t122",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t117",
+      "id": "t123",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
       "cn": "数据保护"
     },
     {
-      "id": "t118",
+      "id": "t124",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
       "cn": "免责声明"
     },
     {
-      "id": "t119",
+      "id": "t125",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
       "cn": "©"
     },
     {
-      "id": "t120",
+      "id": "t126",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",

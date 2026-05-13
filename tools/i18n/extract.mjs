@@ -147,7 +147,19 @@ function walkExtractText($, el, out, idCounter) {
   }
   if (el.type !== "tag") return;
   if (SKIP_TAGS.has(el.name)) return;
-  if (isDynamicElement($, el)) return;
+  if (isDynamicElement($, el)) {
+    // Even inside dynamic CMS list containers, w-dyn-empty holds *static* empty-state text
+    // that is baked into the HTML and never replaced by CMS hydration.  Walk into direct
+    // w-dyn-empty children so those strings are extracted and can be translated.
+    if (el.children) {
+      for (const child of el.children) {
+        if (child.type === "tag" && $(child).hasClass("w-dyn-empty")) {
+          walkExtractText($, child, out, idCounter);
+        }
+      }
+    }
+    return;
+  }
 
   // Attributes
   for (const attr of TRANSLATABLE_ATTRS) {
@@ -283,7 +295,9 @@ async function main() {
       try {
         const prev = JSON.parse(await readFile(workFile, "utf8"));
         for (const s of prev.strings || []) {
-          if (s.cn) existingCn[`${s.id}::${s.en}`] = s.cn;
+          // Key by English text only (not id::en) so carry-over survives sequential ID shifts
+          // that occur when new strings are inserted earlier in the walk order.
+          if (s.cn) existingCn[s.en] = s.cn;
         }
       } catch { /* ignore parse errors, treat as empty */ }
     }
@@ -294,13 +308,13 @@ async function main() {
       total: strings.length,
       strings: strings.map(s => ({
         ...s,
-        cn: existingCn[`${s.id}::${s.en}`] || "",
+        cn: existingCn[s.en] || "",
       })),
     };
     await writeFile(workFile, JSON.stringify(workPayload, null, 2), "utf8");
 
     const carriedOver = Object.keys(existingCn).length
-      ? ` (${strings.filter(s => existingCn[`${s.id}::${s.en}`]).length} existing translations preserved)`
+      ? ` (${strings.filter(s => existingCn[s.en]).length} existing translations preserved)`
       : "";
     console.log(`  ✓ ${rel}  →  ${strings.length} strings${carriedOver}`);
     totalStrings += strings.length;

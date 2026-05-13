@@ -1,8 +1,8 @@
 {
   "file": "en/pdpa.html",
   "lang_target": "cn",
-  "extracted_at": "2026-05-08T00:32:04.342Z",
-  "total": 155,
+  "extracted_at": "2026-05-13T01:50:21.484Z",
+  "total": 161,
   "strings": [
     {
       "id": "t1",
@@ -49,751 +49,751 @@
     {
       "id": "t7",
       "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t9",
+      "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->",
       "cn": "查看产品 ->"
     },
     {
-      "id": "t8",
+      "id": "t10",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t12",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->",
       "cn": "查看全部领域 ->"
     },
     {
-      "id": "t9",
+      "id": "t13",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us",
       "cn": "公司概况"
     },
     {
-      "id": "t10",
+      "id": "t14",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones",
       "cn": "发展历程"
     },
     {
-      "id": "t11",
+      "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices",
       "cn": "分公司"
     },
     {
-      "id": "t12",
+      "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards",
       "cn": "奖项"
     },
     {
-      "id": "t13",
+      "id": "t17",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us",
       "cn": "加入团队"
     },
     {
-      "id": "t14",
+      "id": "t18",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability",
       "cn": "可持续发展"
     },
     {
-      "id": "t15",
+      "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t16",
+      "id": "t20",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate",
       "cn": "环境责任"
     },
     {
-      "id": "t17",
+      "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability",
       "cn": "采购与可追溯性"
     },
     {
-      "id": "t18",
+      "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability",
       "cn": "数字可持续发展"
     },
     {
-      "id": "t19",
+      "id": "t23",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare",
       "cn": "员工福利"
     },
     {
-      "id": "t20",
+      "id": "t24",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events",
       "cn": "企业社会责任"
     },
     {
-      "id": "t21",
+      "id": "t25",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates",
       "cn": "认证"
     },
     {
-      "id": "t22",
+      "id": "t26",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t23",
+      "id": "t27",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t24",
+      "id": "t28",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t25",
+      "id": "t29",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中",
       "cn": "中 / EN"
     },
     {
-      "id": "t26",
+      "id": "t30",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire",
       "cn": "咨询"
     },
     {
-      "id": "t27",
+      "id": "t31",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h1.heading-style-h2",
       "en": "Personal Data Protection Notice",
       "cn": "个人资料保护通知"
     },
     {
-      "id": "t28",
+      "id": "t32",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > h3",
       "en": "GENERAL",
       "cn": "总则"
     },
     {
-      "id": "t29",
+      "id": "t33",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t30",
+      "id": "t34",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "We respect your privacy and are committed to protect your personal data. This Personal Data Protection Notice explains how we collect, process, disclose and store your personal data (which would include information that relates directly or indirectly to you and identifies you as an individual) (“Personal Data”) in instances when your Personal Data may be collected during the course of your access and use of our website or during your transaction and dealings with IOI Oleochemical, in accordance with the Malaysian Personal Data Protection Act 2010 (“PDPA 2010”) and any statutory amendments or re-enactments made thereof from time to time and any applicable regulations, guidelines and orders made thereunder (collectively referred to as “PDPA”) and under this Notice.",
       "cn": "我们尊重您的隐私，并致力于保护您的个人资料。本《个人资料保护通知》说明我们在您访问与使用本网站期间，或您与 IOI Oleochemical 进行交易与往来时，可能收集您的个人资料（包括直接或间接与您相关并可识别您身份的信息，下称“个人资料”）的收集、处理、披露与存储方式，遵循《2010 年马来西亚个人资料保护法》（“PDPA 2010”）及其不时修订或重新制定的法定条文，以及据此颁布的所有适用法规、指引与命令（统称“PDPA”）以及本通知。"
     },
     {
-      "id": "t31",
+      "id": "t35",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Please read this Notice carefully before using our website or submitting Personal Data to us through our website.",
       "cn": "请在使用本网站或通过本网站向我们提交个人资料前，仔细阅读本通知。"
     },
     {
-      "id": "t32",
+      "id": "t36",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t33",
+      "id": "t37",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > h3",
       "en": "INFORMATION COLLECTED",
       "cn": "信息收集"
     },
     {
-      "id": "t34",
+      "id": "t38",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t35",
+      "id": "t39",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Your Personal Data which we may collect includes but not limited to the following:",
       "cn": "我们可能收集的您的个人资料包括但不限于以下内容："
     },
     {
-      "id": "t36",
+      "id": "t40",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information collected when you fill in or update your information with us, which may include personal data furnished when filling in enquiry forms and other similar online forms, provided in or through our website;",
       "cn": "您填写或更新个人信息时收集的资料，包括填写咨询表单及其他类似在线表单时提供的个人资料；"
     },
     {
-      "id": "t37",
+      "id": "t41",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information collected through your participation and/or feedback in forums, surveys, contests and/or any interactive platform(s) including but not limited to forms which you have or may be required to enter, fill and submit to us, or when you respond to communications from our website;",
       "cn": "您参与论坛、调查、竞赛及/或任何互动平台时所提供的反馈或填写、提交的表单中收集的资料，或您回应本网站通讯时收集的资料；"
     },
     {
-      "id": "t38",
+      "id": "t42",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information collected when you register or subscribe to services or offers or newsletters or request to be added to our mailing lists for our products and services;",
       "cn": "您注册或订阅服务、优惠、电子报，或申请加入我们产品与服务邮件列表时收集的资料；"
     },
     {
-      "id": "t39",
+      "id": "t43",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information collected during registration or signing up of user account at our website including log-in name and password or when logging on to certain areas in the website;",
       "cn": "您在本网站注册或开通账户时收集的资料，包括登录名与密码，或登录网站特定区域时收集的资料；"
     },
     {
-      "id": "t40",
+      "id": "t44",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information collected in relation to preferences and online purchases and deliveries of our products or services (if any);",
       "cn": "与您偏好、在线购买及我们产品或服务交付（如有）相关的资料；"
     },
     {
-      "id": "t41",
+      "id": "t45",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information which is automatically collected through your use of our website (eg. when you request pages from our website’s server, it automatically collects some information about your preferences, including your IP address). IOI uses this information to administer and to help diagnose problems with our website and the servers and for such other purposes set out herein;",
       "cn": "通过您使用本网站自动收集的资料（例如，当您从本网站服务器请求页面时，系统会自动收集您的偏好信息，包括您的 IP 地址）。IOI 利用此类资料管理本网站，协助诊断网站与服务器问题，并用于本通知所列其他目的；"
     },
     {
-      "id": "t42",
+      "id": "t46",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information collected through your communication with us through various methods such as emails, letters, telephone calls and conversations you have with our personnel and/or authorised agents, vendors, suppliers or contractors;",
       "cn": "您通过电邮、信件、电话及与我方人员及/或授权代理、卖方、供应商或承包商的对话等各种方式与我们沟通时收集的资料；"
     },
     {
-      "id": "t43",
+      "id": "t47",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information from any messages, comments or queries you submit to us in whatsoever manner;",
       "cn": "您以任何方式向我们提交的信息、评论或咨询中收集的资料；"
     },
     {
-      "id": "t44",
+      "id": "t48",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information from existing guest lists, business cards, guest books and/or any events organised by us and/or any company under IOI Oleochemical; and/or",
       "cn": "来自现有宾客名单、名片、签到簿及/或我方与 IOI Oleochemical 旗下任何公司主办之活动的资料；及/或"
     },
     {
-      "id": "t45",
+      "id": "t49",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "information obtained from public domain and third parties such as your advocates and solicitors' and financiers.",
       "cn": "从公开领域及第三方（如您的律师及金融机构）获取的资料。"
     },
     {
-      "id": "t46",
+      "id": "t50",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "The Personal Data processed may include but not limited to Personal Data relating to:",
       "cn": "处理的个人资料可能包括但不限于以下相关资料："
     },
     {
-      "id": "t47",
+      "id": "t51",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "your identity (including but not limited to your name, date of birth, gender, citizenship, marital status, race, religion, national registration identification card (“NRIC”) number and colour or passport number, job title, company’s name and signature);",
       "cn": "您的身份资料（包括但不限于姓名、出生日期、性别、国籍、婚姻状况、种族、宗教、国民登记身份证（“NRIC”）号码与颜色或护照号码、职务、公司名称及签名）；"
     },
     {
-      "id": "t48",
+      "id": "t52",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "your contact details (including but not limited to your correspondence, residential and office address, phone numbers and email address);",
       "cn": "您的联络资料（包括但不限于通讯、居住及办公地址、电话号码及电邮地址）；"
     },
     {
-      "id": "t49",
+      "id": "t53",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "your demographic information such as postcode, preferences and interest;",
       "cn": "您的人口统计信息，例如邮政编码、偏好与兴趣；"
     },
     {
-      "id": "t50",
+      "id": "t54",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "your financial details (including your monthly income, financial statements, status of your business and information by your financier);",
       "cn": "您的财务详情（包括月收入、财务报表、业务状况及金融机构提供的信息）；"
     },
     {
-      "id": "t51",
+      "id": "t55",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "your credit card, debit card or bank account information;",
       "cn": "您的信用卡、借记卡或银行账户信息；"
     },
     {
-      "id": "t52",
+      "id": "t56",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "your advocates and solicitors’ details (including but not limited to their name, correspondence address and telephone number); and",
       "cn": "您的律师详情（包括但不限于姓名、通讯地址及电话号码）；以及"
     },
     {
-      "id": "t53",
+      "id": "t57",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "other information relevant to customer surveys, promotions and/or offers.",
       "cn": "与客户调查、推广及/或优惠相关的其他信息。"
     },
     {
-      "id": "t54",
+      "id": "t58",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "The list of Personal Data stated above is not exhaustive and may include other personal data depending on the nature of dealings or transaction between you and IOI. As a user of this website, you hereby agree for any Personal Data stated above to be stored in our computer databases and servers located within and outside Malaysia.",
       "cn": "上述个人资料清单并非详尽无遗，可能根据您与 IOI 之间的往来或交易性质涵盖其他个人资料。作为本网站用户，您在此同意上述任何个人资料被存储于位于马来西亚境内及境外的计算机数据库与服务器中。"
     },
     {
-      "id": "t55",
+      "id": "t59",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t56",
+      "id": "t60",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > h3",
       "en": "PURPOSES OF PROCESSING",
       "cn": "处理目的"
     },
     {
-      "id": "t57",
+      "id": "t61",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t58",
+      "id": "t62",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "We collect and process your Personal Data for the purposes of this website and to carry out the necessary transactions and for IOI Oleochemical’s business, welfare and social activities, including but not limited to the following purposes (collectively, “Purposes”):",
       "cn": "我们为本网站之目的、执行必要交易及 IOI Oleochemical 的商业、福利与社会活动而收集与处理您的个人资料，包括但不限于以下目的（统称“目的”）："
     },
     {
-      "id": "t59",
+      "id": "t63",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to enable you to be provided with products, services, facilities or benefits offered by IOI Oleochemical;",
       "cn": "为您提供 IOI Oleochemical 所提供的产品、服务、设施或利益；"
     },
     {
-      "id": "t60",
+      "id": "t64",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to communicate with you eg. to send important notices, emails, letters, Short Message Service (“SMS”), WhatsApp messages, changes to IOI’s terms, conditions, policies and notices and other like communications;",
       "cn": "与您通讯，例如发送重要通知、电邮、信件、短讯（“SMS”）、WhatsApp 信息、IOI 条款、条件、政策与通知的变更及其他类似通讯；"
     },
     {
-      "id": "t61",
+      "id": "t65",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to communicate with you including to respond to any of your queries and/or requests;",
       "cn": "与您通讯，包括回应您的任何咨询及/或请求；"
     },
     {
-      "id": "t62",
+      "id": "t66",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to keep you posted on IOI Oleochemical’s latest products and services announcements, special offers and upcoming events and promotions including products information, product updates and other related information;",
       "cn": "向您通报 IOI Oleochemical 最新产品与服务公告、特别优惠及即将举办的活动与促销，包括产品资讯、产品更新及其他相关信息；"
     },
     {
-      "id": "t63",
+      "id": "t67",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to conduct research, surveys and trend analysis on various matters such as planning, products, services, security and testing for marketing and research and product development purposes;",
       "cn": "就规划、产品、服务、安全与测试等各项事宜进行研究、调查与趋势分析，用于营销、研究与产品开发目的；"
     },
     {
-      "id": "t64",
+      "id": "t68",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for internal purposes such as auditing, data analysis to improve IOI’s products, services and customer communications based on your feedbacks (if relevant);",
       "cn": "用于内部目的，如审计、根据您的反馈（如相关）进行数据分析以改进 IOI 的产品、服务与客户沟通；"
     },
     {
-      "id": "t65",
+      "id": "t69",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to perform statistical analysis for various objectives and sharing this information within IOI Oleochemical;",
       "cn": "为各项目标进行统计分析，并在 IOI Oleochemical 内部共享此类信息；"
     },
     {
-      "id": "t66",
+      "id": "t70",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to process your application to transact with any of IOI Oleochemical’s business divisions;",
       "cn": "处理您与 IOI Oleochemical 任一业务部门进行交易的申请；"
     },
     {
-      "id": "t67",
+      "id": "t71",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to process any sales transaction or customer orders (if any);",
       "cn": "处理任何销售交易或客户订单（如有）；"
     },
     {
-      "id": "t68",
+      "id": "t72",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for internal record keeping;",
       "cn": "用于内部记录保存；"
     },
     {
-      "id": "t69",
+      "id": "t73",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to customise our website according to your interests and preferences;",
       "cn": "根据您的兴趣与偏好定制本网站；"
     },
     {
-      "id": "t70",
+      "id": "t74",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for internal purposes for technical support of this website and to compile statistics on the usage of this website to improve this website;",
       "cn": "用于本网站技术支持的内部目的，并汇编本网站使用统计数据以改进本网站；"
     },
     {
-      "id": "t71",
+      "id": "t75",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to implement and maintain our information technology systems, including to store and process data, in computer databases and servers located within and outside Malaysia;",
       "cn": "实施与维护我们的信息技术系统，包括在位于马来西亚境内及境外的计算机数据库与服务器中存储与处理数据；"
     },
     {
-      "id": "t72",
+      "id": "t76",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for purposes connected with the operation, administration, development, support, assistance or enhancement of any IOI Oleochemical’s businesses;",
       "cn": "用于与 IOI Oleochemical 任何业务的运营、行政、发展、支持、协助或提升相关之目的；"
     },
     {
-      "id": "t73",
+      "id": "t77",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for financial purposes, including accounting and tax;",
       "cn": "用于财务目的，包括会计与税务；"
     },
     {
-      "id": "t74",
+      "id": "t78",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for IOI Oleochemical’s contractual obligations or business arrangements with third parties;",
       "cn": "用于 IOI Oleochemical 与第三方的合同义务或商业安排；"
     },
     {
-      "id": "t75",
+      "id": "t79",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "where in IOI Oleochemical’s opinion such use or disclosure of Personal Data is necessary to protect its interests and to respond to any claims or legal processes;",
       "cn": "当 IOI Oleochemical 认为此类使用或披露个人资料对保护其利益及应对任何索赔或法律程序属必要时；"
     },
     {
-      "id": "t76",
+      "id": "t80",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for the protection and prevention against and detection of actual or potential crimes including fraud or unauthorised transactions or unlawful activities;",
       "cn": "用于保护、预防及侦测实际或潜在的犯罪行为，包括欺诈、未经授权的交易或非法活动；"
     },
     {
-      "id": "t77",
+      "id": "t81",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for the investigation of complaints, misconduct and suspected suspicious transactions (including but not limited to carrying out due diligence and/or other screening activities);",
       "cn": "用于调查投诉、不当行为及涉嫌可疑交易（包括但不限于尽职调查及/或其他筛查活动）；"
     },
     {
-      "id": "t78",
+      "id": "t82",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for security and access within the companies in IOI Oleochemical;",
       "cn": "用于 IOI Oleochemical 旗下公司内的安全与访问管理；"
     },
     {
-      "id": "t79",
+      "id": "t83",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to comply with legislative, statutory and regulatory requirements;",
       "cn": "遵守立法、法定及监管要求；"
     },
     {
-      "id": "t80",
+      "id": "t84",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for corporate governance purposes, including auditing, internal investigations, compliance, risk management, conflict of interest reporting and security processes;",
       "cn": "用于公司治理目的，包括审计、内部调查、合规、风险管理、利益冲突申报与安全流程；"
     },
     {
-      "id": "t81",
+      "id": "t85",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to transfer Personal Data to any parties located in other jurisdictions outside Malaysia, where necessary;",
       "cn": "于必要时将个人资料传输至马来西亚境外其他司法管辖区的任何方；"
     },
     {
-      "id": "t82",
+      "id": "t86",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "where a third party acquires or wishes to acquire or make enquiries in relation to acquiring an interest in any company within IOI Oleochemical;",
       "cn": "当第三方收购、希望收购或就收购 IOI Oleochemical 旗下任何公司之权益进行咨询时；"
     },
     {
-      "id": "t83",
+      "id": "t87",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "where you have provided Personal Data for purposes of online job application, to process your resume or curriculum vitae and to determine your suitability for a position within IOI Oleochemical;",
       "cn": "当您为在线求职目的提供个人资料时，用于处理您的简历并评估您是否适合 IOI Oleochemical 内的职位；"
     },
     {
-      "id": "t84",
+      "id": "t88",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to protect or enforce our rights including but not limited to recover any debt due and owing to us;",
       "cn": "保护或行使我们的权利，包括但不限于追讨拖欠我们的任何债务；"
     },
     {
-      "id": "t85",
+      "id": "t89",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for verification and reference checks by third parties;",
       "cn": "用于第三方的核实与背景调查；"
     },
     {
-      "id": "t86",
+      "id": "t90",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for general administrative and management purposes; and/or",
       "cn": "用于一般行政与管理目的；及/或"
     },
     {
-      "id": "t87",
+      "id": "t91",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "for all other purposes in relation or incidental to the above.",
       "cn": "用于与上述目的相关或附带的所有其他目的。"
     },
     {
-      "id": "t88",
+      "id": "t92",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "By providing your Personal Data to IOI Oleochemical, you consent to the use of Personal Data collected by us or our authorised third party in the manner set out in this Notice for the Purposes stated above.",
       "cn": "您向 IOI Oleochemical 提供个人资料，即表示您同意我方或我方授权的第三方按本通知所述方式将所收集的个人资料用于上述目的。"
     },
     {
-      "id": "t89",
+      "id": "t93",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Your Personal Data is necessary to us. Unless otherwise stated, it is an obligation for you to provide all such Personal Data requested by us. If you do not provide or allow us to process all the obligatory Personal Data as requested, we will not be able to keep complete information about you, therefore affecting our ability to accomplish the Purposes described in this Notice. As such information is crucial to your relationship with IOI Oleochemical, you are advised not to opt out of providing such Personal Data as requested by us.",
       "cn": "您的个人资料对我们而言是必要的。除另有说明外，您有义务提供我方所要求的所有此类个人资料。若您未提供或不允许我方处理所有必要的个人资料，我们将无法保留您完整的信息，从而影响我方实现本通知所述目的的能力。鉴于此类信息对您与 IOI Oleochemical 的关系至关重要，建议您不要拒绝按要求提供个人资料。"
     },
     {
-      "id": "t90",
+      "id": "t94",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t91",
+      "id": "t95",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > h3",
       "en": "DISCLOSURE OF YOUR PERSONAL DATA",
       "cn": "您个人资料的披露"
     },
     {
-      "id": "t92",
+      "id": "t96",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t93",
+      "id": "t97",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "We will not sell, distribute or lease your Personal Data to third parties unless we have your permission or are required by law.",
       "cn": "除非获得您的许可或法律要求，我们不会将您的个人资料出售、分发或租赁予第三方。"
     },
     {
-      "id": "t94",
+      "id": "t98",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Where necessary in performing the Purposes, IOI may disclose your Personal Data to the following parties (including those within and outside Malaysia):",
       "cn": "为实现上述目的之必要，IOI 可能向以下各方（包括位于马来西亚境内及境外者）披露您的个人资料："
     },
     {
-      "id": "t95",
+      "id": "t99",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "any entities within IOI Oleochemical including IOI Oleochemical’s holding company, subsidiaries, related and associate companies and affiliates and representative offices and joint-venture partners, which may be located in Malaysia or overseas;",
       "cn": "IOI Oleochemical 旗下任何实体，包括 IOI Oleochemical 的控股公司、子公司、相关公司、联营公司、关联公司、代表处及合资伙伴，可能位于马来西亚或海外；"
     },
     {
-      "id": "t96",
+      "id": "t100",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "any authorised agents and service providers of IOI Oleochemical and those who collaborate or provide services relating to the purposes for which the Personal Data is collected or for activities related to our products or services, including but not limited to sale and marketing agents, consultants, data processing services and third party vendors, agents, suppliers or contractors and/or advisors who provide operating and administrative system, computer and information technology system, accounting and payment system, human resources and payroll system and/or other services to any company within IOI Oleochemical in connection with the operations of their businesses, with whom Personal Data may be shared for the limited purpose of enabling the authorised third party to perform the particular services on behalf of any company within IOI Oleochemical;",
       "cn": "IOI Oleochemical 的任何授权代理与服务提供商，以及就收集个人资料的目的或与我方产品或服务相关之活动进行协作或提供服务者，包括但不限于销售与营销代理、顾问、数据处理服务与第三方卖方、代理、供应商或承包商及/或就业务运营向 IOI Oleochemical 旗下任何公司提供运营与行政系统、计算机与信息技术系统、会计与支付系统、人力资源与薪资系统及/或其他服务的顾问；个人资料可与上述方共享，但仅限于使授权第三方代表 IOI Oleochemical 旗下任何公司执行特定服务之目的；"
     },
     {
-      "id": "t97",
+      "id": "t101",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "any authorised third party service providers that provide services such as information processing, online payment, extending credit, fulfilling customer orders, delivering products to you, managing and enhancing customer data, providing customer service, assessing your interest in IOI’s products and services and conducting customer research, satisfaction surveys and data analysis;",
       "cn": "提供信息处理、在线支付、授予信贷、履行客户订单、向您交付产品、管理与提升客户数据、提供客户服务、评估您对 IOI 产品与服务的兴趣，以及进行客户研究、满意度调查与数据分析等服务的任何授权第三方服务提供商；"
     },
     {
-      "id": "t98",
+      "id": "t102",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "our business partners or associates and/or customers (if relevant);",
       "cn": "我们的业务伙伴或联营方及/或客户（如相关）；"
     },
     {
-      "id": "t99",
+      "id": "t103",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "other relevant parties such as banks or financiers and their valuers, lawyers, legal advisors and auditors;",
       "cn": "其他相关方，如银行或金融机构及其估值师、律师、法律顾问与审计师；"
     },
     {
-      "id": "t100",
+      "id": "t104",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "our actual or prospective investors, assignees or potential assignees, acquirers or potential acquirers or transferees or potential transferees of the business entities within IOI Oleochemical and successors-in-title in the event we decide to divest part or all of our business through sale, merger, acquisition or joint-venture;",
       "cn": "在我方决定通过出售、合并、收购或合资剥离部分或全部业务时，IOI Oleochemical 旗下业务实体的实际或潜在投资者、受让人或潜在受让人、收购方或潜在收购方、转让对象或潜在转让对象及权利继任者；"
     },
     {
-      "id": "t101",
+      "id": "t105",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "any person, who is under a duty of confidentiality who has undertaken the responsibility to keep such data private and confidential;",
       "cn": "承担保密义务并已承诺将此类资料保持隐私与机密的任何人士；"
     },
     {
-      "id": "t102",
+      "id": "t106",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "the Personal Data of job applicants may be shared with third parties eg. the applicant’s current or previous employers and credit reference agencies, to verify or obtain additional information about the job applicants; and",
       "cn": "求职者的个人资料可能与第三方共享，例如求职者的现任或前任雇主与征信机构，以核实或获取有关求职者的额外信息；以及"
     },
     {
-      "id": "t103",
+      "id": "t107",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "other parties, in respect of whom you have consented to the disclosure of your Personal Data.",
       "cn": "您已同意向其披露个人资料的其他各方。"
     },
     {
-      "id": "t104",
+      "id": "t108",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "In addition, we may also disclose your Personal Data (within and outside Malaysia) in good faith:",
       "cn": "此外，我们还可能本着诚信原则在以下情况下披露您的个人资料（在马来西亚境内及境外）："
     },
     {
-      "id": "t105",
+      "id": "t109",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to comply with the requirements of the government or local authorities, law enforcement agencies or any other authorities including regulatory and securities authorities to whom IOI Oleochemical is subject to or have reporting obligations or to whom we are required to provide your Personal Data;",
       "cn": "遵守政府或地方当局、执法机构或任何其他主管机关（包括 IOI Oleochemical 受其管辖、负有申报义务或被要求向其提供您个人资料的监管与证券机构）的要求；"
     },
     {
-      "id": "t106",
+      "id": "t110",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "to comply with any orders of any court of competent jurisdiction;",
       "cn": "遵守任何具有管辖权法院的任何命令；"
     },
     {
-      "id": "t107",
+      "id": "t111",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "as is necessary or relevant in relation to any legal process or proceedings;",
       "cn": "就任何法律程序或诉讼而言属必要或相关；"
     },
     {
-      "id": "t108",
+      "id": "t112",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "if required or authorised by law or where such disclosure is necessary to comply with applicable laws, regulations, legal processes or queries from relevant authorities; and",
       "cn": "若法律要求或授权，或为遵守适用法律、法规、法律程序或相关主管机关的查询而需作出此类披露；以及"
     },
     {
-      "id": "t109",
+      "id": "t113",
       "type": "text",
       "context": "div.w-richtext > ol > li",
       "en": "as is necessary for purpose of preventing or detecting or investigating an actual or potential crime or suspicious transaction or breach of securities.",
       "cn": "为预防、侦测或调查实际或潜在犯罪、可疑交易或证券违规属必要时。"
-    },
-    {
-      "id": "t110",
-      "type": "text",
-      "context": "div.padding-section-large > div.w-richtext > p",
-      "en": "‍",
-      "cn": "‍"
-    },
-    {
-      "id": "t111",
-      "type": "text",
-      "context": "div.padding-section-large > div.w-richtext > h3",
-      "en": "RETENTION PERIOD",
-      "cn": "保留期限"
-    },
-    {
-      "id": "t112",
-      "type": "text",
-      "context": "div.padding-section-large > div.w-richtext > p",
-      "en": "‍",
-      "cn": "‍"
-    },
-    {
-      "id": "t113",
-      "type": "text",
-      "context": "div.padding-section-large > div.w-richtext > p",
-      "en": "Any Personal Data we collect will be retained by IOI Oleochemical and/or any of the parties to whom any Personal Data has been disclosed to, for as long as necessary to fulfil the many different Purposes outlined in this Notice in line with our internal retention policies or as required to satisfy legal, regulatory, taxation and/or accounting requirements or to protect IOI Oleochemical’s interests.",
-      "cn": "我们收集的任何个人资料将由 IOI Oleochemical 及/或任何曾被披露过个人资料的各方依据我方内部保留政策保留，期限为实现本通知所述多项目的所必要的时长，或为满足法律、监管、税务及/或会计要求或保护 IOI Oleochemical 利益所必要的时长。"
     },
     {
       "id": "t114",
@@ -806,8 +806,8 @@
       "id": "t115",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > h3",
-      "en": "SECURITY",
-      "cn": "安全"
+      "en": "RETENTION PERIOD",
+      "cn": "保留期限"
     },
     {
       "id": "t116",
@@ -820,8 +820,8 @@
       "id": "t117",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
-      "en": "We are committed to ensuring that your Personal Data is secure. We will protect your Personal Data in accordance with any applicable Malaysian laws including PDPA. In order to prevent loss, theft, misuse, modification or unauthorised or accidental access, alteration, disclosure or destruction, we have put in place appropriate physical, electronic, technical and administrative procedures and technological and organisational security measures to safeguard and secure the Personal Data that we collect online.",
-      "cn": "我们致力于确保您个人资料的安全。我们将依据任何适用之马来西亚法律（包括 PDPA）保护您的个人资料。为防止丢失、盗窃、误用、修改或未经授权或意外的访问、变更、披露或销毁，我们已制定适当的物理、电子、技术与行政程序，以及技术与组织安全措施，以保护并确保我们在线收集的个人资料的安全。"
+      "en": "Any Personal Data we collect will be retained by IOI Oleochemical and/or any of the parties to whom any Personal Data has been disclosed to, for as long as necessary to fulfil the many different Purposes outlined in this Notice in line with our internal retention policies or as required to satisfy legal, regulatory, taxation and/or accounting requirements or to protect IOI Oleochemical’s interests.",
+      "cn": "我们收集的任何个人资料将由 IOI Oleochemical 及/或任何曾被披露过个人资料的各方依据我方内部保留政策保留，期限为实现本通知所述多项目的所必要的时长，或为满足法律、监管、税务及/或会计要求或保护 IOI Oleochemical 利益所必要的时长。"
     },
     {
       "id": "t118",
@@ -834,8 +834,8 @@
       "id": "t119",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > h3",
-      "en": "ACCURACY AND UPDATING OF PERSONAL DATA",
-      "cn": "个人资料的准确性与更新"
+      "en": "SECURITY",
+      "cn": "安全"
     },
     {
       "id": "t120",
@@ -848,242 +848,284 @@
       "id": "t121",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "We are committed to ensuring that your Personal Data is secure. We will protect your Personal Data in accordance with any applicable Malaysian laws including PDPA. In order to prevent loss, theft, misuse, modification or unauthorised or accidental access, alteration, disclosure or destruction, we have put in place appropriate physical, electronic, technical and administrative procedures and technological and organisational security measures to safeguard and secure the Personal Data that we collect online.",
+      "cn": "我们致力于确保您个人资料的安全。我们将依据任何适用之马来西亚法律（包括 PDPA）保护您的个人资料。为防止丢失、盗窃、误用、修改或未经授权或意外的访问、变更、披露或销毁，我们已制定适当的物理、电子、技术与行政程序，以及技术与组织安全措施，以保护并确保我们在线收集的个人资料的安全。"
+    },
+    {
+      "id": "t122",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": "‍"
+    },
+    {
+      "id": "t123",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > h3",
+      "en": "ACCURACY AND UPDATING OF PERSONAL DATA",
+      "cn": "个人资料的准确性与更新"
+    },
+    {
+      "id": "t124",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
+      "en": "‍",
+      "cn": "‍"
+    },
+    {
+      "id": "t125",
+      "type": "text",
+      "context": "div.padding-section-large > div.w-richtext > p",
       "en": "When you provide your Personal Data to IOI Oleochemical, you undertake that all such information provided is accurate, complete and up-to-date. If there are any changes to your Personal Data or if you believe that the Personal Data we have about you is inaccurate, incomplete, misleading or not up-to-date, please contact us, the details as stated below, so that we may take steps to update your Personal Data.",
       "cn": "您向 IOI Oleochemical 提供个人资料时，您承诺所提供的全部资料均准确、完整且为最新。若您的个人资料有任何变更，或您认为我方所持有关您的个人资料不准确、不完整、具误导性或非最新，请按下列详情联系我们，以便我们采取措施更新您的个人资料。"
     },
     {
-      "id": "t122",
+      "id": "t126",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "We may decline to process requests that are unreasonably repetitive, require disproportionate technical effort, jeopardize the privacy of others, are extremely impractical, or for which access to correct the Personal Data is not otherwise required by local law.",
       "cn": "我们可能拒绝处理不合理重复的请求、需要不成比例技术投入的请求、危及他人隐私的请求、极不切实际的请求，或当地法律不要求访问以更正个人资料的请求。"
     },
     {
-      "id": "t123",
+      "id": "t127",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t124",
+      "id": "t128",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > h3",
       "en": "ACCESS, CORRECTION, ENQUIRIES AND COMPLAINTS",
       "cn": "访问、更正、查询与投诉"
     },
     {
-      "id": "t125",
+      "id": "t129",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t126",
+      "id": "t130",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "If you do not agree with any of the contents of this Personal Data Protection Notice, please notify us within seven (7) days from the date of this Notice. Otherwise, we shall deem that you consent to the collecting, recording, processing, holding, storing, usage and disclosure of your Personal Data.",
       "cn": "若您不同意本《个人资料保护通知》之任何内容，请在本通知发布之日起七（7）日内通知我们。否则，我们将视您同意收集、记录、处理、持有、存储、使用与披露您的个人资料。"
     },
     {
-      "id": "t127",
+      "id": "t131",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Should you wish to limit the processing of your Personal Data in relation to any of the Purposes or any other purposes, you may communicate your wishes to us by contacting us, the details are as provided below.",
       "cn": "若您希望限制就上述任何目的或任何其他目的处理您的个人资料，您可按下列联系方式与我们沟通您的意愿。"
     },
     {
-      "id": "t128",
+      "id": "t132",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Please note that in the event that sufficient Personal Data is not supplied or is found not satisfactory to IOI Oleochemical, this may:",
       "cn": "请注意，若未提供足够的个人资料，或所提供资料不能令 IOI Oleochemical 满意，可能："
     },
     {
-      "id": "t129",
+      "id": "t133",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "a. affect our ability to process any application or request which you make to us; and/or",
       "cn": "a. 影响我们处理您提出的任何申请或请求的能力；及/或"
     },
     {
-      "id": "t130",
+      "id": "t134",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "b. affect our ability to provide the full range of benefits and/or services which we are capable of offering to you.",
       "cn": "b. 影响我们向您提供全方位利益及/或服务的能力。"
     },
     {
-      "id": "t131",
+      "id": "t135",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "If you have any questions regarding this Notice or you would like to make any inquiries or complaints or to request access to make corrections, amendments or updates or limit our processing of your Personal Data or to withdraw your consent, you may contact us via:",
       "cn": "若您对本通知有任何疑问，或希望进行任何查询或投诉，或请求访问以作出更正、修改或更新，或限制我方处理您的个人资料，或撤回您的同意，您可通过以下方式联系我们："
     },
     {
-      "id": "t132",
+      "id": "t136",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t133",
+      "id": "t137",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Tel : +60 4 376 8888",
       "cn": "电话：+60 4 376 8888"
     },
     {
-      "id": "t134",
+      "id": "t138",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Fax : +60 4 390 7252",
       "cn": "传真：+60 4 390 7252"
     },
     {
-      "id": "t135",
+      "id": "t139",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Tel : +60 7 251 1580",
       "cn": "电话：+60 7 251 1580"
     },
     {
-      "id": "t136",
+      "id": "t140",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "Fax : +60 7 251 4621",
       "cn": "传真：+60 7 251 4621"
     },
     {
-      "id": "t137",
+      "id": "t141",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t138",
+      "id": "t142",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > h3",
       "en": "AMENDMENTS OF THIS NOTICE",
       "cn": "本通知的修订"
     },
     {
-      "id": "t139",
+      "id": "t143",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "‍",
       "cn": "‍"
     },
     {
-      "id": "t140",
+      "id": "t144",
       "type": "text",
       "context": "div.padding-section-large > div.w-richtext > p",
       "en": "IOI reserves the right to update, revise, amend and/or modify this Personal Data Protection Notice from time to time and in any manner at its absolute discretion but in accordance with the law. Any material changes will be posted on our website with the updated Personal Data Protection Notice.",
       "cn": "IOI 保留依据法律、随时以其绝对裁量权按任何方式更新、修订、修改及/或调整本《个人资料保护通知》的权利。任何重大变更将连同更新版的《个人资料保护通知》发布于本网站。"
     },
     {
-      "id": "t141",
+      "id": "t145",
       "type": "text",
       "context": "div.w-richtext > p > em",
       "en": "In the event of any inconsistencies between the English version and the Bahasa Malaysia version of this Notice, the English version shall prevail.",
       "cn": "若本通知英文版与马来文版之间存在任何不一致，应以英文版为准。"
     },
     {
-      "id": "t142",
+      "id": "t146",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
       "cn": "探讨您的需求"
     },
     {
-      "id": "t143",
+      "id": "t147",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalized suggestions directly.",
       "cn": "联系我们，获取您的专属定制方案。"
     },
     {
-      "id": "t144",
+      "id": "t148",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
       "cn": "联系我们"
     },
     {
-      "id": "t145",
+      "id": "t149",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found.",
+      "cn": "暂无结果。"
+    },
+    {
+      "id": "t150",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search.",
+      "cn": "没有符合此条件的结果，请尝试更改您的搜索条件。"
+    },
+    {
+      "id": "t151",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
       "cn": "应用领域"
     },
     {
-      "id": "t146",
+      "id": "t152",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
       "cn": "查看产品"
     },
     {
-      "id": "t147",
+      "id": "t153",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
       "cn": "加入团队"
     },
     {
-      "id": "t148",
+      "id": "t154",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t149",
+      "id": "t155",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t150",
+      "id": "t156",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t151",
+      "id": "t157",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t152",
+      "id": "t158",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
       "cn": "数据保护"
     },
     {
-      "id": "t153",
+      "id": "t159",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
       "cn": "免责声明"
     },
     {
-      "id": "t154",
+      "id": "t160",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
       "cn": "©"
     },
     {
-      "id": "t155",
+      "id": "t161",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",

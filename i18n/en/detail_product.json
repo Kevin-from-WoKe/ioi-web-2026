@@ -1,7 +1,7 @@
 {
   "file": "en/detail_product.html",
-  "extracted_at": "2026-05-08T00:32:04.303Z",
-  "total": 52,
+  "extracted_at": "2026-05-13T01:50:21.417Z",
+  "total": 58,
   "strings": [
     {
       "id": "t1",
@@ -36,281 +36,317 @@
     {
       "id": "t6",
       "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
+    },
+    {
+      "id": "t8",
+      "type": "text",
       "context": "div.navbar5_dropdown-column > div.button-group > a#cta-product-finder-nav",
       "en": "Find a product ->"
     },
     {
-      "id": "t7",
+      "id": "t9",
+      "type": "text",
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
+    },
+    {
+      "id": "t11",
       "type": "text",
       "context": "div#w-node-b6b4d89f-0768-6a8d-0559-54e5d9fffcdc-d9fffcb0 > div.button-group > a.button",
       "en": "See all applications ->"
     },
     {
-      "id": "t8",
+      "id": "t12",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "About Us"
     },
     {
-      "id": "t9",
+      "id": "t13",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Milestones"
     },
     {
-      "id": "t10",
+      "id": "t14",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Our Offices"
     },
     {
-      "id": "t11",
+      "id": "t15",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Awards"
     },
     {
-      "id": "t12",
+      "id": "t16",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Join Us"
     },
     {
-      "id": "t13",
+      "id": "t17",
       "type": "text",
       "context": "div.navbar5_dropdown-toggle > a.w-inline-block > div",
       "en": "Sustainability"
     },
     {
-      "id": "t14",
+      "id": "t18",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Policies & Statements"
     },
     {
-      "id": "t15",
+      "id": "t19",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Environment & Climate"
     },
     {
-      "id": "t16",
+      "id": "t20",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Sourcing & Traceability"
     },
     {
-      "id": "t17",
+      "id": "t21",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Digital Sustainability"
     },
     {
-      "id": "t18",
+      "id": "t22",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Employee Welfare"
     },
     {
-      "id": "t19",
+      "id": "t23",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-left > a.navbar5_link",
       "en": "CSR Events"
     },
     {
-      "id": "t20",
+      "id": "t24",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > div.navbar5_dropdown-toggle > div",
       "en": "Certificates"
     },
     {
-      "id": "t21",
+      "id": "t25",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Product Certificates"
     },
     {
-      "id": "t22",
+      "id": "t26",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "Company Certificates"
     },
     {
-      "id": "t23",
+      "id": "t27",
       "type": "text",
       "context": "div.navbar14_menu-dropdown > nav.navbar14_dropdown-list > a.navbar5_dropdown-link",
       "en": "General Terms"
     },
     {
-      "id": "t24",
+      "id": "t28",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#lnkLangOpt",
       "en": "EN / 中"
     },
     {
-      "id": "t25",
+      "id": "t29",
       "type": "text",
       "context": "nav.navbar5_menu > div.navbar5_menu-right > a#cta-enquire-nav",
       "en": "Enquire"
     },
     {
-      "id": "t26",
+      "id": "t30",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "Enquire"
     },
     {
-      "id": "t27",
+      "id": "t31",
       "type": "text",
       "context": "div.margin-top > div.button-group > a.button",
       "en": "Order now"
     },
     {
-      "id": "t28",
+      "id": "t32",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > div.text-style-tagline",
       "en": "Certifications"
     },
     {
-      "id": "t29",
+      "id": "t33",
       "type": "text",
       "context": "div.text-align-center > div.max-width-large > h2.heading-style-h2",
       "en": "We are upheld with global certification standards"
     },
     {
-      "id": "t30",
+      "id": "t34",
       "type": "text",
       "context": "div.layout396_card-content-top > div.margin-bottom > h3.heading-style-h4",
       "en": "Kosher certified"
     },
     {
-      "id": "t31",
+      "id": "t35",
       "type": "text",
       "context": "div.layout396_card-content > div.layout396_card-content-top > p",
       "en": "Meets strict dietary and religious requirements worldwide"
     },
     {
-      "id": "t32",
+      "id": "t36",
       "type": "text",
       "context": "div.button-group > a.button > div",
       "en": "Find certificate"
     },
     {
-      "id": "t33",
+      "id": "t37",
       "type": "text",
       "context": "div.layout396_card-content-top > div.margin-bottom > h3.heading-style-h4",
       "en": "Halal certified"
     },
     {
-      "id": "t34",
+      "id": "t38",
       "type": "text",
       "context": "div.layout396_card-content > div.layout396_card-content-top > p",
       "en": "Compliant with Islamic standards for food and cosmetics"
     },
     {
-      "id": "t35",
+      "id": "t39",
       "type": "text",
       "context": "div.button-group > a.button > div",
       "en": "Find certificate"
     },
     {
-      "id": "t36",
+      "id": "t40",
       "type": "text",
       "context": "div.layout396_card-content-top > div.margin-bottom > h3.heading-style-h4",
       "en": "ECOCERT certified"
     },
     {
-      "id": "t37",
+      "id": "t41",
       "type": "text",
       "context": "div.layout396_card-content > div.layout396_card-content-top > p",
       "en": "We guarantee the best environmentally friendly and socially conscious practices."
     },
     {
-      "id": "t38",
+      "id": "t42",
       "type": "text",
       "context": "div.button-group > a.button > div",
       "en": "Find certificate"
     },
     {
-      "id": "t39",
+      "id": "t43",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies"
     },
     {
-      "id": "t40",
+      "id": "t44",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
       "en": "Connect with us to talk about your needs and get personalised suggestions directly."
     },
     {
-      "id": "t41",
+      "id": "t45",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us"
     },
     {
-      "id": "t42",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "All applications"
-    },
-    {
-      "id": "t43",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
-      "en": "Find a product"
-    },
-    {
-      "id": "t44",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Join us"
-    },
-    {
-      "id": "t45",
-      "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Product Certificates"
-    },
-    {
       "id": "t46",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Company Certificates"
+      "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
+      "en": "No results found."
     },
     {
       "id": "t47",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Policies & Statements"
+      "context": "div.w-dyn-list > div.w-dyn-empty > div",
+      "en": "There are no results with this criteria. Try changing your search."
     },
     {
       "id": "t48",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "General Terms"
+      "en": "All applications"
     },
     {
       "id": "t49",
       "type": "text",
-      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "PDPA"
+      "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
+      "en": "Find a product"
     },
     {
       "id": "t50",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
-      "en": "Disclaimer"
+      "en": "Join us"
     },
     {
       "id": "t51",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Product Certificates"
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Company Certificates"
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Policies & Statements"
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "General Terms"
+    },
+    {
+      "id": "t55",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "PDPA"
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
+      "en": "Disclaimer"
+    },
+    {
+      "id": "t57",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©"
     },
     {
-      "id": "t52",
+      "id": "t58",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved"
