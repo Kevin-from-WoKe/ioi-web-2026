@@ -2,8 +2,8 @@
 /**
  * Export Contentful EN entries to a multi-sheet Excel workbook for translation.
  *
- * Uses the Content Delivery API (read-only) — no Management token needed.
- * The CDA token is the same one already in cms-config.js.
+ * Uses the Content Management API (CMA) so the same token works for both
+ * export and import, and access to any environment is automatic.
  *
  * Each content type becomes one sheet.
  * Columns: entry_id | field_id | field_label | en_value | cn_value | _type
@@ -14,37 +14,52 @@
  *
  * Usage:
  *   node export.mjs        # writes contentful-translations.xlsx
- *   (no .env required — CDA token is hard-coded below, same as cms-config.js)
+ *
+ * .env options:
+ *   CONTENTFUL_MANAGEMENT_TOKEN=...   # required
+ *   CONTENTFUL_ENVIRONMENT=staging    # default: master
  */
 
+import contentfulManagement from "contentful-management";
+const { createClient } = contentfulManagement;
 import ExcelJS from "exceljs";
+import { readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// ── Config (CDA — public read-only token, same as cms-config.js) ─────────────
+// ── Load .env ─────────────────────────────────────────────────────────────────
 
-const SPACE_ID    = "slmipam661bk";
-const CDA_TOKEN   = "mzqVu_K9SJTw8LpTgpa2U5Q9zXpQfzSeImmh8VXdgMA";
-const ENVIRONMENT = "master";
+async function loadEnv() {
+  const envPath = resolve(__dirname, ".env");
+  if (!existsSync(envPath)) return;
+  const raw = await readFile(envPath, "utf8");
+  for (const line of raw.split("\n")) {
+    const t = line.trim();
+    if (!t || t.startsWith("#")) continue;
+    const eq = t.indexOf("=");
+    if (eq < 0) continue;
+    const key = t.slice(0, eq).trim();
+    const val = t.slice(eq + 1).trim();
+    if (!process.env[key]) process.env[key] = val;
+  }
+}
+await loadEnv();
+
+// ── Config ────────────────────────────────────────────────────────────────────
+
+const CMA_TOKEN   = process.env.CONTENTFUL_MANAGEMENT_TOKEN;
+const SPACE_ID    = process.env.CONTENTFUL_SPACE_ID    || "slmipam661bk";
+const ENVIRONMENT = process.env.CONTENTFUL_ENVIRONMENT || "master";
 const LOCALE_SRC  = "en-US";
 const LOCALE_TGT  = "zh-Hans";
-const CDA_BASE    = `https://cdn.contentful.com/spaces/${SPACE_ID}/environments/${ENVIRONMENT}`;
 const OUT_FILE    = resolve(__dirname, "contentful-translations.xlsx");
 
-// ── CDA fetch helper ──────────────────────────────────────────────────────────
-
-async function cdaGet(path, params = {}) {
-  const url = new URL(CDA_BASE + path);
-  url.searchParams.set("access_token", CDA_TOKEN);
-  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
-  const res = await fetch(url.toString());
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`CDA ${path} → ${res.status}: ${body.slice(0, 200)}`);
-  }
-  return res.json();
+if (!CMA_TOKEN) {
+  console.error("ERROR: CONTENTFUL_MANAGEMENT_TOKEN not set. Copy .env.example → .env and fill it in.");
+  process.exit(1);
 }
 
 // ── Field helpers ─────────────────────────────────────────────────────────────
@@ -79,25 +94,25 @@ function getFieldValue(fields, fieldId, locale) {
   return String(val).trim();
 }
 
-// ── Paginate entries ──────────────────────────────────────────────────────────
+// ── Paginate entries via CMA ──────────────────────────────────────────────────
 
-async function fetchAllEntries(contentTypeId) {
+async function fetchAllEntries(env, contentTypeId) {
   const entries = [];
   let skip = 0;
   const limit = 100;
 
   while (true) {
-    const data = await cdaGet("/entries", {
+    const page = await env.getEntries({
       content_type: contentTypeId,
       locale: "*",
       limit,
       skip,
       select: "sys.id,fields",
     });
-    entries.push(...data.items);
-    if (entries.length >= data.total) break;
-    skip += data.items.length;
-    if (data.items.length === 0) break;
+    entries.push(...page.items);
+    if (entries.length >= page.total) break;
+    skip += page.items.length;
+    if (page.items.length === 0) break;
   }
 
   return entries;
@@ -106,10 +121,14 @@ async function fetchAllEntries(contentTypeId) {
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log(`Connecting to Contentful space ${SPACE_ID} via CDA…`);
+  console.log(`Connecting to Contentful space ${SPACE_ID} / environment "${ENVIRONMENT}" via CMA…`);
 
-  const ctData = await cdaGet("/content_types", { limit: 200 });
-  const contentTypes = ctData.items;
+  const client = createClient({ accessToken: CMA_TOKEN });
+  const space  = await client.getSpace(SPACE_ID);
+  const env    = await space.getEnvironment(ENVIRONMENT);
+
+  const ctPage = await env.getContentTypes({ limit: 200 });
+  const contentTypes = ctPage.items;
   console.log(`Found ${contentTypes.length} content types.\n`);
 
   const workbook = new ExcelJS.Workbook();
@@ -138,7 +157,7 @@ async function main() {
 
     console.log(`  ◉ ${ctName} — ${translatableFields.length} translatable fields`);
 
-    const entries  = await fetchAllEntries(ctId);
+    const entries  = await fetchAllEntries(env, ctId);
     const dataRows = [];
 
     for (const entry of entries) {
@@ -195,7 +214,7 @@ async function main() {
   console.log(`\nNext steps:`);
   console.log(`  1. Open contentful-translations.xlsx`);
   console.log(`  2. Fill the yellow "cn_value" cells on each sheet`);
-  console.log(`  3. Save and run:  node import.mjs  (needs CMA token in .env)`);
+  console.log(`  3. Save and run:  node import.mjs`);
 }
 
 main().catch(err => {
