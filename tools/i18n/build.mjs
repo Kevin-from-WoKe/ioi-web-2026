@@ -233,7 +233,7 @@ const CMS_TEMPLATE_STATIC_STRINGS = {
   "Read more":    "了解更多",
   "Enquire":      "咨询",
   "Find products":"查找产品",
-  "View on map":  "在地图上查看",
+  "View on map":  "查看地图",
   "Apply":        "申请",
   "View":         "查看",
   "Download":     "下载",
