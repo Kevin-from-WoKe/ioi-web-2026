@@ -88,11 +88,6 @@ $("[data-lenis-toggle]").on("click", function () {
 	siteYearLabel.innerText = new Date().getFullYear();
   }
   
-  let langOpt = document.getElementById('lnkLangOpt');
-  
-  if(langOpt)
-  {
-		langOpt.style.display = 'none';
-  }
+  // Language toggle (#lnkLangOpt) is visible by default.
   
 })();
