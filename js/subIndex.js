@@ -89,17 +89,21 @@ $("[data-lenis-toggle]").on("click", function () {
   }
   
   // Language toggle: always links to the home page of the other locale.
-  // Compute the correct relative path based on current page depth.
-  // e.g. /en/about-us/offices.html (depth 2) → ../../cn/index.html
-  //      /en/index.html             (depth 1) → ../cn/index.html
+  // Works for both served deployments (/en/...) and local file:// previews
+  // (file:///Users/.../ioi-web-2026/en/...) by searching for 'en' or 'cn'
+  // anywhere in the path segments rather than assuming it is at index 0.
+  // depth = path segments after the locale folder, minus the filename itself.
+  // e.g. .../en/index.html          (depth 1) → ../cn/index.html
+  //      .../en/about-us/offices.html (depth 2) → ../../cn/index.html
   let langOpt = document.getElementById('lnkLangOpt');
   if (langOpt) {
     const segments = window.location.pathname.split('/').filter(Boolean);
-    // segments[0] is the locale folder ('en' or 'cn'); remaining segments
-    // are subdirectory + filename.  depth = number of path levels to climb.
-    const depth = Math.max(1, segments.length - 1);
+    const enIdx = segments.lastIndexOf('en');
+    const cnIdx = segments.lastIndexOf('cn');
+    const isEn = enIdx > cnIdx;
+    const localeIdx = isEn ? enIdx : cnIdx;
+    const depth = Math.max(1, segments.length - localeIdx - 1);
     const prefix = Array(depth).fill('..').join('/');
-    const isEn = segments[0] === 'en';
     langOpt.href = prefix + (isEn ? '/cn/index.html' : '/en/index.html');
   }
 
