@@ -3,30 +3,21 @@
  * Export Contentful EN entries to a multi-sheet Excel workbook for translation.
  *
  * Each content type becomes one sheet.
- * Columns: entry_id | field_id | field_label | en_value | cn_value
+ * Columns: entry_id | field_id | field_label | en_value | cn_value | _type
  *
  * - Only Symbol, Text, and RichText fields that are localized are exported.
- * - Slug fields are exported read-only (greyed note) so the translator has context
- *   but they are skipped on import.
  * - Rich text is flattened to plain text for the translator; import re-wraps it.
- *   NOTE: If your Rich Text is complex (nested lists, embedded entries) you may
- *   want to translate in Contentful's web app instead and skip those fields here.
- * - Existing zh-Hans values are pre-filled in the cn_value column so incremental
- *   re-runs let translators see what's already done.
+ * - Existing zh-Hans values are pre-filled in cn_value so re-runs are incremental.
  *
  * Usage:
- *   cp .env.example .env          # fill in CONTENTFUL_MANAGEMENT_TOKEN
+ *   cp .env.example .env   # fill in CONTENTFUL_MANAGEMENT_TOKEN
  *   npm install
- *   node export.mjs               # writes contentful-translations.xlsx
- *
- * Requirements: .env file (or environment variables) with:
- *   CONTENTFUL_MANAGEMENT_TOKEN, CONTENTFUL_SPACE_ID, CONTENTFUL_ENVIRONMENT,
- *   LOCALE_SOURCE, LOCALE_TARGET
+ *   node export.mjs        # writes contentful-translations.xlsx
  */
 
 import contentfulManagement from "contentful-management";
 const { createClient } = contentfulManagement;
-import * as XLSX from "xlsx";
+import ExcelJS from "exceljs";
 import { readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
@@ -66,12 +57,9 @@ if (!CMA_TOKEN) {
   process.exit(1);
 }
 
-// ── Field type helpers ───────────────────────────────────────────────────────
+// ── Field helpers ────────────────────────────────────────────────────────────
 
 const TRANSLATABLE_TYPES = new Set(["Symbol", "Text", "RichText"]);
-
-// Slugs are almost always NOT localised; skip to avoid accidental overwrites.
-const SLUG_FIELD_IDS = new Set(["slug", "Slug"]);
 
 function isTranslatableField(field) {
   if (!field.localized) return false;
@@ -79,18 +67,13 @@ function isTranslatableField(field) {
   return true;
 }
 
-// Flatten Rich Text document to plain text (paragraphs joined by \n\n)
 function richTextToPlain(node) {
   if (!node) return "";
   if (node.nodeType === "text") return node.value || "";
   if (Array.isArray(node.content)) {
     const parts = node.content.map(richTextToPlain).filter(Boolean);
     const tag = node.nodeType;
-    if (tag === "paragraph" || tag === "heading-1" || tag === "heading-2" ||
-        tag === "heading-3" || tag === "heading-4" || tag === "heading-5" ||
-        tag === "heading-6") {
-      return parts.join("") + "\n\n";
-    }
+    if (tag === "paragraph" || tag.startsWith("heading-")) return parts.join("") + "\n\n";
     if (tag === "list-item") return "• " + parts.join("") + "\n";
     return parts.join("");
   }
@@ -117,20 +100,29 @@ async function main() {
   const space  = await client.getSpace(SPACE_ID);
   const env    = await space.getEnvironment(ENVIRONMENT);
 
-  // 1. Fetch all content types
   const ctRes = await env.getContentTypes({ limit: 200 });
   const contentTypes = ctRes.items;
   console.log(`Found ${contentTypes.length} content types.\n`);
 
-  const workbook = XLSX.utils.book_new();
+  const workbook = new ExcelJS.Workbook();
+  workbook.creator = "ioi-cms-i18n export.mjs";
+  workbook.created = new Date();
+
+  const HEADERS = ["entry_id", "field_id", "field_label", "en_value", "cn_value", "_type"];
+  const COL_WIDTHS = [28, 22, 22, 60, 60, 10];
+
+  // Style constants
+  const HEADER_FILL = { type: "pattern", pattern: "solid", fgColor: { argb: "FF1F3864" } };
+  const HEADER_FONT = { bold: true, color: { argb: "FFFFFFFF" }, size: 11 };
+  const LOCKED_FILL = { type: "pattern", pattern: "solid", fgColor: { argb: "FFF2F2F2" } };
+  const CN_FILL     = { type: "pattern", pattern: "solid", fgColor: { argb: "FFFFF9C4" } }; // light yellow
 
   let totalRows = 0;
 
   for (const ct of contentTypes) {
-    const ctId    = ct.sys.id;
-    const ctName  = ct.name;
+    const ctId   = ct.sys.id;
+    const ctName = ct.name;
 
-    // Filter to translatable fields
     const translatableFields = ct.fields.filter(isTranslatableField);
     if (translatableFields.length === 0) {
       console.log(`  ⊘ ${ctName} (${ctId}) — no localized text fields, skipping`);
@@ -139,72 +131,81 @@ async function main() {
 
     console.log(`  ◉ ${ctName} (${ctId}) — ${translatableFields.length} translatable fields`);
 
-    // Fetch all entries for this content type (paginate)
-    const rows = [["entry_id", "field_id", "field_label", "en_value", "cn_value", "_type"]];
+    // Collect all rows first
+    const dataRows = [];
     let skip = 0;
     const pageSize = 100;
     let total = Infinity;
 
     while (skip < total) {
-      const res = await env.getEntries({
-        content_type: ctId,
-        limit: pageSize,
-        skip,
-        locale: "*",
-      });
+      const res = await env.getEntries({ content_type: ctId, limit: pageSize, skip, locale: "*" });
       total = res.total;
-
       for (const entry of res.items) {
         const entryId = entry.sys.id;
         for (const field of translatableFields) {
           const enVal = getFieldValue(entry, field.id, LOCALE_SRC);
           const cnVal = getFieldValue(entry, field.id, LOCALE_TGT);
-          if (!enVal) continue; // skip empty source fields
-          rows.push([
-            entryId,
-            field.id,
-            field.name,
-            enVal,
-            cnVal,        // pre-fill existing CN if any
-            field.type,   // hidden helper column
-          ]);
+          if (!enVal) continue;
+          dataRows.push([entryId, field.id, field.name, enVal, cnVal, field.type]);
         }
       }
-
       skip += res.items.length;
       if (res.items.length === 0) break;
     }
 
-    const dataRows = rows.length - 1; // exclude header
-    totalRows += dataRows;
-    console.log(`    → ${dataRows} strings across ${total} entries`);
+    totalRows += dataRows.length;
+    console.log(`    → ${dataRows.length} strings across ${total} entries`);
 
-    // Build worksheet
-    const ws = XLSX.utils.aoa_to_sheet(rows);
+    // Sheet name: Excel limit is 31 chars
+    const sheet = workbook.addWorksheet(ctName.slice(0, 31), {
+      views: [{ state: "frozen", xSplit: 3, ySplit: 1 }],
+    });
 
-    // Column widths
-    ws["!cols"] = [
-      { wch: 28 },  // entry_id
-      { wch: 22 },  // field_id
-      { wch: 22 },  // field_label
-      { wch: 60 },  // en_value
-      { wch: 60 },  // cn_value
-      { wch: 10 },  // _type (hidden helper)
-    ];
+    // Column definitions
+    sheet.columns = HEADERS.map((h, i) => ({
+      header: h,
+      key: h,
+      width: COL_WIDTHS[i],
+      style: { alignment: { wrapText: true, vertical: "top" } },
+    }));
 
-    // Freeze header row + first 3 columns so translator can scroll easily
-    ws["!freeze"] = { xSplit: 3, ySplit: 1 };
+    // Style header row
+    const headerRow = sheet.getRow(1);
+    headerRow.eachCell(cell => {
+      cell.fill = HEADER_FILL;
+      cell.font = HEADER_FONT;
+      cell.alignment = { vertical: "middle", horizontal: "center" };
+    });
+    headerRow.height = 22;
 
-    // Sheet name: Contentful ct names can be long; Excel limit is 31 chars
-    const sheetName = ctName.slice(0, 31);
-    XLSX.utils.book_append_sheet(workbook, ws, sheetName);
+    // Add data rows with styling
+    for (const row of dataRows) {
+      const r = sheet.addRow(row);
+      r.eachCell({ includeEmpty: true }, (cell, colNum) => {
+        cell.alignment = { wrapText: true, vertical: "top" };
+        // Cols 1-3 (entry_id, field_id, field_label) and col 6 (_type) are read-only reference
+        if (colNum !== 5) {
+          cell.fill = LOCKED_FILL;
+          cell.font = { color: { argb: "FF666666" }, size: 10 };
+        }
+      });
+      // cn_value column (col 5) gets yellow highlight to guide translator
+      const cnCell = r.getCell(5);
+      if (!cnCell.value) {
+        cnCell.fill = CN_FILL;
+      }
+      cnCell.font = { size: 11 };
+    }
+
+    // Auto-filter on header
+    sheet.autoFilter = { from: "A1", to: `F1` };
   }
 
-  XLSX.writeFile(workbook, OUT_FILE);
+  await workbook.xlsx.writeFile(OUT_FILE);
   console.log(`\nDone. ${totalRows} strings exported to:\n  ${OUT_FILE}`);
   console.log(`\nNext steps:`);
   console.log(`  1. Open contentful-translations.xlsx`);
-  console.log(`  2. Fill the "cn_value" column on each sheet (leave "en_value" untouched)`);
+  console.log(`  2. Fill the yellow "cn_value" cells on each sheet`);
   console.log(`  3. Save and run:  node import.mjs`);
 }
 
