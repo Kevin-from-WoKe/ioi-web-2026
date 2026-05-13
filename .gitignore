@@ -5,3 +5,4 @@ node_modules/
 # Contentful CMS i18n tool — secrets & working files
 tools/cms-i18n/.env
 tools/cms-i18n/contentful-translations.xlsx
+tools/cms-i18n/zh-hans-backup.json

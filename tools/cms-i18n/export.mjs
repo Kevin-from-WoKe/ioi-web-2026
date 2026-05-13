@@ -53,8 +53,8 @@ await loadEnv();
 const CMA_TOKEN   = process.env.CONTENTFUL_MANAGEMENT_TOKEN;
 const SPACE_ID    = process.env.CONTENTFUL_SPACE_ID    || "slmipam661bk";
 const ENVIRONMENT = process.env.CONTENTFUL_ENVIRONMENT || "master";
-const LOCALE_SRC  = "en-US";
-const LOCALE_TGT  = "zh-Hans";
+const LOCALE_SRC  = process.env.LOCALE_SOURCE || "en-US";
+const LOCALE_TGT  = process.env.LOCALE_TARGET || "zh-CN";
 const OUT_FILE    = resolve(__dirname, "contentful-translations.xlsx");
 
 if (!CMA_TOKEN) {
