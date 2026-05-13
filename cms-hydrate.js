@@ -103,14 +103,58 @@
 
   var fetchCache = {};
 
+  /**
+   * For non-English locales, request locale=* so Contentful returns every
+   * locale's value for every field.  We then flatten the response by picking
+   * the requested locale with an automatic en-US fallback for any field whose
+   * translated value is null/empty.  This means images, rich-text, and other
+   * content that hasn't been localised yet still renders from the English
+   * original instead of disappearing.
+   *
+   * The rest of the hydration code never sees locale maps — fields are always
+   * a plain value after flattening, so no other code needs to change.
+   */
+  function flattenLocaleFields(items, assets, linkedEntries, locale) {
+    function flattenVal(v) {
+      if (v === null || v === undefined) return v;
+      if (typeof v !== "object" || Array.isArray(v)) return v;
+      // Locale map detection: Contentful always includes the default locale key.
+      if (!Object.prototype.hasOwnProperty.call(v, "en-US")) return v;
+      var preferred = v[locale];
+      // Treat empty string as "not set" so we fall back rather than render blank.
+      if (preferred != null && preferred !== "") return preferred;
+      var fallback = v["en-US"];
+      return fallback != null ? fallback : null;
+    }
+
+    function flattenObj(obj) {
+      if (!obj || !obj.fields) return;
+      var f = obj.fields;
+      var keys = Object.keys(f);
+      for (var i = 0; i < keys.length; i++) {
+        f[keys[i]] = flattenVal(f[keys[i]]);
+      }
+    }
+
+    items.forEach(flattenObj);
+    var assetIds = Object.keys(assets);
+    for (var i = 0; i < assetIds.length; i++) flattenObj(assets[assetIds[i]]);
+    var entryIds = Object.keys(linkedEntries);
+    for (var j = 0; j < entryIds.length; j++) flattenObj(linkedEntries[entryIds[j]]);
+  }
+
   function fetchAll(contentType, locale) {
     var key = contentType + ":" + locale;
     if (fetchCache[key]) return fetchCache[key];
 
+    // Request all locales for non-English pages so we can fall back to en-US
+    // for untranslated fields (e.g. images embedded in rich text).
+    var fetchLocale = locale !== "en-US" ? "*" : locale;
+
     var params = {
       access_token: ACCESS_TOKEN,
       content_type: contentType,
-      locale: locale,
+      locale: fetchLocale,
       include: "2",
       limit: "1000",
     };
@@ -134,11 +178,13 @@
         return res.json();
       })
       .then(function (data) {
-        return {
-          items: data.items || [],
-          assets: indexById((data.includes && data.includes.Asset) || []),
-          entries: indexById((data.includes && data.includes.Entry) || []),
-        };
+        var items = data.items || [];
+        var assets = indexById((data.includes && data.includes.Asset) || []);
+        var linkedEntries = indexById((data.includes && data.includes.Entry) || []);
+        if (locale !== "en-US") {
+          flattenLocaleFields(items, assets, linkedEntries, locale);
+        }
+        return { items: items, assets: assets, entries: linkedEntries };
       });
 
     return fetchCache[key];
