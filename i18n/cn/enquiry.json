@@ -1,8 +1,8 @@
 {
   "file": "en/enquiry.html",
   "lang_target": "cn",
-  "extracted_at": "2026-05-13T01:50:21.468Z",
-  "total": 94,
+  "extracted_at": "2026-05-28T07:33:07.234Z",
+  "total": 95,
   "strings": [
     {
       "id": "t1",
@@ -386,8 +386,8 @@
       "id": "t55",
       "type": "text",
       "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
-      "en": "HR inquiries",
-      "cn": "人力资源咨询"
+      "en": "HR enquiries",
+      "cn": ""
     },
     {
       "id": "t56",
@@ -476,187 +476,194 @@
     {
       "id": "t68",
       "type": "text",
+      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
+      "en": "Select a site",
+      "cn": "请选择厂区"
+    },
+    {
+      "id": "t69",
+      "type": "text",
       "context": "div.margin-bottom > div.form_field-wrapper > label.form_field-label",
       "en": "Message",
       "cn": "留言"
     },
     {
-      "id": "t69",
+      "id": "t70",
       "type": "text",
       "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
       "en": "*",
       "cn": "*"
     },
     {
-      "id": "t70",
+      "id": "t71",
       "type": "attr:placeholder",
       "context": "div.margin-bottom > div.form_field-wrapper > textarea#Message",
       "en": "\"I'm looking for Product Specification, Product Enquiry or SDS.\"",
       "cn": "「我正在查找产品规格、产品咨询或 SDS。」"
     },
     {
-      "id": "t71",
+      "id": "t72",
       "type": "attr:data-wait",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > input#cta-enquiry-submit",
       "en": "Sending...",
       "cn": "发送中..."
     },
     {
-      "id": "t72",
+      "id": "t73",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "This site is protected by reCAPTCHA and the Google",
       "cn": "本网站受 Google reCAPTCHA 保护"
     },
     {
-      "id": "t73",
+      "id": "t74",
       "type": "text",
       "context": "form#wf-form-Website-Enquiry-Form > p > a",
       "en": "Privacy Policy",
       "cn": "隐私政策"
     },
     {
-      "id": "t74",
+      "id": "t75",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "and",
       "cn": "及"
     },
     {
-      "id": "t75",
+      "id": "t76",
       "type": "text",
       "context": "form#wf-form-Website-Enquiry-Form > p > a",
       "en": "Terms of Service",
       "cn": "服务条款"
     },
     {
-      "id": "t76",
+      "id": "t77",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "apply.",
       "cn": "。"
     },
     {
-      "id": "t77",
+      "id": "t78",
       "type": "text",
       "context": "div.form_message-success-wrapper > div.form_message-success > div.success-text",
       "en": "Your enquiry has been sent successfully.",
       "cn": "您的咨询已成功发送。"
     },
     {
-      "id": "t78",
+      "id": "t79",
       "type": "text",
       "context": "div.form_message-error-wrapper > div.form_message-error > div.error-text",
       "en": "Please check your details and try again.",
       "cn": "请检查您填写的信息并重试。"
     },
     {
-      "id": "t79",
+      "id": "t80",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies",
       "cn": "探讨您的需求"
     },
     {
-      "id": "t80",
+      "id": "t81",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
-      "en": "Connect with us to talk about your needs and get personalized suggestions directly.",
-      "cn": "联系我们，获取您的专属定制方案。"
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly.",
+      "cn": ""
     },
     {
-      "id": "t81",
+      "id": "t82",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us",
       "cn": "联系我们"
     },
     {
-      "id": "t82",
+      "id": "t83",
       "type": "text",
       "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
       "en": "No results found.",
       "cn": "搜索无结果"
     },
     {
-      "id": "t83",
+      "id": "t84",
       "type": "text",
       "context": "div.w-dyn-list > div.w-dyn-empty > div",
       "en": "There are no results with this criteria. Try changing your search.",
       "cn": "请更改搜索条件"
     },
     {
-      "id": "t84",
+      "id": "t85",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications",
       "cn": "应用领域"
     },
     {
-      "id": "t85",
+      "id": "t86",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product",
       "cn": "查看产品"
     },
     {
-      "id": "t86",
+      "id": "t87",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us",
       "cn": "加入团队"
     },
     {
-      "id": "t87",
+      "id": "t88",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates",
       "cn": "产品认证"
     },
     {
-      "id": "t88",
+      "id": "t89",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates",
       "cn": "公司认证"
     },
     {
-      "id": "t89",
+      "id": "t90",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements",
       "cn": "政策与声明"
     },
     {
-      "id": "t90",
+      "id": "t91",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms",
       "cn": "通用条款"
     },
     {
-      "id": "t91",
+      "id": "t92",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA",
       "cn": "数据保护"
     },
     {
-      "id": "t92",
+      "id": "t93",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer",
       "cn": "免责声明"
     },
     {
-      "id": "t93",
+      "id": "t94",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©",
       "cn": "©"
     },
     {
-      "id": "t94",
+      "id": "t95",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved",

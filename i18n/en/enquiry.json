@@ -1,7 +1,7 @@
 {
   "file": "en/enquiry.html",
-  "extracted_at": "2026-05-13T01:50:21.468Z",
-  "total": 94,
+  "extracted_at": "2026-05-28T07:33:07.234Z",
+  "total": 95,
   "strings": [
     {
       "id": "t1",
@@ -331,7 +331,7 @@
       "id": "t55",
       "type": "text",
       "context": "div.w-layout-grid > label.form_radio > span.form_radio-label",
-      "en": "HR inquiries"
+      "en": "HR enquiries"
     },
     {
       "id": "t56",
@@ -408,161 +408,167 @@
     {
       "id": "t68",
       "type": "text",
+      "context": "div.form_field-wrapper > div.margin-bottom > label.form_field-label",
+      "en": "Select a site"
+    },
+    {
+      "id": "t69",
+      "type": "text",
       "context": "div.margin-bottom > div.form_field-wrapper > label.form_field-label",
       "en": "Message"
     },
     {
-      "id": "t69",
+      "id": "t70",
       "type": "text",
       "context": "div.form_field-wrapper > label.form_field-label > span.text-style-required",
       "en": "*"
     },
     {
-      "id": "t70",
+      "id": "t71",
       "type": "attr:placeholder",
       "context": "div.margin-bottom > div.form_field-wrapper > textarea#Message",
       "en": "\"I'm looking for Product Specification, Product Enquiry or SDS.\""
     },
     {
-      "id": "t71",
+      "id": "t72",
       "type": "attr:data-wait",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > input#cta-enquiry-submit",
       "en": "Sending..."
     },
     {
-      "id": "t72",
+      "id": "t73",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "This site is protected by reCAPTCHA and the Google"
     },
     {
-      "id": "t73",
+      "id": "t74",
       "type": "text",
       "context": "form#wf-form-Website-Enquiry-Form > p > a",
       "en": "Privacy Policy"
     },
     {
-      "id": "t74",
+      "id": "t75",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "and"
     },
     {
-      "id": "t75",
+      "id": "t76",
       "type": "text",
       "context": "form#wf-form-Website-Enquiry-Form > p > a",
       "en": "Terms of Service"
     },
     {
-      "id": "t76",
+      "id": "t77",
       "type": "text",
       "context": "div.contact6_form-block > form#wf-form-Website-Enquiry-Form > p",
       "en": "apply."
     },
     {
-      "id": "t77",
+      "id": "t78",
       "type": "text",
       "context": "div.form_message-success-wrapper > div.form_message-success > div.success-text",
       "en": "Your enquiry has been sent successfully."
     },
     {
-      "id": "t78",
+      "id": "t79",
       "type": "text",
       "context": "div.form_message-error-wrapper > div.form_message-error > div.error-text",
       "en": "Please check your details and try again."
     },
     {
-      "id": "t79",
+      "id": "t80",
       "type": "text",
       "context": "div.max-width-large > div.margin-bottom > h2.heading-style-h1",
       "en": "Get your supplies"
     },
     {
-      "id": "t80",
+      "id": "t81",
       "type": "text",
       "context": "div.w-layout-grid > div.max-width-large > div",
-      "en": "Connect with us to talk about your needs and get personalized suggestions directly."
+      "en": "Connect with us to talk about your needs and get personalised suggestions directly."
     },
     {
-      "id": "t81",
+      "id": "t82",
       "type": "text",
       "context": "div.margin-top > div.button-group > a#cta-enquire-footer",
       "en": "Contact us"
     },
     {
-      "id": "t82",
+      "id": "t83",
       "type": "text",
       "context": "div.w-dyn-empty > div.margin-bottom > div.heading-style-h6",
       "en": "No results found."
     },
     {
-      "id": "t83",
+      "id": "t84",
       "type": "text",
       "context": "div.w-dyn-list > div.w-dyn-empty > div",
       "en": "There are no results with this criteria. Try changing your search."
     },
     {
-      "id": "t84",
+      "id": "t85",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "All applications"
     },
     {
-      "id": "t85",
+      "id": "t86",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a#cta-product-finder",
       "en": "Find a product"
     },
     {
-      "id": "t86",
+      "id": "t87",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Join us"
     },
     {
-      "id": "t87",
+      "id": "t88",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Product Certificates"
     },
     {
-      "id": "t88",
+      "id": "t89",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Company Certificates"
     },
     {
-      "id": "t89",
+      "id": "t90",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Policies & Statements"
     },
     {
-      "id": "t90",
+      "id": "t91",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "General Terms"
     },
     {
-      "id": "t91",
+      "id": "t92",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "PDPA"
     },
     {
-      "id": "t92",
+      "id": "t93",
       "type": "text",
       "context": "div.w-layout-grid > div.footer12_link-list > a.footer12_link",
       "en": "Disclaimer"
     },
     {
-      "id": "t93",
+      "id": "t94",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "©"
     },
     {
-      "id": "t94",
+      "id": "t95",
       "type": "text",
       "context": "div.footer12_bottom-wrapper > div.footer12_credit-text > p",
       "en": "IOI OLEOCHEMICAL INDUSTRIES BERHAD (29994-D) All rights reserved"
