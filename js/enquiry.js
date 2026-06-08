@@ -170,12 +170,7 @@ $("[data-lenis-toggle]").on("click", function () {
 		siteYearLabel.innerText = new Date().getFullYear();
 	}
 
-	let langOpt = document.getElementById('lnkLangOpt');
-
-	if(langOpt)
-	{
-		langOpt.style.display = 'none';
-	}
+	// Language toggle (#lnkLangOpt) is visible by default.
 
 
 });
@@ -218,7 +213,9 @@ function submitToAPI(e) {
 	
 	let enquiry = "";
 	let productText ="";
+	let companyText ="";
 	let products = [];
+	let company = [];
 	
 	data.name = externalName;
 	data.company = externalCompany;
@@ -248,6 +245,13 @@ function submitToAPI(e) {
 			productText = productSelect.fullText;
 			products = productSelect.products;	
 		}
+		
+		else if(enquiry === 'HR enquiries')
+		{
+			let companySelect = getCheckedCompanyLabels();
+			companyText = companySelect.fullText;
+			company = companySelect.company;	
+		}
 	}
 	
 	
@@ -256,6 +260,7 @@ function submitToAPI(e) {
 	data.enquiry = enquiry;
 	data.productText = productText;
 	data.products = products;
+	data.company = company;
 	data.message = externalMsg;
 	data.recaptchaToken = recaptchaToken ;
 	data.Iswebflow = 1;
@@ -313,9 +318,39 @@ function submitToAPI(e) {
 
 	
 				
-	if(enquiry === 'HR inquiries'){
-		intToRecipient = 19
+	if(enquiry === 'HR enquiries'){
+		//intToRecipient = 19
+		
+		let hasP = false;
+		let hasJ = false;
+		
+		company.map(input => {
+			if(input.companyName.indexOf('Acidchem') >= 0 || input.companyName.indexOf('Esterchem') >= 0)
+			{
+				hasP = true;
+			}
+			else if(input.companyName.indexOf('Edible Oils') >= 0 || input.companyName.indexOf('Oleochemicals') >= 0)
+			{
+				hasJ = true;
+			}
+			
+			
+		});
+		
+		if(hasP === true && hasJ===false)
+		{
+			intToRecipient = 2;
+		}
+		else if(hasJ === true && hasP===false)
+		{
+			intToRecipient = 23;
+		}
+		else if(hasP === true && hasJ == true)
+		{
+			intToRecipient = 19;
+		}
 	}
+	
 	else if(enquiry === 'Product sourcing'){
 		let hasFA = false;
 		let hasEster = false;
@@ -448,6 +483,7 @@ function submitToAPI(e) {
 							
 							if(objReturnedData.errorType){
 								if(objReturnedData.errorType === "Sandbox.Timedout"){
+									intStatus = 200;
 									strReturnedMsg = "Verification timed out. Please try again.";
 								}
 								else{
@@ -458,7 +494,7 @@ function submitToAPI(e) {
 			
 						}
 						else{
-							strReturnedMsg = 'Failed to proceess.';
+							strReturnedMsg = 'Failed to process.';
 						}
 						
 					}
@@ -522,7 +558,6 @@ function AjaxOnError(xhr, errorType, exception) {
 
 function getCheckedLabels() {
   const checkedInputs = document.querySelectorAll('.productOption input[type="checkbox"]:checked');
-
 	
 	let arryDataProduct = [];
 	
@@ -545,3 +580,100 @@ function getCheckedLabels() {
   return { fullText: results.join(', '), products: arryDataProduct };
 }
 
+
+function getCheckedCompanyLabels() {
+  const checkedInputs2 = document.querySelectorAll('.companyOption input[type="checkbox"]:checked');
+	
+	let arrayDataCompany = [];
+	
+
+  const results = Array.from(checkedInputs2).map(input => {
+    const label = input.closest('label');
+
+    const mainText = label.querySelector('.form_checkbox-label')?.textContent.trim() || '';
+    const subText = label.querySelector('.margin-xxsmall')?.textContent.trim() || '';
+	let dataCompany = {};
+	dataCompany.companyName = `${mainText} - ${subText}`;
+	
+	arrayDataCompany.push(dataCompany);
+
+    return `${mainText} - ${subText}`;
+  });
+
+
+
+  return { fullText: results.join(', '), company: arrayDataCompany };
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  const radios = document.querySelectorAll('input[name="Inquiry-Type"]');
+
+  const listA = document.querySelector(".productOption");
+  const listB = document.querySelector(".siteSelection");
+  const listB1 = document.querySelector(".companyOption");
+
+  function updateLists() {
+
+    const selected =
+      document.querySelector('input[name="Inquiry-Type"]:checked');
+
+    // hide all first
+    listA.style.display = "none";
+    listB.style.display = "none";
+	
+	
+	document.querySelectorAll('.companyOption input[type="checkbox"]').forEach(cb => {
+		cb.checked = false;
+
+		const customBox = cb.previousElementSibling;
+		if (customBox) {
+			customBox.classList.remove('w--redirected-checked');
+		}
+	});
+	
+	document.querySelectorAll('.productOption input[type="checkbox"]').forEach(cb => {
+		cb.checked = false;
+
+		const customBox = cb.previousElementSibling;
+		if (customBox) {
+			customBox.classList.remove('w--redirected-checked');
+		}
+	});
+	
+    if (!selected) return;
+  
+    if (selected.value === "Product sourcing") {
+      listA.style.display = "block";
+    }
+
+    if (selected.value === "HR enquiries") {
+      listB.style.display = "block";
+	  listB1.style.display = "block";
+    }
+
+  }
+
+  radios.forEach(radio => {
+    radio.addEventListener("change", updateLists);
+  });
+
+  updateLists();
+  
+  const messageField = document.getElementById("Message");
+
+    const placeholders = {
+        "Product sourcing": "I'm looking for Product Specification, Product Enquiry or SDS.",
+        "HR enquiries": "Do you have any HR-related questions?",
+        "Sustainability": "Please share any sustainability questions or areas of interest that you may have.",
+        "Others": ""
+    };
+
+    document.querySelectorAll('input[name="Inquiry-Type"]').forEach(radio => {
+        radio.addEventListener("change", function () {
+            messageField.placeholder = placeholders[this.value];
+        });
+    });
+
+});
