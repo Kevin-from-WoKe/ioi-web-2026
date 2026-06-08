@@ -610,9 +610,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const radios = document.querySelectorAll('input[name="Inquiry-Type"]');
 
-  const listA = document.querySelector(".productOption");
+  // Target the parent wrapper so the section label hides/shows with the checkboxes.
+  const listA = document.querySelector(".productOption")
+    ? document.querySelector(".productOption").closest(".form_field-wrapper")
+    : null;
   const listB = document.querySelector(".siteSelection");
-  const listB1 = document.querySelector(".companyOption");
 
   function updateLists() {
 
@@ -620,37 +622,29 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelector('input[name="Inquiry-Type"]:checked');
 
     // hide all first
-    listA.style.display = "none";
-    listB.style.display = "none";
-	
-	
-	document.querySelectorAll('.companyOption input[type="checkbox"]').forEach(cb => {
-		cb.checked = false;
+    if (listA) listA.style.display = "none";
+    if (listB) listB.style.display = "none";
 
-		const customBox = cb.previousElementSibling;
-		if (customBox) {
-			customBox.classList.remove('w--redirected-checked');
-		}
-	});
-	
-	document.querySelectorAll('.productOption input[type="checkbox"]').forEach(cb => {
-		cb.checked = false;
+    document.querySelectorAll('.companyOption input[type="checkbox"]').forEach(cb => {
+      cb.checked = false;
+      const customBox = cb.previousElementSibling;
+      if (customBox) customBox.classList.remove('w--redirected-checked');
+    });
 
-		const customBox = cb.previousElementSibling;
-		if (customBox) {
-			customBox.classList.remove('w--redirected-checked');
-		}
-	});
-	
+    document.querySelectorAll('.productOption input[type="checkbox"]').forEach(cb => {
+      cb.checked = false;
+      const customBox = cb.previousElementSibling;
+      if (customBox) customBox.classList.remove('w--redirected-checked');
+    });
+
     if (!selected) return;
-  
+
     if (selected.value === "Product sourcing") {
-      listA.style.display = "block";
+      if (listA) listA.style.display = "block";
     }
 
     if (selected.value === "HR enquiries") {
-      listB.style.display = "block";
-	  listB1.style.display = "block";
+      if (listB) listB.style.display = "block";
     }
 
   }
