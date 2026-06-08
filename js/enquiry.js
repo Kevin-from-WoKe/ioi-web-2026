@@ -610,9 +610,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const radios = document.querySelectorAll('input[name="Inquiry-Type"]');
 
-  // Target the wrapper divs directly (mirrors how siteSelection works).
-  const listA = document.querySelector(".productSection");
-  const listB = document.querySelector(".siteSelection");
+  // Target the outer padding wrappers so padding collapses with content.
+  const listA = document.querySelector(".productSection") &&
+                document.querySelector(".productSection").parentElement
+                || document.querySelector(".productSection");
+  const listB = document.querySelector(".siteSelection") &&
+                document.querySelector(".siteSelection").parentElement
+                || document.querySelector(".siteSelection");
 
   function updateLists() {
 
