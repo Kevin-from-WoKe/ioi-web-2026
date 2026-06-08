@@ -610,10 +610,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const radios = document.querySelectorAll('input[name="Inquiry-Type"]');
 
-  // Target the parent wrapper so the section label hides/shows with the checkboxes.
-  const listA = document.querySelector(".productOption")
-    ? document.querySelector(".productOption").closest(".form_field-wrapper")
-    : null;
+  // Target the wrapper divs directly (mirrors how siteSelection works).
+  const listA = document.querySelector(".productSection");
   const listB = document.querySelector(".siteSelection");
 
   function updateLists() {
