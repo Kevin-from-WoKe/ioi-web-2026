@@ -6116,6 +6116,9 @@ figcaption {
 
   .layout419_content-left {
     height: 100svh;
+    justify-self: stretch;
+    width: auto;
+    margin-right: 2rem;
   }
 
   .layout419_card {
