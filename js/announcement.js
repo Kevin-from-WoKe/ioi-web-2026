@@ -76,7 +76,7 @@
 
   function buildSlides(items, assets, linkedEntries, locale) {
     var isCN = locale !== "en-US";
-    var prefix = isCN ? "/cn/detail_csr.html?slug=" : "/en/detail_csr.html?slug=";
+    var prefix = "detail_csr.html?slug=";
 
     return items.map(function (item) {
       var f = item.fields || {};
