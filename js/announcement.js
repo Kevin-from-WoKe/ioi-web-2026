@@ -20,12 +20,11 @@
 
   var SESSION_KEY = "ioi-ann-dismissed";
 
-  // Only run on home pages
+  // Only run on home pages — match regardless of any leading repo/subfolder prefix
   var path = window.location.pathname.replace(/\/+$/, "");
   var isHome =
-    path === "/en" || path === "/en/index.html" ||
-    path === "/cn" || path === "/cn/index.html" ||
-    path === "" || path === "/";
+    path === "" ||
+    /\/(en|cn)(\/index\.html)?$/.test(path);
   if (!isHome) return;
 
   // Skip if already dismissed this session
