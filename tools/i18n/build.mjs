@@ -237,6 +237,9 @@ const CMS_TEMPLATE_STATIC_STRINGS = {
   "Apply":        "申请",
   "View":         "查看",
   "Download":     "下载",
+  "See product":  "查看产品",
+  "<- Previous":  "← 上一页",
+  "Next ->":      "下一页 →",
 };
 
 function translateCmsTemplateStrings($) {
@@ -262,6 +265,19 @@ function translateCmsTemplateStrings($) {
       findAndReplace(container);
     });
   }
+}
+
+// Translate value="Submit" on submit buttons — value is user-facing but not in TRANSLATABLE_ATTRS
+// (adding 'value' globally would corrupt hidden inputs and other field values).
+const SUBMIT_BUTTON_TRANSLATIONS = { "Submit": "提交" };
+
+function translateSubmitButtons($) {
+  $('input[type="submit"]').each((_, el) => {
+    const val = el.attribs?.value;
+    if (val && SUBMIT_BUTTON_TRANSLATIONS[val]) {
+      el.attribs.value = SUBMIT_BUTTON_TRANSLATIONS[val];
+    }
+  });
 }
 
 // Some pages reference assets / scripts via relative paths like "../../js/..." — these don't change.
@@ -320,6 +336,9 @@ async function buildFile(absPath) {
 
   // 5. Translate static UI strings inside CMS template containers
   translateCmsTemplateStrings($);
+
+  // 6. Translate submit button labels
+  translateSubmitButtons($);
 
   // 7. Write output
   await mkdir(dirname(outPath), { recursive: true });
