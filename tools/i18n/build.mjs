@@ -280,6 +280,33 @@ function translateSubmitButtons($) {
   });
 }
 
+// Copy already-translated og:title/og:description into twitter:title/twitter:description.
+// The content is identical in source; twitter:* uses property= not name=, so it was missed
+// by the main meta translation pass which only covered og:* in META_PROPS_TO_TRANSLATE.
+function syncTwitterMeta($) {
+  const ogTitle = $('meta[property="og:title"]').attr("content");
+  const ogDesc  = $('meta[property="og:description"]').attr("content");
+  if (ogTitle) $('meta[property="twitter:title"]').attr("content", ogTitle);
+  if (ogDesc)  $('meta[property="twitter:description"]').attr("content", ogDesc);
+}
+
+// Translate aria-label attributes on pagination elements (inside CMS list containers,
+// so not reached by the main walker's TRANSLATABLE_ATTRS pass).
+const ARIA_LABEL_TRANSLATIONS = {
+  "Previous Page": "上一页",
+  "Next Page":     "下一页",
+  "List":          "列表",
+};
+
+function translatePaginationAriaLabels($) {
+  $("[aria-label]").each((_, el) => {
+    const label = el.attribs["aria-label"];
+    if (label && ARIA_LABEL_TRANSLATIONS[label]) {
+      el.attribs["aria-label"] = ARIA_LABEL_TRANSLATIONS[label];
+    }
+  });
+}
+
 // Some pages reference assets / scripts via relative paths like "../../js/..." — these don't change.
 // But the language switcher in subIndexTop.js etc. may need adjustment too. For now, leave assets alone.
 
@@ -340,7 +367,13 @@ async function buildFile(absPath) {
   // 6. Translate submit button labels
   translateSubmitButtons($);
 
-  // 7. Write output
+  // 7. Sync og:title/og:description → twitter:title/twitter:description
+  syncTwitterMeta($);
+
+  // 8. Translate pagination aria-labels
+  translatePaginationAriaLabels($);
+
+  // 9. Write output
   await mkdir(dirname(outPath), { recursive: true });
   await writeFile(outPath, $.html(), "utf8");
 
